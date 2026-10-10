@@ -1,0 +1,104 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e8]:
+    - generic [ref=f4e11]:
+      - generic [ref=f4e12]:
+        - img "Logo" [ref=f4e15]
+        - textbox "Search menu..." [ref=f4e17]
+      - generic [ref=f4e18]:
+        - list [ref=f4e21]:
+          - listitem [ref=f4e22]:
+            - link "Dashboard" [ref=f4e23] [cursor=pointer]:
+              - /url: /
+        - list [ref=f4e28]:
+          - listitem [ref=f4e29]:
+            - button "Resources" [ref=f4e30]
+            - list [ref=f4e37]:
+              - listitem [ref=f4e38]:
+                - link "Materials" [ref=f4e39] [cursor=pointer]:
+                  - /url: /materials/
+              - listitem [ref=f4e41]:
+                - link "Vendors" [ref=f4e42] [cursor=pointer]:
+                  - /url: /vendors/
+              - listitem [ref=f4e44]:
+                - link "Customers" [ref=f4e45] [cursor=pointer]:
+                  - /url: /customers/
+              - listitem [ref=f4e47]:
+                - link "Material Requests" [ref=f4e48] [cursor=pointer]:
+                  - /url: /material-requests/
+        - list [ref=f4e52]:
+          - listitem [ref=f4e53]:
+            - button "Manufacturing" [ref=f4e54]
+        - list [ref=f4e62]:
+          - listitem [ref=f4e63]:
+            - button "Product" [ref=f4e64]
+        - list [ref=f4e73]:
+          - listitem [ref=f4e74]:
+            - button "Sales" [ref=f4e75]
+        - list [ref=f4e83]:
+          - listitem [ref=f4e84]:
+            - button "Procurement" [ref=f4e85]
+        - list [ref=f4e96]:
+          - listitem [ref=f4e97]:
+            - button "Analytics" [ref=f4e98]
+        - list [ref=f4e107]:
+          - listitem [ref=f4e108]:
+            - button "Administration" [ref=f4e109]
+        - list [ref=f4e118]:
+          - listitem [ref=f4e119]:
+            - link "User Guide" [ref=f4e120] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f4e127]:
+          - listitem [ref=f4e128]:
+            - link "Order Simulation BETA" [ref=f4e129] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f4e141]: Order Simulation
+              - generic [ref=f4e142]: BETA
+      - button "EN" [ref=f4e144]
+    - main [ref=f4e148]:
+      - generic [ref=f4e149]:
+        - button "Toggle Sidebar" [ref=f4e151]
+        - generic [ref=f4e153]:
+          - button "1" [ref=f4e155] [cursor=pointer]
+          - button [ref=f4e161] [cursor=pointer]:
+            - generic [ref=f4e162]:
+              - paragraph [ref=f4e163]: Bernadus Nurtjahjono
+              - paragraph [ref=f4e164]: Owner
+      - main [ref=f4e166]:
+        - generic [ref=f4e361]:
+          - generic [ref=f4e362]:
+            - heading "Customers" [level=1] [ref=f4e363]
+            - generic [ref=f4e364]:
+              - link [ref=f4e365] [cursor=pointer]:
+                - /url: /customers/settings/tag/
+                - button "Manage" [ref=f4e366]
+              - link [ref=f4e371] [cursor=pointer]:
+                - /url: /customers/create/
+                - button "New Customer" [ref=f4e372]
+          - generic [ref=f4e375]:
+            - textbox "Search customer name..." [ref=f4e383]
+            - table [ref=f4e387]:
+              - rowgroup [ref=f4e388]:
+                - row [ref=f4e389]:
+                  - columnheader "Customer Name" [ref=f4e390]
+                  - columnheader "Customer Email" [ref=f4e392]
+                  - columnheader "Customer Phone" [ref=f4e394]
+              - rowgroup [ref=f4e396]:
+                - row [ref=f4e397]:
+                  - cell [ref=f4e398]
+                - row [ref=f4e399] [cursor=pointer]:
+                  - cell "PT Maju Makmur Mandiri" [ref=f4e400]
+                  - cell "procurement@majumakmur.co.id" [ref=f4e401]
+                  - cell "+6289112233" [ref=f4e402]
+            - generic [ref=f4e403]:
+              - generic [ref=f4e404]:
+                - combobox [ref=f4e406]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                - generic [ref=f4e407]: from 1 rows
+              - generic [ref=f4e408]:
+                - button "Previous page" [disabled] [ref=f4e409]
+                - button "Page 1" [ref=f4e412]: "1"
+                - button "Next page" [disabled] [ref=f4e413]
+  - region "Notifications alt+T"
+  - alert [ref=f4e7]

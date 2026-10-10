@@ -1,0 +1,74 @@
+{
+  "mcpServers": {
+    "AgentsRoom-MCP": {
+      "command": "node",
+      "args": [
+        "/home/arrafi/.local/opt/agentsroom/resources/app-mcp-server.cjs"
+      ],
+      "env": {
+        "AR_PROJECT_ID": "proj-1790478250490-m3odlu",
+        "AR_PROJECT_PATH": "/home/arrafi/work/hi",
+        "AR_API_BASE_URL": "https://agentsroom.dev",
+        "AR_SETTINGS_FILE": "/home/arrafi/.agentsroom/settings.json",
+        "AR_APP_VERSION": "1.193.0",
+        "AR_BRIDGE_FILE": "/home/arrafi/.agentsroom/browser-bridge.json"
+      }
+    },
+    "AgentsRoom-Test-Runner": {
+      "command": "node",
+      "args": [
+        "/home/arrafi/.local/opt/agentsroom/resources/test-runner-mcp-server.cjs"
+      ],
+      "env": {
+        "AR_BROWSER_BRIDGE_FILE": "/home/arrafi/.agentsroom/browser-bridge.json",
+        "AR_BROWSER_PROJECT_ID": "proj-1790478250490-m3odlu",
+        "AR_PROJECT_PATH": "/home/arrafi/work/hi"
+      }
+    },
+    "AgentsRoom-QA-Tester": {
+      "command": "node",
+      "args": [
+        "/home/arrafi/.local/opt/agentsroom/resources/qa-tester-mcp-server.cjs"
+      ],
+      "env": {
+        "AR_BROWSER_BRIDGE_FILE": "/home/arrafi/.agentsroom/browser-bridge.json",
+        "AR_BROWSER_PROJECT_ID": "proj-1790478250490-m3odlu"
+      }
+    },
+    "AgentsRoom-Browser": {
+      "command": "node",
+      "args": [
+        "/home/arrafi/.local/opt/agentsroom/resources/browser-mcp-server.cjs"
+      ],
+      "env": {
+        "AR_BROWSER_BRIDGE_FILE": "/home/arrafi/.agentsroom/browser-bridge.json",
+        "AR_BROWSER_PROJECT_ID": "proj-1790478250490-m3odlu"
+      }
+    },
+    "AgentsRoom-Chrome": {
+      "command": "node",
+      "args": [
+        "/home/arrafi/.local/opt/agentsroom/resources/browser-mcp-server.cjs"
+      ],
+      "env": {
+        "AR_BROWSER_BRIDGE_FILE": "/home/arrafi/.agentsroom/browser-bridge.json",
+        "AR_BROWSER_PROJECT_ID": "proj-1790478250490-m3odlu",
+        "AR_BROWSER_KIND": "chrome"
+      }
+    },
+    "agentsroom-team": {
+      "command": "node",
+      "args": [
+        "/home/arrafi/.local/opt/agentsroom/resources/team-mcp-server.cjs"
+      ],
+      "env": {
+        "AGENTSROOM_TEAM_BAKED_RUN_ID": "run-1790508023691-99nkls",
+        "AGENTSROOM_TEAM_BAKED_NODE_ID": "n-agent-1790507975466-a7to",
+        "AGENTSROOM_TEAM_BAKED_AGENT_ID": "agent-1790508023717-zw3yfs",
+        "AGENTSROOM_TEAM_BAKED_WORKSPACE": "/home/arrafi/work/hi",
+        "AGENTSROOM_TEAM_BAKED_STATE_ROOT": "/home/arrafi/work/hi",
+        "AGENTSROOM_TEAM_BAKED_ROLE": "pm"
+      }
+    }
+  }
+}

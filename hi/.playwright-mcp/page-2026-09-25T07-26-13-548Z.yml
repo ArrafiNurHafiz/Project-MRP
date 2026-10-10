@@ -1,0 +1,22 @@
+- generic [active] [ref=f1e1]:
+  - alert [ref=f1e2]
+  - generic [ref=f1e8]:
+    - img "logo" [ref=f1e10]
+    - generic [ref=f1e34]:
+      - generic [ref=f1e35]: Input Active Email
+      - generic [ref=f1e36]: The OTP Code will be sent to your active email
+    - textbox "Input email address" [ref=f1e39]
+    - generic [ref=f1e22]:
+      - checkbox [ref=f1e23]
+      - generic [ref=f1e24]:
+        - text: I agree to Labamu's
+        - link "Terms & Conditions" [ref=f1e25] [cursor=pointer]:
+          - /url: https://labamu.co.id/terms
+        - text: and
+        - link "Privacy Policy" [ref=f1e26] [cursor=pointer]:
+          - /url: https://labamu.co.id/privacy
+    - button "Login" [disabled] [ref=f1e27]
+    - generic [ref=f1e28]: Or
+    - button [ref=f1e40] [cursor=pointer]:
+      - img "email" [ref=f1e41]
+      - text: Login with Phone Number

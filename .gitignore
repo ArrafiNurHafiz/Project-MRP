@@ -9,3 +9,11 @@ target/
 coverage/
 tmp/
 temp/
+.next/
+*.db
+*.db.lock
+*.rvf
+*.rvf.lock
+backend/server
+server
+*.log

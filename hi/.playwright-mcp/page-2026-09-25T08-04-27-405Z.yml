@@ -1,0 +1,136 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e8]:
+    - generic [ref=f10e11]:
+      - generic [ref=f10e12]:
+        - img "Logo" [ref=f10e15]
+        - textbox "Search menu..." [ref=f10e17]
+      - generic [ref=f10e18]:
+        - list [ref=f10e21]:
+          - listitem [ref=f10e22]:
+            - link "Dashboard" [ref=f10e23] [cursor=pointer]:
+              - /url: /
+        - list [ref=f10e28]:
+          - listitem [ref=f10e29]:
+            - button "Resources" [ref=f10e30]
+        - list [ref=f10e39]:
+          - listitem [ref=f10e40]:
+            - button "Manufacturing" [ref=f10e41]
+        - list [ref=f10e49]:
+          - listitem [ref=f10e50]:
+            - button "Product" [ref=f10e51]
+            - list [ref=f10e58]:
+              - listitem [ref=f10e59]:
+                - link "Product Catalog" [ref=f10e60] [cursor=pointer]:
+                  - /url: /products/
+              - listitem [ref=f10e62]:
+                - link "Custom Products Request" [ref=f10e63] [cursor=pointer]:
+                  - /url: /custom-products-request/
+        - list [ref=f10e67]:
+          - listitem [ref=f10e68]:
+            - button "Sales" [ref=f10e69]
+        - list [ref=f10e77]:
+          - listitem [ref=f10e78]:
+            - button "Procurement" [ref=f10e79]
+        - list [ref=f10e90]:
+          - listitem [ref=f10e91]:
+            - button "Analytics" [ref=f10e92]
+        - list [ref=f10e101]:
+          - listitem [ref=f10e102]:
+            - button "Administration" [ref=f10e103]
+        - list [ref=f10e112]:
+          - listitem [ref=f10e113]:
+            - link "User Guide" [ref=f10e114] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f10e121]:
+          - listitem [ref=f10e122]:
+            - link "Order Simulation BETA" [ref=f10e123] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f10e135]: Order Simulation
+              - generic [ref=f10e136]: BETA
+      - button "EN" [ref=f10e138]
+    - main [ref=f10e142]:
+      - generic [ref=f10e143]:
+        - button "Toggle Sidebar" [ref=f10e145]
+        - generic [ref=f10e147]:
+          - button "1" [ref=f10e149] [cursor=pointer]
+          - button [ref=f10e155] [cursor=pointer]:
+            - generic [ref=f10e156]:
+              - paragraph [ref=f10e157]: Bernadus Nurtjahjono
+              - paragraph [ref=f10e158]: Owner
+      - main [ref=f10e160]:
+        - generic [ref=f10e509]:
+          - generic [ref=f10e510]:
+            - heading "Product Catalog" [level=1] [ref=f10e511]
+            - generic [ref=f10e512]:
+              - link [ref=f10e513] [cursor=pointer]:
+                - /url: /products/bulk-upload/
+                - button "Bulk Upload" [ref=f10e514]
+              - link [ref=f10e519] [cursor=pointer]:
+                - /url: /products/setting/category/
+                - button "Manage" [ref=f10e520]
+              - link [ref=f10e525] [cursor=pointer]:
+                - /url: /products/create/
+                - button "New Product" [ref=f10e526]
+          - generic [ref=f10e529]:
+            - generic [ref=f10e530]:
+              - generic [ref=f10e531]:
+                - button "Category" [ref=f10e533] [cursor=pointer]
+                - button "Status" [ref=f10e538] [cursor=pointer]
+                - button "Source" [ref=f10e543] [cursor=pointer]
+              - generic [ref=f10e547]:
+                - group "View Mode" [ref=f10e548]:
+                  - button "List View" [pressed] [ref=f10e549]
+                  - button "Grid View" [ref=f10e553]
+                - textbox "Search Products by Name or SKU" [ref=f10e565]
+            - table [ref=f10e570]:
+              - rowgroup [ref=f10e571]:
+                - row [ref=f10e572]:
+                  - columnheader "Image" [ref=f10e573]
+                  - columnheader "Product Name" [ref=f10e575]
+                  - columnheader "SKU" [ref=f10e577]
+                  - columnheader "Category" [ref=f10e579]
+                  - columnheader "Price" [ref=f10e581]
+                  - columnheader "Lead Time" [ref=f10e583]
+                  - columnheader "Source" [ref=f10e585]
+                  - columnheader "Status" [ref=f10e587]
+              - rowgroup [ref=f10e589]:
+                - row [ref=f10e590]:
+                  - cell [ref=f10e591]
+                - row [ref=f10e592] [cursor=pointer]:
+                  - cell [ref=f10e593]:
+                    - img "Product image" [ref=f10e594]
+                  - cell "Meja Kerja Industri Stainless Steel 180x90cm" [ref=f10e595]
+                  - cell "PROD-TBL-SS180" [ref=f10e596]
+                  - cell "talenan ( cutting board 001 )" [ref=f10e597]
+                  - cell "IDR 6,500,000" [ref=f10e598]
+                  - cell "1 Week(s)" [ref=f10e599]
+                  - cell "Standard Catalog" [ref=f10e600]
+                  - cell "Active" [ref=f10e604]
+                - row [ref=f10e606] [cursor=pointer]:
+                  - cell [ref=f10e607]:
+                    - img "Product image" [ref=f10e608]
+                  - cell "talenan ( cutting board 001 )" [ref=f10e609]
+                  - cell "8888" [ref=f10e610]
+                  - cell "talenan ( cutting board 001 )" [ref=f10e611]
+                  - cell "IDR 55,000" [ref=f10e612]
+                  - cell "30 Day(s)" [ref=f10e613]
+                  - cell "Standard Catalog" [ref=f10e614]
+                  - cell "Active" [ref=f10e618]
+            - generic [ref=f10e620]:
+              - generic [ref=f10e621]:
+                - combobox [ref=f10e623]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                - generic [ref=f10e624]: from 2 rows
+              - generic [ref=f10e625]:
+                - button "Previous page" [disabled] [ref=f10e626]
+                - button "Page 1" [ref=f10e629]: "1"
+                - button "Next page" [disabled] [ref=f10e630]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f10e633]:
+        - generic [ref=f10e638]:
+          - paragraph [ref=f10e640]: Product successfully saved
+          - button "Okay" [ref=f10e641]
+  - alert [ref=f10e7]: Product Catalog

@@ -1,0 +1,140 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e8]:
+    - generic [ref=f8e11]:
+      - generic [ref=f8e12]:
+        - img "Logo" [ref=f8e15]
+        - textbox "Search menu..." [ref=f8e17]
+      - generic [ref=f8e18]:
+        - list [ref=f8e21]:
+          - listitem [ref=f8e22]:
+            - link "Dashboard" [ref=f8e23] [cursor=pointer]:
+              - /url: /
+        - list [ref=f8e28]:
+          - listitem [ref=f8e29]:
+            - button "Resources" [ref=f8e30]
+            - list [ref=f8e37]:
+              - listitem [ref=f8e38]:
+                - link "Materials" [ref=f8e39] [cursor=pointer]:
+                  - /url: /materials/
+              - listitem [ref=f8e41]:
+                - link "Vendors" [ref=f8e42] [cursor=pointer]:
+                  - /url: /vendors/
+              - listitem [ref=f8e44]:
+                - link "Customers" [ref=f8e45] [cursor=pointer]:
+                  - /url: /customers/
+              - listitem [ref=f8e47]:
+                - link "Material Requests" [ref=f8e48] [cursor=pointer]:
+                  - /url: /material-requests/
+        - list [ref=f8e52]:
+          - listitem [ref=f8e53]:
+            - button "Manufacturing" [ref=f8e54]
+        - list [ref=f8e62]:
+          - listitem [ref=f8e63]:
+            - button "Product" [ref=f8e64]
+        - list [ref=f8e73]:
+          - listitem [ref=f8e74]:
+            - button "Sales" [ref=f8e75]
+        - list [ref=f8e83]:
+          - listitem [ref=f8e84]:
+            - button "Procurement" [ref=f8e85]
+        - list [ref=f8e96]:
+          - listitem [ref=f8e97]:
+            - button "Analytics" [ref=f8e98]
+        - list [ref=f8e107]:
+          - listitem [ref=f8e108]:
+            - button "Administration" [ref=f8e109]
+        - list [ref=f8e118]:
+          - listitem [ref=f8e119]:
+            - link "User Guide" [ref=f8e120] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f8e127]:
+          - listitem [ref=f8e128]:
+            - link "Order Simulation BETA" [ref=f8e129] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f8e141]: Order Simulation
+              - generic [ref=f8e142]: BETA
+      - button "EN" [ref=f8e144]
+    - main [ref=f8e148]:
+      - generic [ref=f8e149]:
+        - button "Toggle Sidebar" [ref=f8e151]
+        - generic [ref=f8e153]:
+          - button "1" [ref=f8e155] [cursor=pointer]
+          - button [ref=f8e161] [cursor=pointer]:
+            - generic [ref=f8e162]:
+              - paragraph [ref=f8e163]: Bernadus Nurtjahjono
+              - paragraph [ref=f8e164]: Owner
+      - main [ref=f8e166]:
+        - generic [ref=f8e167]:
+          - generic [ref=f8e168]:
+            - generic [ref=f8e169]:
+              - heading "Create Material" [level=1] [ref=f8e174] [cursor=pointer]
+              - generic [ref=f8e175]:
+                - generic [ref=f8e176] [cursor=pointer]: Materials
+                - generic [ref=f8e177]: / Create Material
+            - button "Save" [ref=f8e179] [cursor=pointer]
+          - generic [ref=f8e186]:
+            - generic [ref=f8e187]: Material Details
+            - separator [ref=f8e189]
+            - generic [ref=f8e190]:
+              - generic [ref=f8e191]:
+                - generic [ref=f8e192]: SKU
+                - textbox "SKU" [ref=f8e196]:
+                  - /placeholder: Auto-generated if empty
+                  - text: MAT-SS304-2MM
+              - generic [ref=f8e199]:
+                - generic [ref=f8e201]:
+                  - generic [ref=f8e202]: "*"
+                  - text: Material Name
+                - textbox "* Material Name" [ref=f8e205]:
+                  - /placeholder: Enter material name
+                  - text: Plat Stainless Steel 304 (2.0 mm)
+              - generic [ref=f8e208]:
+                - generic [ref=f8e210]:
+                  - generic [ref=f8e211]: "*"
+                  - text: Category
+                - combobox [ref=f8e212]:
+                  - textbox "Search or select category..." [ref=f8e214]: Packing & Aksesori
+                  - generic [ref=f8e308] [cursor=pointer]
+              - generic [ref=f8e218]:
+                - generic [ref=f8e219]:
+                  - generic [ref=f8e220]: "*"
+                  - text: ABC Classification
+                - combobox "* ABC Classification" [ref=f8e222] [cursor=pointer]:
+                  - generic:
+                    - generic "A - High Value"
+              - generic [ref=f8e223]:
+                - generic [ref=f8e224]:
+                  - generic [ref=f8e225]: "*"
+                  - text: Material Type
+                - combobox "* Material Type" [ref=f8e227] [cursor=pointer]:
+                  - generic:
+                    - generic "Raw Material"
+              - generic [ref=f8e228]:
+                - generic [ref=f8e230]:
+                  - generic [ref=f8e231]: "*"
+                  - text: Unit of Measure
+                - combobox [ref=f8e232]:
+                  - textbox "Search or select unit of measure" [active] [ref=f8e234]: pcs
+                  - generic [ref=f8e467] [cursor=pointer]
+              - generic [ref=f8e238]:
+                - generic [ref=f8e239]: Stock Risk
+                - textbox "Stock Risk" [ref=f8e241]:
+                  - /placeholder: Enter running low threshold value
+                  - text: "10"
+              - generic [ref=f8e242]:
+                - generic [ref=f8e243]: Description
+                - textbox "Description" [ref=f8e245]:
+                  - /placeholder: Enter description (optional)
+                  - text: Plat SS 304 finish 2B 4x8 feet (1220x2440 mm)
+          - generic [ref=f8e247]:
+            - generic [ref=f8e248]: Material Images
+            - separator [ref=f8e250]
+            - generic [ref=f8e252]:
+              - generic [ref=f8e254] [cursor=pointer]:
+                - heading "Drop images here or click to upload" [level=4] [ref=f8e258]
+                - paragraph [ref=f8e259]: IMAGE/JPEG, IMAGE/JPG, IMAGE/PNG, IMAGE/WEBP • Max 5 MB
+                - paragraph [ref=f8e260]: Max 1 images
+                - button "Select Images" [ref=f8e261]
+              - paragraph [ref=f8e262]: Upload material images to showcase your material. The first image will be set as primary.
+  - region "Notifications alt+T"
+  - alert [ref=f8e7]

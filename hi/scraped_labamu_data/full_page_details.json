@@ -1,0 +1,3105 @@
+[
+  {
+    "name": "Dashboard",
+    "route": "/",
+    "url": "https://mrp.labamu.co.id/",
+    "actual_url": "https://mrp.labamu.co.id/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Module",
+        "Status",
+        "Oldest",
+        "Module",
+        "Status",
+        "Oldest"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search to-do",
+          "value": "",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "0",
+        "You are all caught up \u2014 no actions needed right now."
+      ],
+      "tabs": [],
+      "headings": [
+        "Welcome, Ryan Saputra \ud83d\udc4b",
+        "Need To Do"
+      ]
+    }
+  },
+  {
+    "name": "Materials",
+    "route": "/materials/",
+    "url": "https://mrp.labamu.co.id/materials/",
+    "actual_url": "https://mrp.labamu.co.id/materials/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Image",
+            "Name",
+            "Category",
+            "ABC Classification",
+            "Type",
+            "On-Hand Stock",
+            "Average Cost",
+            "Status"
+          ],
+          "rowCount": 21,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "",
+              "Amplas 100 MAT-13D72FF8-000005",
+              "Amplas",
+              "A",
+              "Finished Material",
+              "6,310 Meter",
+              "IDR 3,966",
+              "Active"
+            ],
+            [
+              "",
+              "Amplas 1000 MAT-13D72FF8-000010",
+              "Amplas",
+              "A",
+              "Finished Material",
+              "1,010 Meter",
+              "IDR 14,872",
+              "Active"
+            ],
+            [
+              "",
+              "Amplas 150 MAT-13D72FF8-000006",
+              "Amplas",
+              "A",
+              "Finished Material",
+              "1,008 Meter",
+              "IDR 14,882",
+              "Active"
+            ],
+            [
+              "",
+              "Amplas 240 MAT-13D72FF8-000007",
+              "Amplas",
+              "A",
+              "Finished Material",
+              "1,010 Meter",
+              "IDR 14,872",
+              "Active"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Bulk Upload",
+        "Manage",
+        "New Material",
+        "A Classification\n0",
+        "B Classification\n0",
+        "C Classification\n0",
+        "Category",
+        "Type",
+        "Stock Risk Status",
+        "Status",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search materials by name or SKU...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active"
+      ],
+      "tabs": [
+        "Image\n\t\nName\n\t\nCategory\n\t\nABC Classification\n\t\nType\n\t\nOn-Hand Stock\n\t\nAverage Cost\n\t\nStatus"
+      ],
+      "headings": [
+        "Materials"
+      ]
+    }
+  },
+  {
+    "name": "Vendors",
+    "route": "/vendors/",
+    "url": "https://mrp.labamu.co.id/vendors/",
+    "actual_url": "https://mrp.labamu.co.id/vendors/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Name",
+            "Alias",
+            "PIC Name",
+            "Phone",
+            "Status"
+          ],
+          "rowCount": 7,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "Rafi",
+              "-",
+              "-",
+              "-",
+              "Active"
+            ],
+            [
+              "Megawati",
+              "-",
+              "-",
+              "-",
+              "Active"
+            ],
+            [
+              "Gibran",
+              "-",
+              "-",
+              "-",
+              "Active"
+            ],
+            [
+              "Prabowo",
+              "-",
+              "-",
+              "-",
+              "Active"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "New Vendor",
+        "Status",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search Vendor by name...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active"
+      ],
+      "tabs": [
+        "Name\n\t\nAlias\n\t\nPIC Name\n\t\nPhone\n\t\nStatus"
+      ],
+      "headings": [
+        "Vendors"
+      ]
+    }
+  },
+  {
+    "name": "Customers",
+    "route": "/customers/",
+    "url": "https://mrp.labamu.co.id/customers/",
+    "actual_url": "https://mrp.labamu.co.id/customers/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Customer Name",
+            "Customer Email",
+            "Customer Phone"
+          ],
+          "rowCount": 6,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "Superepang",
+              "-",
+              "-"
+            ],
+            [
+              "pt soeharto",
+              "-",
+              "-"
+            ],
+            [
+              "Bapak Agung",
+              "-",
+              "-"
+            ],
+            [
+              "Produksi Internal",
+              "-",
+              "-"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Manage",
+        "New Customer",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search customer name...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "Customer Name\n\t\nCustomer Email\n\t\nCustomer Phone"
+      ],
+      "headings": [
+        "Customers"
+      ]
+    }
+  },
+  {
+    "name": "Material Requests",
+    "route": "/material-requests/",
+    "url": "https://mrp.labamu.co.id/material-requests/",
+    "actual_url": "https://mrp.labamu.co.id/material-requests/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Requested Date",
+            "Request ID",
+            "Requested By",
+            "Work Order No",
+            "Total Item Type",
+            "Status"
+          ],
+          "rowCount": 12,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "2026-09-26; 13:02",
+              "REQ-20260926-000005",
+              "Ryan Saputra",
+              "WO-20260926-000014",
+              "1",
+              "New Request"
+            ],
+            [
+              "2026-09-26; 12:59",
+              "REQ-20260926-000004",
+              "Ryan Saputra",
+              "WO-20260926-000014",
+              "1",
+              "New Request"
+            ],
+            [
+              "2026-09-26; 09:22",
+              "REQ-20260926-000003",
+              "Ryan Saputra",
+              "WO-20260926-000004",
+              "11",
+              "New Request"
+            ],
+            [
+              "2026-09-26; 08:42",
+              "REQ-20260926-000002",
+              "Ryan Saputra",
+              "WO-20260926-000003",
+              "4",
+              "New Request"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "New Request\n\n5",
+        "Preparing\n\n0",
+        "Transferring\n\n0",
+        "Completed\n\n2",
+        "Cancelled\n\n4",
+        "Date",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search by Request ID or Work Order No",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "New Request",
+        "New Request",
+        "New Request",
+        "New Request",
+        "New Request",
+        "Completed",
+        "Completed",
+        "Cancelled",
+        "Cancelled",
+        "Cancelled",
+        "Cancelled"
+      ],
+      "tabs": [
+        "Requested Date\n\t\nRequest ID\n\t\nRequested By\n\t\nWork Order No\n\t\nTotal Item Type\n\t\nStatus"
+      ],
+      "headings": [
+        "Material Requests"
+      ]
+    }
+  },
+  {
+    "name": "Bill of Materials",
+    "route": "/bill-of-materials/",
+    "url": "https://mrp.labamu.co.id/bill-of-materials/",
+    "actual_url": "https://mrp.labamu.co.id/bill-of-materials/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "BOM Name",
+            "Version",
+            "Created At",
+            "Updated At",
+            "Created By",
+            "Status"
+          ],
+          "rowCount": 10,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "nampan",
+              "1",
+              "2026-09-26",
+              "2026-09-26",
+              "Ryan Saputra",
+              "Active"
+            ],
+            [
+              "Talenan Lubang Bulat Semi-Finished",
+              "1",
+              "2026-09-26",
+              "2026-09-26",
+              "Ryan Saputra",
+              "Active"
+            ],
+            [
+              "Talenan Lubang Bulat",
+              "1",
+              "2026-09-26",
+              "2026-09-26",
+              "Ryan Saputra",
+              "Active"
+            ],
+            [
+              "Talenan Oval Besar Semi-Finished",
+              "1",
+              "2026-09-26",
+              "2026-09-26",
+              "Ryan Saputra",
+              "Active"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "New Mapping",
+        "Status",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search bill of materials by name....",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Inactive",
+        "Active",
+        "Active",
+        "Active",
+        "Active"
+      ],
+      "tabs": [
+        "BOM Name\n\t\nVersion\n\t\nCreated At\n\t\nUpdated At\n\t\nCreated By\n\t\nStatus"
+      ],
+      "headings": [
+        "Bill of Materials"
+      ]
+    }
+  },
+  {
+    "name": "Routing",
+    "route": "/routing/",
+    "url": "https://mrp.labamu.co.id/routing/",
+    "actual_url": "https://mrp.labamu.co.id/routing/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Routing Name",
+            "Description",
+            "Status",
+            "Created At"
+          ],
+          "rowCount": 8,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "Finishing",
+              "-",
+              "Active",
+              "2026-09-25 16:25"
+            ],
+            [
+              "QC",
+              "-",
+              "Active",
+              "2026-09-25 16:24"
+            ],
+            [
+              "Sanding",
+              "-",
+              "Active",
+              "2026-09-25 16:24"
+            ],
+            [
+              "Packing",
+              "-",
+              "Active",
+              "2026-09-25 16:24"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Add Routing",
+        "Status",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search routing by name...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active"
+      ],
+      "tabs": [
+        "Routing Name\n\t\nDescription\n\t\nStatus\n\t\nCreated At"
+      ],
+      "headings": [
+        "Routing"
+      ]
+    }
+  },
+  {
+    "name": "Work Orders",
+    "route": "/work-orders/",
+    "url": "https://mrp.labamu.co.id/work-orders/",
+    "actual_url": "https://mrp.labamu.co.id/work-orders/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Work Order No.",
+            "Order Number",
+            "Product",
+            "Qty",
+            "Priority",
+            "Planned Start Date",
+            "Planned End Date",
+            "Created By",
+            "Status"
+          ],
+          "rowCount": 19,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "WO-20260926-000014",
+              "ORD-20260926-000018",
+              "nampan",
+              "1,000",
+              "Normal",
+              "2026-09-26",
+              "2026-09-30",
+              "Ryan Saputra",
+              "Ready to Process"
+            ],
+            [
+              "WO-20260926-000013",
+              "ORD-20260926-000016",
+              "Telenan Kecil",
+              "1",
+              "Normal",
+              "2026-09-26",
+              "2026-09-30",
+              "Ryan Saputra",
+              "Ready to Process"
+            ],
+            [
+              "WO-20260926-000012",
+              "ORD-20260926-000014",
+              "Talenan Lubang Bulat Semi-Finished",
+              "255",
+              "Normal",
+              "Not Scheduled",
+              "Not Scheduled",
+              "Ryan Saputra",
+              "Not Started"
+            ],
+            [
+              "WO-20260926-000011",
+              "ORD-20260926-000012",
+              "Talenan Lubang Bulat",
+              "340",
+              "Normal",
+              "Not Scheduled",
+              "Not Scheduled",
+              "Ryan Saputra",
+              "Not Started"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Settings",
+        "Not Started\n5",
+        "Ready to Process\n9",
+        "In Progress\n1",
+        "Completed\n3",
+        "Cancelled\n0",
+        "Priority",
+        "Planned Start Date",
+        "Planned End Date",
+        "Created By",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search work order number",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "Ready to Process",
+        "Ready to Process",
+        "Completed",
+        "Completed",
+        "In Progress",
+        "Ready to Process",
+        "Ready to Process",
+        "Ready to Process",
+        "Ready to Process",
+        "Ready to Process",
+        "Ready to Process",
+        "Ready to Process",
+        "Completed"
+      ],
+      "tabs": [
+        "Work Order No.\n\t\nOrder Number\n\t\nProduct\n\t\nQty\n\t\nPriority\n\t\nPlanned Start Date\n\t\nPlanned End Date\n\t\nCreated By\n\t\nStatus"
+      ],
+      "headings": [
+        "Work Order"
+      ]
+    }
+  },
+  {
+    "name": "Product Catalog",
+    "route": "/products/",
+    "url": "https://mrp.labamu.co.id/products/",
+    "actual_url": "https://mrp.labamu.co.id/products/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Image",
+            "Product Name",
+            "SKU",
+            "Category",
+            "Price",
+            "Lead Time",
+            "Source",
+            "Status"
+          ],
+          "rowCount": 8,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "",
+              "nampan",
+              "PROD-13D72FF8-000007",
+              "nampan",
+              "IDR 100,000",
+              "3 Week(s)",
+              "Standard Catalog",
+              "Active"
+            ],
+            [
+              "",
+              "Talenan Lubang Bulat Semi-Finished",
+              "PROD-13D72FF8-000006",
+              "Produksi Internal",
+              "IDR 15,000",
+              "4 Week(s)",
+              "Standard Catalog",
+              "Active"
+            ],
+            [
+              "",
+              "Talenan Lubang Bulat",
+              "PROD-13D72FF8-000005",
+              "Telenan",
+              "IDR 65,000",
+              "6 Week(s)",
+              "Standard Catalog",
+              "Active"
+            ],
+            [
+              "",
+              "Talenan Oval Besar Semi-Finished",
+              "PROD-13D72FF8-000004",
+              "Produksi Internal",
+              "IDR 5",
+              "6 Week(s)",
+              "Standard Catalog",
+              "Active"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Bulk Upload",
+        "Manage",
+        "New Product",
+        "Category",
+        "Status",
+        "Source",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search Products by Name or SKU",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active",
+        "Active"
+      ],
+      "tabs": [
+        "Image\n\t\nProduct Name\n\t\nSKU\n\t\nCategory\n\t\nPrice\n\t\nLead Time\n\t\nSource\n\t\nStatus"
+      ],
+      "headings": [
+        "Product Catalog"
+      ]
+    }
+  },
+  {
+    "name": "Product Create",
+    "route": "/products/create/",
+    "url": "https://mrp.labamu.co.id/products/create/",
+    "actual_url": "https://mrp.labamu.co.id/products/create/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Currency",
+            "Selling Price",
+            "Action"
+          ],
+          "rowCount": 1,
+          "sampleRows": [
+            [
+              "IDR",
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Upload",
+        "Week(s)",
+        "Add Price",
+        "Cancel",
+        "Save"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Product Name",
+          "value": "",
+          "id": "name"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter SKU",
+          "value": "",
+          "id": "sku"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Select Category",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "name": "",
+          "placeholder": "Description",
+          "value": "",
+          "id": "description"
+        },
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "name": "",
+          "placeholder": "",
+          "value": "",
+          "id": "simple-image-upload-_r_k_"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Primary Material",
+          "value": "",
+          "id": "primary_material"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Finishing",
+          "value": "",
+          "id": "final_surface_treatment"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Weight",
+          "value": "",
+          "id": "gross_weight"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Height",
+          "value": "",
+          "id": "dimension.0.height"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Width",
+          "value": "",
+          "id": "dimension.0.width"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Length",
+          "value": "",
+          "id": "dimension.0.length"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Height",
+          "value": "",
+          "id": "dimension.1.height"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Width",
+          "value": "",
+          "id": "dimension.1.width"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Length",
+          "value": "",
+          "id": "dimension.1.length"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Capacity",
+          "value": "",
+          "id": "container_capacity.0.qty"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Capacity",
+          "value": "",
+          "id": "container_capacity.1.qty"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Capacity",
+          "value": "",
+          "id": "container_capacity.2.qty"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Select Bill of Materials",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter Lead Time",
+          "value": "",
+          "id": "lead_time_value"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "-",
+          "value": "0",
+          "id": "base_price"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter selling price",
+          "value": "",
+          "id": "selling_price"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "-",
+          "value": "-",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "Currency\n\t\nSelling Price\n\t\nAction"
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "Custom Products Request",
+    "route": "/custom-products-request/",
+    "url": "https://mrp.labamu.co.id/custom-products-request/",
+    "actual_url": "https://mrp.labamu.co.id/custom-products-request/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "CPR Number",
+            "RFQ Number",
+            "Customer Name",
+            "Request Product Name",
+            "Requested Quantity",
+            "Created Date",
+            "Created By",
+            "Status"
+          ],
+          "rowCount": 2,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "No CPRs yet Custom product requests will show up here once available."
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Settings",
+        "Customer",
+        "Status"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search CPR or product name",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "CPR Number\n\t\nRFQ Number\n\t\nCustomer Name\n\t\nRequest Product Name\n\t\nRequested Quantity\n\t\nCreated Date\n\t\nCreated By\n\t\nStatus"
+      ],
+      "headings": [
+        "Custom Products Request"
+      ]
+    }
+  },
+  {
+    "name": "RFQ",
+    "route": "/rfq/",
+    "url": "https://mrp.labamu.co.id/rfq/",
+    "actual_url": "https://mrp.labamu.co.id/rfq/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "RFQ Number",
+            "Customer Name",
+            "Created By",
+            "Created At",
+            "Submission Status",
+            "Processing Status"
+          ],
+          "rowCount": 8,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "RFQ-20260926-000007",
+              "pt soeharto",
+              "Ryan Saputra",
+              "2026-09-26",
+              "Approved",
+              "Quote Created"
+            ],
+            [
+              "RFQ-20260926-000006",
+              "Superepang",
+              "Ryan Saputra",
+              "2026-09-26",
+              "Approved",
+              "Quote Created"
+            ],
+            [
+              "RFQ-20260926-000005",
+              "Superepang",
+              "Ryan Saputra",
+              "2026-09-26",
+              "Approved",
+              "Quote Created"
+            ],
+            [
+              "RFQ-20260926-000004",
+              "Superepang",
+              "Ryan Saputra",
+              "2026-09-26",
+              "Approved",
+              "Quote Created"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Settings",
+        "New RFQ",
+        "Draft\n0",
+        "Submitted\n0",
+        "Approved\n7",
+        "Rejected\n0",
+        "Need Revision\n0",
+        "Customer",
+        "Processing Status",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search RFQ number or customer",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "Approved",
+        "Approved",
+        "Approved",
+        "Approved",
+        "Approved",
+        "Approved",
+        "Approved"
+      ],
+      "tabs": [
+        "RFQ Number\n\t\nCustomer Name\n\t\nCreated By\n\t\nCreated At\n\t\nSubmission Status\n\t\nProcessing Status"
+      ],
+      "headings": [
+        "Request For Quotes"
+      ]
+    }
+  },
+  {
+    "name": "RFQ Create",
+    "route": "/rfq/create/",
+    "url": "https://mrp.labamu.co.id/rfq/create/",
+    "actual_url": "https://mrp.labamu.co.id/rfq/create/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Primary",
+            "Name",
+            "Email",
+            "Role",
+            "Phone",
+            "Actions"
+          ],
+          "rowCount": 1,
+          "sampleRows": [
+            [
+              "",
+              "",
+              "",
+              "Approver",
+              "\ud83c\uddee\ud83c\udde9 +62",
+              ""
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "\ud83c\uddee\ud83c\udde9\n+62",
+        "Add PIC",
+        "Approver",
+        "\ud83c\uddee\ud83c\udde9\n+62",
+        "Add Product",
+        "Max 10 files, 30MB each\n\nAccepts any file type\n\nDrag file or browse file",
+        "Cancel",
+        "Save as Draft",
+        "Submit RFQ"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Type to search or add new customer",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Input Customer Email",
+          "value": "",
+          "id": "customer.customer_email"
+        },
+        {
+          "tag": "INPUT",
+          "type": "tel",
+          "name": "",
+          "placeholder": "Phone number",
+          "value": "",
+          "id": "customer.customer_phone"
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "name": "",
+          "placeholder": "Input Customer Address",
+          "value": "",
+          "id": "customer.customer_address"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Select customer tags",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Input Name",
+          "value": "",
+          "id": "customer.customer_pics.0.pic_name"
+        },
+        {
+          "tag": "INPUT",
+          "type": "email",
+          "name": "",
+          "placeholder": "Input Email",
+          "value": "",
+          "id": "customer.customer_pics.0.pic_email"
+        },
+        {
+          "tag": "INPUT",
+          "type": "tel",
+          "name": "",
+          "placeholder": "Phone number",
+          "value": "",
+          "id": "customer.customer_pics.0.pic_phone"
+        },
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "name": "",
+          "placeholder": "",
+          "value": "",
+          "id": "rfq-attachments"
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "name": "",
+          "placeholder": "Enter customer notes (optional)",
+          "value": "",
+          "id": "customer_notes"
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "name": "",
+          "placeholder": "Enter internal notes (optional)",
+          "value": "",
+          "id": "notes"
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "+62",
+        "0/400",
+        "Primary\n\t\nName\n\t\nEmail\n\t\nRole\n\t\nPhone\n\t\nActions",
+        "+62"
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "Quotes",
+    "route": "/quotes/",
+    "url": "https://mrp.labamu.co.id/quotes/",
+    "actual_url": "https://mrp.labamu.co.id/quotes/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Quote No",
+            "RFQ No",
+            "Customer Name",
+            "Created By",
+            "Created At",
+            "Status"
+          ],
+          "rowCount": 26,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "QUO-20260926-000022",
+              "RFQ-20260926-000007",
+              "pt soeharto",
+              "Ryan Saputra",
+              "2026-09-26",
+              "Approved"
+            ],
+            [
+              "QUO-20260926-000021",
+              "-",
+              "Bapak Agung",
+              "Ryan Saputra",
+              "2026-09-26",
+              "Approved"
+            ],
+            [
+              "QUO-20260926-000020",
+              "RFQ-20260926-000006",
+              "Superepang",
+              "Ryan Saputra",
+              "2026-09-26",
+              "Approved"
+            ],
+            [
+              "QUO-20260926-000019",
+              "-",
+              "Jowi",
+              "Ryan Saputra",
+              "2026-09-26",
+              "Approved"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Settings",
+        "New Quote",
+        "Draft\n2",
+        "Submitted\n0",
+        "Issued\n2",
+        "Approved\n22",
+        "Rejected\n0",
+        "Need Revision\n0",
+        "Customer",
+        "Status",
+        "1",
+        "2"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search quote number, RFQ number, or customer",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "Quote No\n\t\nRFQ No\n\t\nCustomer Name\n\t\nCreated By\n\t\nCreated At\n\t\nStatus"
+      ],
+      "headings": [
+        "Quotes"
+      ]
+    }
+  },
+  {
+    "name": "Quotes Create",
+    "route": "/quotes/create/",
+    "url": "https://mrp.labamu.co.id/quotes/create/",
+    "actual_url": "https://mrp.labamu.co.id/quotes/create/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Primary",
+            "Name",
+            "Email",
+            "Role",
+            "Phone",
+            "Actions"
+          ],
+          "rowCount": 1,
+          "sampleRows": [
+            [
+              "",
+              "",
+              "",
+              "Approver",
+              "\ud83c\uddee\ud83c\udde9 +62",
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "rowCount": 7,
+          "sampleRows": [
+            [
+              "Account Name:",
+              "Ryan"
+            ],
+            [
+              "Account Number:",
+              "1234567890"
+            ],
+            [
+              "Bank Name:",
+              "BCA"
+            ],
+            [
+              "Supported Currencies:",
+              "USD, IDR"
+            ],
+            [
+              "SWIFT Code:",
+              "-"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "IDR - Indonesian Rupiah",
+        "Enter date",
+        "\ud83c\uddee\ud83c\udde9\n+62",
+        "Add PIC",
+        "Approver",
+        "\ud83c\uddee\ud83c\udde9\n+62",
+        "Add Product",
+        "Max 10 files, 30MB each\n\nAccepts any file type\n\nDrag file or browse file",
+        "Select payment terms",
+        "Select incoterms",
+        "-",
+        "Select shipping method",
+        "Select dispute resolution method",
+        "Cancel",
+        "Save Draft",
+        "Submit"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Enter down payment percentage",
+          "value": "0 %",
+          "id": "down_payment_percentage"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Type to search or add new customer",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Input Customer Email",
+          "value": "",
+          "id": "customer.customer_email"
+        },
+        {
+          "tag": "INPUT",
+          "type": "tel",
+          "name": "",
+          "placeholder": "Phone number",
+          "value": "",
+          "id": "customer.customer_phone"
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "name": "",
+          "placeholder": "Input Customer Address",
+          "value": "",
+          "id": "customer.customer_address"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Select customer tags",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Input Name",
+          "value": "",
+          "id": "customer.customer_pics.0.pic_name"
+        },
+        {
+          "tag": "INPUT",
+          "type": "email",
+          "name": "",
+          "placeholder": "Input Email",
+          "value": "",
+          "id": "customer.customer_pics.0.pic_email"
+        },
+        {
+          "tag": "INPUT",
+          "type": "tel",
+          "name": "",
+          "placeholder": "Phone number",
+          "value": "",
+          "id": "customer.customer_pics.0.pic_phone"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "-",
+          "value": "IDR 0",
+          "id": "subtotal"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "0",
+          "value": "0 %",
+          "id": "tax_rate"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "-",
+          "value": "IDR 0",
+          "id": "tax_total"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "0",
+          "value": "IDR 0",
+          "id": "shipping_fee"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "0",
+          "value": "IDR 0",
+          "id": "other_fee"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "-",
+          "value": "IDR 0",
+          "id": "total"
+        },
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "name": "",
+          "placeholder": "",
+          "value": "",
+          "id": "quote-attachments"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Select bank account",
+          "value": "BCA - Ryan",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "e.g., 2-3 weeks",
+          "value": "",
+          "id": "estimated_delivery"
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "name": "",
+          "placeholder": "Enter governing law",
+          "value": "",
+          "id": "governing_law"
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "name": "",
+          "placeholder": "Enter additional",
+          "value": "",
+          "id": "additional_terms_and_conditions"
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "+62",
+        "0/400",
+        "Primary\n\t\nName\n\t\nEmail\n\t\nRole\n\t\nPhone\n\t\nActions",
+        "+62"
+      ],
+      "headings": [
+        "Loading..."
+      ]
+    }
+  },
+  {
+    "name": "Orders",
+    "route": "/orders/",
+    "url": "https://mrp.labamu.co.id/orders/",
+    "actual_url": "https://mrp.labamu.co.id/orders/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Order No",
+            "Quote No",
+            "Customer Name",
+            "Priority",
+            "Planned Start",
+            "Planned End",
+            "Created By",
+            "Created At",
+            "Status"
+          ],
+          "rowCount": 23,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "ORD-20260926-000018",
+              "QUO-20260926-000022",
+              "pt soeharto",
+              "Normal",
+              "26/09/2026",
+              "30/09/2026",
+              "Ryan Saputra",
+              "2026-09-26 12:58",
+              "Confirmed"
+            ],
+            [
+              "ORD-20260926-000017",
+              "QUO-20260926-000021",
+              "Bapak Agung",
+              "Normal",
+              "-",
+              "-",
+              "Ryan Saputra",
+              "2026-09-26 12:50",
+              "Not Started"
+            ],
+            [
+              "ORD-20260926-000016",
+              "QUO-20260926-000020",
+              "Superepang",
+              "Normal",
+              "26/09/2026",
+              "30/09/2026",
+              "Ryan Saputra",
+              "2026-09-26 12:41",
+              "Confirmed"
+            ],
+            [
+              "ORD-20260926-000014",
+              "QUO-20260926-000018",
+              "Produksi Internal",
+              "Normal",
+              "26/09/2026",
+              "29/11/2026",
+              "Ryan Saputra",
+              "2026-09-26 12:37",
+              "Confirmed"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Settings",
+        "Not Started\n4",
+        "Waiting for Approval\n0",
+        "Need Revision\n0",
+        "Confirmed\n13",
+        "In Progress\n4",
+        "Ready to Ship\n0",
+        "On Shipping\n0",
+        "Completed\n1",
+        "Cancelled\n0",
+        "Customer",
+        "Order Type",
+        "Status",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search by Order No or Quote No",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "Order No\n\t\nQuote No\n\t\nCustomer Name\n\t\nPriority\n\t\nPlanned Start\n\t\nPlanned End\n\t\nCreated By\n\t\nCreated At\n\t\nStatus"
+      ],
+      "headings": [
+        "Orders"
+      ]
+    }
+  },
+  {
+    "name": "Invoices",
+    "route": "/invoices/",
+    "url": "https://mrp.labamu.co.id/invoices/",
+    "actual_url": "https://mrp.labamu.co.id/invoices/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Invoice No",
+            "Order No",
+            "Type",
+            "Customer",
+            "Issue Date",
+            "Due Date",
+            "Total Due",
+            "Payment Status",
+            "Status"
+          ],
+          "rowCount": 8,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "INV-20260926-000007",
+              "ORD-20260926-000012",
+              "Remaining Payment",
+              "pt soeharto",
+              "2026-09-26",
+              "2026-10-26",
+              "IDR 22,100,000",
+              "Waiting for Payment",
+              "Issued"
+            ],
+            [
+              "INV-20260926-000006",
+              "ORD-20260926-000011",
+              "Remaining Payment",
+              "Bapak Agung",
+              "2026-09-26",
+              "2026-10-26",
+              "IDR 37,500,000",
+              "Payment Confirmed",
+              "Paid"
+            ],
+            [
+              "INV-20260926-000005",
+              "ORD-20260926-000010",
+              "Remaining Payment",
+              "Superepang",
+              "2026-09-26",
+              "2026-10-26",
+              "IDR 75,000,000",
+              "Payment Confirmed",
+              "Paid"
+            ],
+            [
+              "INV-20260926-000003",
+              "ORD-20260926-000008",
+              "Remaining Payment",
+              "Superepang",
+              "2026-09-30",
+              "2026-10-30",
+              "IDR 2,375",
+              "Payment Confirmed",
+              "Paid"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Create Invoice",
+        "Issued\n2",
+        "Paid\n5",
+        "Void\n0",
+        "Cancelled\n0",
+        "Need Revision\n0",
+        "Customer",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search by invoice no...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "Invoice No\n\t\nOrder No\n\t\nType\n\t\nCustomer\n\t\nIssue Date\n\t\nDue Date\n\t\nTotal Due\n\t\nPayment Status\n\t\nStatus"
+      ],
+      "headings": [
+        "Invoices"
+      ]
+    }
+  },
+  {
+    "name": "Invoices Create",
+    "route": "/invoices/create/",
+    "url": "https://mrp.labamu.co.id/invoices/create/",
+    "actual_url": "https://mrp.labamu.co.id/invoices/create/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Save",
+        "Remaining Payment",
+        "Pick a date",
+        "Select files"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Select order",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "name": "",
+          "placeholder": "",
+          "value": "",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [],
+      "headings": []
+    }
+  },
+  {
+    "name": "Purchase Orders",
+    "route": "/purchase-orders/",
+    "url": "https://mrp.labamu.co.id/purchase-orders/",
+    "actual_url": "https://mrp.labamu.co.id/purchase-orders/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "PO No",
+            "Vendor Name",
+            "Total Amount",
+            "PO Date",
+            "Created Date",
+            "Payment Status",
+            "PO Status"
+          ],
+          "rowCount": 11,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "PO-202609-0069",
+              "Prabowo",
+              "IDR 325,300",
+              "2026-09-26",
+              "2026-09-26",
+              "Unpaid",
+              "Completed"
+            ],
+            [
+              "PO-202609-0068",
+              "Joko",
+              "IDR 2,440,000",
+              "2026-09-26",
+              "2026-09-26",
+              "Unpaid",
+              "Issued"
+            ],
+            [
+              "PO-202609-0067",
+              "Gibran",
+              "IDR 1,138,300",
+              "2026-09-26",
+              "2026-09-26",
+              "Unpaid",
+              "Issued"
+            ],
+            [
+              "PO-202609-0066",
+              "Selamet",
+              "IDR 1,014,700",
+              "2026-09-25",
+              "2026-09-25",
+              "Unpaid",
+              "Completed"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Settings",
+        "New PO",
+        "Draft\n0",
+        "Waiting for Approval\n0",
+        "Issued\n2",
+        "Completed\n8",
+        "Need Revision\n0",
+        "Cancelled\n0",
+        "Created Date",
+        "Payment Status",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search by PO number or vendor name",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "Completed",
+        "Issued",
+        "Issued",
+        "Completed",
+        "Completed",
+        "Completed",
+        "Completed",
+        "Completed",
+        "Completed",
+        "Completed"
+      ],
+      "tabs": [
+        "PO No\n\t\nVendor Name\n\t\nTotal Amount\n\t\nPO Date\n\t\nCreated Date\n\t\nPayment Status\n\t\nPO Status"
+      ],
+      "headings": [
+        "Purchase Orders"
+      ]
+    }
+  },
+  {
+    "name": "Report Financial",
+    "route": "/reports/financial/",
+    "url": "https://mrp.labamu.co.id/reports/financial/",
+    "actual_url": "https://mrp.labamu.co.id/reports/financial/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "By Quantity",
+        "By Value"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "By Quantity",
+        "By Value"
+      ],
+      "headings": [
+        "Financial Report",
+        "Order",
+        "Work Order",
+        "Product",
+        "Invoice"
+      ]
+    }
+  },
+  {
+    "name": "Report Inventory",
+    "route": "/reports/inventory/",
+    "url": "https://mrp.labamu.co.id/reports/inventory/",
+    "actual_url": "https://mrp.labamu.co.id/reports/inventory/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "No",
+            "Material Name",
+            "SKU",
+            "On-Hand Qty",
+            "Classification",
+            "Avg. Daily Allocated (Last 30d)"
+          ],
+          "rowCount": 2,
+          "sampleRows": [
+            [
+              "1",
+              "Telenan Kecil Semi Finish",
+              "MAT-13D72FF8-000014",
+              "1,235 pcs",
+              "A",
+              "33.333333333333336 pcs"
+            ],
+            [
+              "2",
+              "Amplas 150",
+              "MAT-13D72FF8-000006",
+              "1,008 Meter",
+              "A",
+              "0.06666666666666667 Meter"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "No",
+            "Material Name",
+            "SKU",
+            "Classification",
+            "On-Hand Stock",
+            "Average Cost (IDR)",
+            "Inventory Value (IDR)"
+          ],
+          "rowCount": 10,
+          "sampleRows": [
+            [
+              "1",
+              "Amplas 100",
+              "MAT-13D72FF8-000005",
+              "A",
+              "6,310 Meter",
+              "3,965.13",
+              "25,020,000.00"
+            ],
+            [
+              "2",
+              "Double Tape",
+              "MAT-13D72FF8-000002",
+              "A",
+              "1,050 roll",
+              "14,523.81",
+              "15,250,000.00"
+            ],
+            [
+              "3",
+              "Amplas 150",
+              "MAT-13D72FF8-000006",
+              "A",
+              "1,008 Meter",
+              "14,881.19",
+              "15,024,000.00"
+            ],
+            [
+              "4",
+              "Amplas 1000",
+              "MAT-13D72FF8-000010",
+              "A",
+              "1,010 Meter",
+              "14,871.29",
+              "15,020,000.00"
+            ],
+            [
+              "5",
+              "Amplas 240",
+              "MAT-13D72FF8-000007",
+              "A",
+              "1,010 Meter",
+              "14,871.29",
+              "15,020,000.00"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "No\n\t\nMaterial Name\n\t\nSKU\n\t\nOn-Hand Qty\n\t\nClassification\n\t\nAvg. Daily Allocated (Last 30d)",
+        "No\n\t\nMaterial Name\n\t\nSKU\n\t\nClassification\n\t\nOn-Hand Stock\n\t\nAverage Cost (IDR)\n\t\nInventory Value (IDR)"
+      ],
+      "headings": [
+        "Inventory Report",
+        "Material"
+      ]
+    }
+  },
+  {
+    "name": "Report Sales",
+    "route": "/reports/sales/",
+    "url": "https://mrp.labamu.co.id/reports/sales/",
+    "actual_url": "https://mrp.labamu.co.id/reports/sales/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [],
+      "headings": [
+        "Sales Funnel Metric Analysis",
+        "84.62%",
+        "RFQs",
+        "Quotes",
+        "Orders",
+        "Work Orders"
+      ]
+    }
+  },
+  {
+    "name": "Report Work Order",
+    "route": "/reports/work-order/",
+    "url": "https://mrp.labamu.co.id/reports/work-order/",
+    "actual_url": "https://mrp.labamu.co.id/reports/work-order/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Select order",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "-",
+          "value": "",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [],
+      "headings": [
+        "Work Order Monitoring"
+      ]
+    }
+  },
+  {
+    "name": "Report Procurement AP",
+    "route": "/reports/procurement-ap/",
+    "url": "https://mrp.labamu.co.id/reports/procurement-ap/",
+    "actual_url": "https://mrp.labamu.co.id/reports/procurement-ap/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [],
+      "headings": [
+        "Procurement & AP Report",
+        "Purchase Order",
+        "Vendor Liability",
+        "Accounts Payable Aging"
+      ]
+    }
+  },
+  {
+    "name": "User Management",
+    "route": "/user-management/user-groups/",
+    "url": "https://mrp.labamu.co.id/user-management/user-groups/",
+    "actual_url": "https://mrp.labamu.co.id/user-management/user-groups/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Name",
+            "Description",
+            "Created"
+          ],
+          "rowCount": 2,
+          "sampleRows": [
+            [
+              ""
+            ],
+            [
+              "Administration",
+              "Default administration group for owners",
+              "26/02/2026"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "New Group",
+        "1"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "placeholder": "Search user name",
+          "value": "",
+          "id": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "",
+          "placeholder": null,
+          "value": "25",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "Name\n\t\nDescription\n\t\nCreated"
+      ],
+      "headings": [
+        "User Groups"
+      ]
+    }
+  },
+  {
+    "name": "FX Management",
+    "route": "/fx-management/",
+    "url": "https://mrp.labamu.co.id/fx-management/",
+    "actual_url": "https://mrp.labamu.co.id/fx-management/currencies/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Code",
+            "Name",
+            "Active"
+          ],
+          "rowCount": 2,
+          "sampleRows": [
+            [
+              "USD",
+              "US Dollar",
+              ""
+            ],
+            [
+              "IDR",
+              "Indonesian Rupiah",
+              ""
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Currency",
+        "Exchange Rate",
+        "IDR - Indonesian Rupiah",
+        "Save",
+        "Add Currency"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7",
+        "Currency",
+        "Exchange Rate"
+      ],
+      "tabs": [
+        "Currency",
+        "Exchange Rate",
+        "Code\n\t\nName\n\t\nActive"
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "Company Settings",
+    "route": "/company-settings/",
+    "url": "https://mrp.labamu.co.id/company-settings/",
+    "actual_url": "https://mrp.labamu.co.id/company-settings/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Account Name",
+            "Account Number",
+            "Bank Name",
+            "Supported Currencies",
+            "Swift Code",
+            "Branch",
+            "Actions"
+          ],
+          "rowCount": 1,
+          "sampleRows": [
+            [
+              "Ryan Default",
+              "1234567890",
+              "BCA",
+              "USD IDR",
+              "-",
+              "-",
+              ""
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Edit",
+        "Add Bank Account",
+        "Generate New Token"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "Account Name\n\t\nAccount Number\n\t\nBank Name\n\t\nSupported Currencies\n\t\nSwift Code\n\t\nBranch\n\t\nActions"
+      ],
+      "headings": []
+    }
+  },
+  {
+    "name": "Order Simulation",
+    "route": "/order-simulation/",
+    "url": "https://mrp.labamu.co.id/order-simulation/",
+    "actual_url": "https://mrp.labamu.co.id/order-simulation/",
+    "title": "Labamu Manufacturing",
+    "ui": {
+      "tables": [
+        {
+          "headers": [
+            "Product",
+            "Quantity",
+            "Selling Price / Unit",
+            "Forecasted Revenue",
+            ""
+          ],
+          "rowCount": 2,
+          "sampleRows": [
+            [
+              "No products yet. Only products with an attached BOM can be simulated."
+            ],
+            [
+              "+ Add Product"
+            ]
+          ]
+        }
+      ],
+      "buttons": [
+        "Resources",
+        "Manufacturing",
+        "Product",
+        "Sales",
+        "Procurement",
+        "Analytics",
+        "Administration",
+        "EN",
+        "Toggle Sidebar",
+        "7",
+        "Ryan Saputra\n\nOwner",
+        "Reset",
+        "Pick a date",
+        "+ Add Product",
+        "Run Simulation",
+        "I Understand, Continue"
+      ],
+      "inputs": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "placeholder": "Search menu...",
+          "value": "",
+          "id": ""
+        }
+      ],
+      "badges": [
+        "7"
+      ],
+      "tabs": [
+        "Product\n\t\nQuantity\n\t\nSelling Price / Unit\n\t\nForecasted Revenue",
+        "Overview",
+        "Production Planning",
+        "Material Forecast",
+        "Forecasted COGS"
+      ],
+      "headings": [
+        "Order Simulation",
+        "Important Note \u2014 Order Simulation (BETA)"
+      ]
+    }
+  }
+]

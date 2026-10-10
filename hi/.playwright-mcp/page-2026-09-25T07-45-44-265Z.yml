@@ -1,0 +1,155 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e8]:
+    - generic [ref=f9e11]:
+      - generic [ref=f9e12]:
+        - img "Logo" [ref=f9e15]
+        - textbox "Search menu..." [ref=f9e17]
+      - generic [ref=f9e18]:
+        - list [ref=f9e21]:
+          - listitem [ref=f9e22]:
+            - link "Dashboard" [ref=f9e23] [cursor=pointer]:
+              - /url: /
+        - list [ref=f9e28]:
+          - listitem [ref=f9e29]:
+            - button "Resources" [ref=f9e30]
+        - list [ref=f9e39]:
+          - listitem [ref=f9e40]:
+            - button "Manufacturing" [ref=f9e41]
+            - list [ref=f9e47]:
+              - listitem [ref=f9e48]:
+                - link "Bill of Materials" [ref=f9e49] [cursor=pointer]:
+                  - /url: /bill-of-materials/
+              - listitem [ref=f9e51]:
+                - link "Routing" [ref=f9e52] [cursor=pointer]:
+                  - /url: /routing/
+              - listitem [ref=f9e54]:
+                - link "Work Order" [ref=f9e55] [cursor=pointer]:
+                  - /url: /work-orders/
+        - list [ref=f9e59]:
+          - listitem [ref=f9e60]:
+            - button "Product" [ref=f9e61]
+        - list [ref=f9e70]:
+          - listitem [ref=f9e71]:
+            - button "Sales" [ref=f9e72]
+        - list [ref=f9e80]:
+          - listitem [ref=f9e81]:
+            - button "Procurement" [ref=f9e82]
+        - list [ref=f9e93]:
+          - listitem [ref=f9e94]:
+            - button "Analytics" [ref=f9e95]
+        - list [ref=f9e104]:
+          - listitem [ref=f9e105]:
+            - button "Administration" [ref=f9e106]
+        - list [ref=f9e115]:
+          - listitem [ref=f9e116]:
+            - link "User Guide" [ref=f9e117] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f9e124]:
+          - listitem [ref=f9e125]:
+            - link "Order Simulation BETA" [ref=f9e126] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f9e138]: Order Simulation
+              - generic [ref=f9e139]: BETA
+      - button "EN" [ref=f9e141]
+    - main [ref=f9e145]:
+      - generic [ref=f9e146]:
+        - button "Toggle Sidebar" [ref=f9e148]
+        - generic [ref=f9e150]:
+          - button "1" [ref=f9e152] [cursor=pointer]
+          - button [ref=f9e158] [cursor=pointer]:
+            - generic [ref=f9e159]:
+              - paragraph [ref=f9e160]: Bernadus Nurtjahjono
+              - paragraph [ref=f9e161]: Owner
+      - main [ref=f9e163]:
+        - generic [ref=f9e241]:
+          - generic [ref=f9e242]:
+            - generic [ref=f9e243]:
+              - heading "Create Bill of Materials" [level=1] [ref=f9e248] [cursor=pointer]
+              - generic [ref=f9e249]:
+                - generic [ref=f9e250] [cursor=pointer]: Bill of Materials
+                - generic [ref=f9e251]: / Create Bill of Materials
+            - button "Save" [ref=f9e253] [cursor=pointer]
+          - generic [ref=f9e260]:
+            - generic [ref=f9e261]: Bill of Materials Information
+            - separator [ref=f9e263]
+            - generic [ref=f9e264]:
+              - generic [ref=f9e265]:
+                - generic [ref=f9e267]:
+                  - generic [ref=f9e268]: "*"
+                  - text: BOM Name
+                - textbox "* BOM Name" [ref=f9e271]:
+                  - /placeholder: Enter BOM Name
+                  - text: BOM-TBL-SS180-V1
+              - generic [ref=f9e274]:
+                - generic [ref=f9e275]: Description
+                - textbox "Description" [ref=f9e277]:
+                  - /placeholder: Enter BOM Description
+                  - text: Resep formula manufaktur Meja Kerja Industri Stainless Steel 180x90cm
+          - generic [ref=f9e279]:
+            - generic [ref=f9e280]: Material
+            - separator [ref=f9e282]
+            - generic [ref=f9e283]:
+              - table [ref=f9e447]:
+                - rowgroup [ref=f9e448]:
+                  - row [ref=f9e449]:
+                    - columnheader "Material" [ref=f9e450]
+                    - columnheader "Average Cost" [ref=f9e452]
+                    - columnheader "Quantity" [ref=f9e454]
+                    - columnheader "Subtotal" [ref=f9e456]
+                    - columnheader "Actions" [ref=f9e458]
+                - rowgroup [ref=f9e460]:
+                  - row [ref=f9e461]:
+                    - cell [ref=f9e462]:
+                      - generic [ref=f9e463]:
+                        - paragraph [ref=f9e464]: Plat Stainless Steel 304 (2.0 mm)
+                        - paragraph [ref=f9e465]: MAT-SS304-2MM
+                    - cell "IDR 0" [ref=f9e466]
+                    - cell "1" [ref=f9e467]
+                    - cell "IDR 0" [ref=f9e468]
+                    - cell [ref=f9e469]:
+                      - generic [ref=f9e470]:
+                        - button [ref=f9e471] [cursor=pointer]
+                        - button [ref=f9e475] [cursor=pointer]
+              - separator [ref=f9e286]
+              - button "Add Material" [ref=f9e288] [cursor=pointer]
+          - generic [ref=f9e292]:
+            - generic [ref=f9e293]: Routing
+            - generic [ref=f9e294]:
+              - status [ref=f9e295]
+              - paragraph [ref=f9e297]: No routings yet
+              - button "Add Routing" [ref=f9e299] [cursor=pointer]
+          - generic [ref=f9e303]:
+            - generic [ref=f9e304]: Forecasted Cost of Goods Sold
+            - generic [ref=f9e305]:
+              - generic [ref=f9e306]:
+                - generic [ref=f9e307]: Material Cost
+                - generic [ref=f9e308]:
+                  - textbox "-" [disabled]: IDR 0
+                - paragraph [ref=f9e311]: Calculated from the average cost of available stock. If stock is unavailable, the latest batch cost is used.
+              - generic [ref=f9e312]:
+                - generic [ref=f9e313]:
+                  - generic [ref=f9e314]: "*"
+                  - text: Labour Cost
+                - textbox "* Labour Cost" [ref=f9e316]:
+                  - /placeholder: Enter labour cost
+                  - text: IDR 450,000
+              - generic [ref=f9e317]:
+                - generic [ref=f9e318]:
+                  - generic [ref=f9e319]: "*"
+                  - text: Packing Cost
+                - textbox "* Packing Cost" [ref=f9e321]:
+                  - /placeholder: Enter packing cost
+                  - text: IDR 67,000
+              - generic [ref=f9e322]:
+                - generic [ref=f9e323]:
+                  - generic [ref=f9e324]: "*"
+                  - text: Other Cost
+                - textbox "* Other Cost" [ref=f9e326]:
+                  - /placeholder: Enter other cost
+                  - text: IDR 200,000
+              - generic [ref=f9e327]:
+                - generic [ref=f9e328]: Total Cost
+                - generic [ref=f9e329]:
+                  - textbox "-" [disabled]: IDR 717,000
+  - region "Notifications alt+T"
+  - alert [ref=f9e7]

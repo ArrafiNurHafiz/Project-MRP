@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Dashboard",
+    "href": "/"
+  },
+  {
+    "text": "Product Catalog",
+    "href": "/products/"
+  },
+  {
+    "text": "Custom Products Request",
+    "href": "/custom-products-request/"
+  },
+  {
+    "text": "User Guide",
+    "href": "/help/user-guide/"
+  },
+  {
+    "text": "Order Simulation | BETA",
+    "href": "/order-simulation/"
+  }
+]

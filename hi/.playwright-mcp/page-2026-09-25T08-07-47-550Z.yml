@@ -1,0 +1,225 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e19]:
+    - generic [ref=f11e22]:
+      - generic [ref=f11e23]:
+        - img "Logo" [ref=f11e26]
+        - textbox "Search menu..." [ref=f11e28]
+      - generic [ref=f11e29]:
+        - list [ref=f11e32]:
+          - listitem [ref=f11e33]:
+            - link "Dashboard" [ref=f11e34] [cursor=pointer]:
+              - /url: /
+        - list [ref=f11e39]:
+          - listitem [ref=f11e40]:
+            - button "Resources" [ref=f11e41]
+        - list [ref=f11e50]:
+          - listitem [ref=f11e51]:
+            - button "Manufacturing" [ref=f11e52]
+        - list [ref=f11e60]:
+          - listitem [ref=f11e61]:
+            - button "Product" [ref=f11e62]
+        - list [ref=f11e71]:
+          - listitem [ref=f11e72]:
+            - button "Sales" [ref=f11e73]
+        - list [ref=f11e81]:
+          - listitem [ref=f11e82]:
+            - button "Procurement" [ref=f11e83]
+        - list [ref=f11e94]:
+          - listitem [ref=f11e95]:
+            - button "Analytics" [ref=f11e96]
+        - list [ref=f11e105]:
+          - listitem [ref=f11e106]:
+            - button "Administration" [ref=f11e107]
+        - list [ref=f11e116]:
+          - listitem [ref=f11e117]:
+            - link "User Guide" [ref=f11e118] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f11e125]:
+          - listitem [ref=f11e126]:
+            - link "Order Simulation BETA" [ref=f11e127] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f11e139]: Order Simulation
+              - generic [ref=f11e140]: BETA
+      - button "EN" [ref=f11e142]
+    - main [ref=f11e146]:
+      - generic [ref=f11e147]:
+        - button "Toggle Sidebar" [ref=f11e149]
+        - generic [ref=f11e151]:
+          - button "1" [ref=f11e153] [cursor=pointer]
+          - button [ref=f11e159] [cursor=pointer]:
+            - generic [ref=f11e160]:
+              - paragraph [ref=f11e161]: Bernadus Nurtjahjono
+              - paragraph [ref=f11e162]: Owner
+      - main [ref=f11e164]:
+        - generic [ref=f11e165]:
+          - generic [ref=f11e166]:
+            - generic [ref=f11e167]:
+              - generic [ref=f11e168]:
+                - heading "Order Simulation" [level=1] [ref=f11e169]
+                - generic [ref=f11e170]: BETA
+              - paragraph [ref=f11e171]: Simulate a potential customer order and see the impact on production, materials, and forecasted profitability.
+            - button "Reset" [ref=f11e173]
+          - generic [ref=f11e174]:
+            - generic [ref=f11e177]:
+              - generic [ref=f11e178]:
+                - paragraph [ref=f11e179]: Order Simulation
+                - paragraph [ref=f11e180]: Add products and quantities to simulate the production, material, and cost impact of a potential Order.
+              - generic [ref=f11e183]:
+                - generic [ref=f11e184]:
+                  - generic [ref=f11e185]: "*"
+                  - text: Order Required Date
+                - generic [ref=f11e186]:
+                  - button "30/09/2026" [ref=f11e326]
+                  - button "Clear date" [ref=f11e327] [cursor=pointer]
+            - generic [ref=f11e189]:
+              - table [ref=f11e192]:
+                - rowgroup [ref=f11e193]:
+                  - row [ref=f11e194]:
+                    - columnheader "Product" [ref=f11e195]
+                    - columnheader "Quantity" [ref=f11e197]
+                    - columnheader "Selling Price / Unit" [ref=f11e199]
+                    - columnheader "Forecasted Revenue" [ref=f11e201]
+                    - columnheader [ref=f11e206]
+                - rowgroup [ref=f11e207]:
+                  - row [ref=f11e385]:
+                    - cell [ref=f11e364]:
+                      - paragraph [ref=f11e365]: Meja Kerja Industri Stainless Steel 180x90cm
+                      - paragraph [ref=f11e366]: PROD-TBL-SS180 · BOM attached
+                    - cell [ref=f11e367]:
+                      - group [ref=f11e370]:
+                        - textbox [ref=f11e372]: "10"
+                        - group [ref=f11e375]:
+                          - generic [ref=f11e376]: pcs
+                    - cell "IDR 6,500,000" [ref=f11e377]
+                    - cell "IDR 65,000,000" [ref=f11e386]
+                    - cell [ref=f11e379]:
+                      - button "Remove Meja Kerja Industri Stainless Steel 180x90cm" [ref=f11e380]
+                  - row [ref=f11e381]:
+                    - cell [ref=f11e382]:
+                      - button "+ Add Product" [ref=f11e383]
+                - rowgroup [ref=f11e213]:
+                  - row [ref=f11e387]:
+                    - cell "TOTAL" [ref=f11e215]
+                    - cell "10 pcs" [ref=f11e388]
+                    - cell [ref=f11e217]
+                    - cell "IDR 65,000,000" [ref=f11e389]
+                    - cell [ref=f11e219]
+              - button "Run Simulation" [ref=f11e384]
+          - generic [ref=f11e221]:
+            - navigation [ref=f11e222]:
+              - tab "Overview" [selected] [ref=f11e223] [cursor=pointer]
+              - tab "Production Planning" [ref=f11e224] [cursor=pointer]
+              - tab "Material Forecast" [ref=f11e225] [cursor=pointer]
+              - tab "Forecasted COGS" [ref=f11e226] [cursor=pointer]
+            - generic [ref=f11e390]:
+              - generic [ref=f11e391]:
+                - heading "Simulation Overview" [level=3] [ref=f11e392]
+                - generic [ref=f11e393]: Order On Track
+              - generic [ref=f11e394]:
+                - heading "Simulation Summary" [level=3] [ref=f11e397]
+                - paragraph [ref=f11e399]: "1 materials are short; MAT-SS304-2MM is the most critical, short by 10 pcs with no production time on record. Next step: raise POs for the 1 short materials, estimated Rp 0. Total production effort is 10 hours, 100% of it on Pemotongan Plat & Pipa Laser CNC — check against your own capacity."
+              - generic [ref=f11e400]:
+                - generic [ref=f11e401]:
+                  - paragraph [ref=f11e402]: Can this order meet the required date?
+                  - paragraph [ref=f11e403]: Yes — every product can still meet the required date
+                  - paragraph [ref=f11e404]: Every product can still be finished by the Required Date. The Order is complete only when all products are finished.
+                - generic [ref=f11e405]:
+                  - generic [ref=f11e406]:
+                    - paragraph [ref=f11e407]: Required Date
+                    - paragraph [ref=f11e408]: 30 Sep 2026
+                  - generic [ref=f11e409]:
+                    - paragraph [ref=f11e410]:
+                      - generic [ref=f11e411]: Projected Order Completion
+                    - paragraph [ref=f11e414]: 30 Sep 2026
+              - generic [ref=f11e417]:
+                - generic [ref=f11e418]:
+                  - paragraph [ref=f11e419]:
+                    - generic [ref=f11e420]: Overall Feasibility
+                  - generic [ref=f11e423]: AT RISK
+                  - paragraph [ref=f11e425]: Material shortage detected before the required date.
+                - generic [ref=f11e426]:
+                  - paragraph [ref=f11e427]:
+                    - generic [ref=f11e428]: Recommended Start
+                  - generic [ref=f11e431]: 28 Sep 2026
+                  - paragraph [ref=f11e432]: earliest start across all products
+                - generic [ref=f11e433]:
+                  - paragraph [ref=f11e434]:
+                    - generic [ref=f11e435]: Total Quantity
+                  - generic [ref=f11e438]: 10 units
+                - generic [ref=f11e439]:
+                  - paragraph [ref=f11e440]:
+                    - generic [ref=f11e441]: Estimated Production Effort
+                  - generic [ref=f11e444]: 10 hrs
+                  - paragraph [ref=f11e445]: from the attached BOM routing
+              - generic [ref=f11e446]:
+                - generic [ref=f11e447]:
+                  - generic [ref=f11e448]:
+                    - heading "Production Planning Summary" [level=3] [ref=f11e449]
+                    - generic [ref=f11e450]:
+                      - generic [ref=f11e451]: 0 Cannot Meet
+                      - generic [ref=f11e452]: 0 Start Today
+                      - generic [ref=f11e453]: 1 Can Meet
+                  - button "View details" [ref=f11e454]
+                - generic [ref=f11e457]:
+                  - table [ref=f11e460]:
+                    - rowgroup [ref=f11e461]:
+                      - row [ref=f11e462]:
+                        - columnheader "Product" [ref=f11e463]
+                        - columnheader "Qty" [ref=f11e465]
+                        - columnheader "Recommended Start" [ref=f11e467]
+                        - columnheader "Estimated Finish" [ref=f11e472]
+                        - columnheader "Status" [ref=f11e477]
+                    - rowgroup [ref=f11e482]:
+                      - row [ref=f11e483]:
+                        - cell "Meja Kerja Industri Stainless Steel 180x90cm" [ref=f11e484]
+                        - cell "10" [ref=f11e485]
+                        - cell "28 Sep 2026" [ref=f11e486]
+                        - cell "30 Sep 2026" [ref=f11e487]
+                        - cell "Can Meet Recommended start is still upcoming" [ref=f11e488]:
+                          - generic [ref=f11e489]: Can Meet
+                          - paragraph [ref=f11e490]: Recommended start is still upcoming
+                  - paragraph [ref=f11e495]: "Overall production result: Meja Kerja Industri Stainless Steel 180x90cm can still start on 28 Sep 2026."
+              - generic [ref=f11e496]:
+                - generic [ref=f11e497]:
+                  - heading "Material Forecast Summary" [level=3] [ref=f11e499]
+                  - button "View details" [ref=f11e500]
+                - generic [ref=f11e503]:
+                  - generic [ref=f11e504]:
+                    - generic [ref=f11e505]:
+                      - paragraph [ref=f11e506]:
+                        - generic [ref=f11e507]: Material Shortages
+                      - generic [ref=f11e510]: 1 of 1
+                      - generic [ref=f11e511]:
+                        - generic [ref=f11e512]: 0 Enough
+                        - generic [ref=f11e513]: 0 Low
+                    - generic [ref=f11e514]:
+                      - paragraph [ref=f11e515]:
+                        - generic [ref=f11e516]: Estimated Purchase Needed
+                      - generic [ref=f11e519]: IDR 0
+                  - paragraph [ref=f11e521]: Material availability is calculated from on hand + incoming − existing demand − simulation requirement. No purchase order is created.
+              - generic [ref=f11e522]:
+                - generic [ref=f11e523]:
+                  - heading "Forecasted COGS Summary" [level=3] [ref=f11e525]
+                  - button "View details" [ref=f11e526]
+                - generic [ref=f11e529]:
+                  - generic [ref=f11e530]:
+                    - generic [ref=f11e531]:
+                      - paragraph [ref=f11e532]:
+                        - generic [ref=f11e533]: Forecasted Revenue
+                      - generic [ref=f11e536]: IDR 65m
+                    - generic [ref=f11e537]:
+                      - paragraph [ref=f11e538]:
+                        - generic [ref=f11e539]: Forecasted COGS
+                      - generic [ref=f11e542]: IDR 7.2m
+                    - generic [ref=f11e543]:
+                      - paragraph [ref=f11e544]:
+                        - generic [ref=f11e545]: Gross Profit
+                      - generic [ref=f11e548]: IDR 57.8m
+                    - generic [ref=f11e549]:
+                      - paragraph [ref=f11e550]:
+                        - generic [ref=f11e551]: Gross Margin
+                      - generic [ref=f11e554]: 89%
+                  - paragraph [ref=f11e556]: Selling price is taken from the Product Catalog. Forecasted COGS is the attached BOM total COGS, multiplied by the ordered quantity.
+              - paragraph [ref=f11e560]: This is a simulation only. No Order, Work Order, Material Request, inventory reservation, stock movement, or Purchase Order will be created.
+  - region "Notifications alt+T"
+  - alert [ref=f11e231]

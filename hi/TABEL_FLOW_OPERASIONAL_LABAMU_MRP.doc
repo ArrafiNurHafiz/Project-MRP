@@ -1,0 +1,365 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>Buku Tabel Flow Operasional Labamu MRP</title>
+<style>
+body {
+    font-family: 'Segoe UI', 'Calibri', Arial, sans-serif;
+    font-size: 10pt;
+    line-height: 1.5;
+    color: #1e293b;
+    margin: 30px;
+}
+h1 {
+    color: #0f172a;
+    font-size: 18pt;
+    font-weight: 800;
+    border-bottom: 2.5px solid #1476FF;
+    padding-bottom: 6px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #1476FF;
+    font-size: 13pt;
+    font-weight: 700;
+    border-bottom: 1px solid #cbd5e1;
+    padding-bottom: 4px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 12px 0 20px 0;
+    font-size: 9.5pt;
+}
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 6px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+th {
+    background-color: #1476FF;
+    color: #ffffff;
+    font-weight: 600;
+}
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+.badge-blue { background-color: #dbeafe; color: #1e40af; font-weight: bold; padding: 2px 5px; border-radius: 3px; font-size: 8.5pt; }
+.badge-green { background-color: #dcfce7; color: #15803d; font-weight: bold; padding: 2px 5px; border-radius: 3px; font-size: 8.5pt; }
+.badge-amber { background-color: #fef3c7; color: #b45309; font-weight: bold; padding: 2px 5px; border-radius: 3px; font-size: 8.5pt; }
+.badge-gray { background-color: #f1f5f9; color: #475569; font-weight: bold; padding: 2px 5px; border-radius: 3px; font-size: 8.5pt; }
+.btn-name {
+    font-weight: bold;
+    color: #0f172a;
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 9pt;
+}
+</style>
+</head>
+<body>
+
+<h1>BUKU TABEL FLOW OPERASIONAL LABAMU MANUFACTURING (MRP)</h1>
+<p><strong>Panduan Praktis Langkah-demi-Langkah Sesuai Tombol, Menu, dan Form Aktual Website:</strong> <code>https://mrp.labamu.co.id/</code></p>
+
+<hr>
+
+<h2>TABEL 1: PERSIAPAN MASTER DATA PRODUKSI</h2>
+<table>
+    <thead>
+        <tr>
+            <th style="width: 5%;">No</th>
+            <th style="width: 18%;">Aktivitas / Tahap</th>
+            <th style="width: 12%;">Pelaksana</th>
+            <th style="width: 18%;">Menu Sidebar</th>
+            <th style="width: 15%;">Tombol yang Diklik</th>
+            <th style="width: 32%;">Form, Input & Pilihan yang Diisi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>1.1</strong></td>
+            <td>Daftarkan Bahan Baku</td>
+            <td>Gudang / Purchasing</td>
+            <td><code>Resources</code> &rarr; <code>Materials</code></td>
+            <td><span class="btn-name">New Material</span></td>
+            <td>1. <code>* Material Name</code>: Nama bahan (misal: <em>Plat Baja 2mm</em>)<br>2. <code>SKU</code>: Kosongkan (auto-generate)<br>3. <code>* Category</code>: Kategori bahan<br>4. <code>* ABC Classification</code>: <code>A - High Value</code> / <code>B</code> / <code>C</code><br>5. <code>* Material Type</code>: <code>Raw Material</code> / <code>Packaging</code><br>6. <code>* Unit of Measure</code>: <code>PCS</code>, <code>KG</code>, <code>METER</code>, <code>LITER</code><br>7. Klik <span class="btn-name">Save</span></td>
+        </tr>
+        <tr>
+            <td><strong>1.2</strong></td>
+            <td>Daftarkan Vendor Pemasok & Maklon</td>
+            <td>Purchasing</td>
+            <td><code>Resources</code> &rarr; <code>Vendors</code></td>
+            <td><span class="btn-name">+ Add Vendor</span></td>
+            <td>1. <code>* Vendor Name</code>: Nama vendor<br>2. <code>Alias</code>, <code>PIC Name</code>, <code>PIC Email</code>, <code>PIC Phone</code><br>3. <code>Business Address</code>: Alamat pabrik vendor<br>4. <code>Status</code>: Toggle <code>ACTIVE</code> &rarr; Klik <span class="btn-name">Save</span></td>
+        </tr>
+        <tr>
+            <td><strong>1.3</strong></td>
+            <td>Daftarkan Customer Pembeli</td>
+            <td>Sales Admin</td>
+            <td><code>Resources</code> &rarr; <code>Customers</code></td>
+            <td><span class="btn-name">+ Add Customer</span></td>
+            <td>1. <code>* Customer Name</code>: Nama PT pembeli<br>2. <code>* Customer Address</code>: Alamat kirim<br>3. Klik <span class="btn-name">Add PIC</span>: Nama, Email, Role (<code>Approver</code>), No Telp &rarr; Klik <span class="btn-name">Save</span></td>
+        </tr>
+        <tr>
+            <td><strong>1.4</strong></td>
+            <td>Buat Alur Stasiun Kerja (Routing)</td>
+            <td>Engineering / PPIC</td>
+            <td><code>Manufacturing</code> &rarr; <code>Routing</code></td>
+            <td><span class="btn-name">Add Routing</span></td>
+            <td>1. <code>* Routing Name</code>: Nama alur pengerjaan<br>2. Klik <span class="btn-name">+ Add Operation</span> berurutan (misal: <em>Pemotongan</em>, <em>Pengelasan</em>, <em>Finishing Powder Coating</em>, <em>QC & Packing</em>)<br>3. Klik <span class="btn-name">Save Routing</span></td>
+        </tr>
+        <tr>
+            <td><strong>1.5</strong></td>
+            <td>Susun Formula Resep Produksi (BOM)</td>
+            <td>Engineering / PPIC</td>
+            <td><code>Manufacturing</code> &rarr; <code>Bill of Materials</code></td>
+            <td><span class="btn-name">+ Create BOM</span></td>
+            <td>1. <code>* BOM Name</code>: Nama formula BOM<br>2. Klik <span class="btn-name">+ Add Material</span>: Pilih material, isi <code>Quantity</code> & <code>Waste %</code><br>3. Klik <span class="btn-name">+ Add Routing</span>: Pilih routing step 1.4<br>4. Isi <code>* Labour Cost</code>, <code>* Packing Cost</code>, <code>* Other Cost</code> &rarr; Klik <span class="btn-name">Save</span></td>
+        </tr>
+        <tr>
+            <td><strong>1.6</strong></td>
+            <td>Daftarkan Produk Jadi Siap Jual</td>
+            <td>Sales / PPIC</td>
+            <td><code>Product</code> &rarr; <code>Product Catalog</code></td>
+            <td><span class="btn-name">+ Create Product</span></td>
+            <td>1. <code>* Product Name</code>: Nama produk jadi<br>2. <code>* Category</code>: Kategori produk &rarr; <code>Status</code>: <code>Active</code><br>3. <code>Bill of Materials</code>: <strong>Pilih BOM dari step 1.5</strong><br>4. <code>* Lead Time</code>: Angka & satuan (<code>Week(s)</code>)<br>5. <code>* Selling Price</code>: Klik <span class="btn-name">Add Price</span>, isi harga jual &rarr; Klik <span class="btn-name">Save</span></td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>TABEL 2: SIKLUS PEMICU PRODUKSI (SALES FLOW)</h2>
+<table>
+    <thead>
+        <tr>
+            <th style="width: 5%;">No</th>
+            <th style="width: 18%;">Aktivitas / Tahap</th>
+            <th style="width: 12%;">Pelaksana</th>
+            <th style="width: 18%;">Menu Sidebar</th>
+            <th style="width: 15%;">Tombol yang Diklik</th>
+            <th style="width: 32%;">Form, Input & Hasil Sistem</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>2.1</strong></td>
+            <td>Buat Permintaan Harga (RFQ)</td>
+            <td>Marketing / Sales</td>
+            <td><code>Sales</code> &rarr; <code>Request for Quotes</code></td>
+            <td><span class="btn-name">+ Create RFQ</span></td>
+            <td>1. Pilih <code>* Customer Name</code> & PIC<br>2. Klik <span class="btn-name">+ Add Product</span>: Pilih produk & isi <code>Quantity</code><br>3. Klik <span class="btn-name">Submit RFQ</span></td>
+        </tr>
+        <tr>
+            <td><strong>2.2</strong></td>
+            <td>Buat Surat Penawaran (Quotes)</td>
+            <td>Sales Admin</td>
+            <td><code>Sales</code> &rarr; <code>Quotes</code></td>
+            <td><span class="btn-name">+ Create Quote</span></td>
+            <td>1. <code>* Currency</code>: <code>IDR</code>, <code>Down Payment %</code>: <code>50%</code><br>2. <code>* Valid Until</code>: Tanggal expired penawaran<br>3. Pilih Produk dari RFQ, set PPN <code>11%</code> & ongkir<br>4. Pilih <code>* Bank Account</code> & <code>* Payment Terms</code> &rarr; Klik <span class="btn-name">Submit</span></td>
+        </tr>
+        <tr>
+            <td><strong>2.3</strong></td>
+            <td>Konfirmasi Pesanan Pelanggan</td>
+            <td>Sales Admin / Manager</td>
+            <td><code>Sales</code> &rarr; <code>Orders</code></td>
+            <td>Buka Order &rarr; <span class="btn-name">Approve</span></td>
+            <td>Verifikasi pesanan & pembayaran DP customer &rarr; Klik Approve.<br><strong>SISTEM OTOMATIS:</strong> Status SO menjadi <span class="badge-green">Confirmed</span> & <strong>Work Order (SPK) otomatis terbuat di `/work-orders`</strong>.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>TABEL 3: ALOKASI BAHAN BAKU & PENGADAAN (AUTO ALLOCATE & PO)</h2>
+<table>
+    <thead>
+        <tr>
+            <th style="width: 5%;">No</th>
+            <th style="width: 18%;">Aktivitas / Tahap</th>
+            <th style="width: 12%;">Pelaksana</th>
+            <th style="width: 18%;">Menu Sidebar</th>
+            <th style="width: 15%;">Tombol yang Diklik</th>
+            <th style="width: 32%;">Form, Input & Hasil Sistem</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>3.1</strong></td>
+            <td>Buka Detail Work Order (SPK)</td>
+            <td>PPIC</td>
+            <td><code>Manufacturing</code> &rarr; <code>Work Order</code></td>
+            <td>Klik baris Work Order</td>
+            <td>Buka detail SPK berstatus <span class="badge-gray">Not Started</span></td>
+        </tr>
+        <tr>
+            <td><strong>3.2</strong></td>
+            <td>Eksekusi Alokasi Bahan Gudang</td>
+            <td>PPIC</td>
+            <td>Detail Work Order</td>
+            <td><span class="btn-name">Auto Allocate</span></td>
+            <td>Klik tombol untuk mencocokkan stok gudang dengan kebutuhan BOM.</td>
+        </tr>
+        <tr>
+            <td><strong>3.3A</strong></td>
+            <td><strong>Kondisi Stok CUKUP</strong></td>
+            <td>Sistem & PPIC</td>
+            <td>Detail Work Order</td>
+            <td>-</td>
+            <td>Seluruh material teralokasi &rarr; Status WO berubah otomatis menjadi: <span class="badge-blue">Ready to Process</span>.</td>
+        </tr>
+        <tr>
+            <td><strong>3.3B</strong></td>
+            <td><strong>Kondisi Stok KURANG</strong></td>
+            <td>PPIC</td>
+            <td>Detail Work Order</td>
+            <td><span class="btn-name">Request Material</span></td>
+            <td>Material shortage &rarr; Klik tombol &rarr; Permintaan bahan masuk ke <code>Resources</code> &rarr; <code>Material Requests</code>.</td>
+        </tr>
+        <tr>
+            <td><strong>3.4</strong></td>
+            <td>Beli Bahan Kurang via PO</td>
+            <td>Purchasing</td>
+            <td><code>Procurement</code> &rarr; <code>Purchase Orders</code></td>
+            <td><span class="btn-name">New PO</span></td>
+            <td>1. Pilih <code>* Vendor Name</code>, tgl PO, tgl kirim<br>2. Klik <span class="btn-name">+ Add PO Line</span>: Pilih material kurang, isi Qty & harga &rarr; Klik <span class="btn-name">Submit PO</span></td>
+        </tr>
+        <tr>
+            <td><strong>3.5</strong></td>
+            <td>Terima Bahan Masuk Gudang</td>
+            <td>Petugas Gudang</td>
+            <td><code>Procurement</code> &rarr; <code>Purchase Orders</code></td>
+            <td>Buka PO &rarr; Tab <code>Receipt</code> &rarr; <span class="btn-name">Receive</span></td>
+            <td>Saat kiriman vendor tiba: input jumlah fisik diterima & no batch &rarr; Klik <span class="btn-name">Receive</span>. Stok di <code>Materials</code> bertambah riil.</td>
+        </tr>
+        <tr>
+            <td><strong>3.6</strong></td>
+            <td>Alokasi Ulang Bahan ke SPK</td>
+            <td>PPIC</td>
+            <td><code>Manufacturing</code> &rarr; <code>Work Order</code></td>
+            <td>Buka SPK &rarr; <span class="btn-name">Auto Allocate</span></td>
+            <td>Klik ulang Auto Allocate &rarr; Bahan terpenuhi &rarr; Status WO: <span class="badge-blue">Ready to Process</span>.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>TABEL 4: EKSEKUSI PRODUKSI IN-HOUSE & SUBKONTRAK FINISHING</h2>
+<table>
+    <thead>
+        <tr>
+            <th style="width: 5%;">No</th>
+            <th style="width: 18%;">Aktivitas / Tahap</th>
+            <th style="width: 12%;">Pelaksana</th>
+            <th style="width: 18%;">Menu Sidebar</th>
+            <th style="width: 15%;">Tombol yang Diklik</th>
+            <th style="width: 32%;">Form, Input & Hasil Sistem</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>4.1</strong></td>
+            <td>Mulai Pengerjaan SPK</td>
+            <td>Kepala Pabrik / PPIC</td>
+            <td><code>Manufacturing</code> &rarr; <code>Work Order</code></td>
+            <td>Buka WO &rarr; <span class="btn-name">Start Process</span></td>
+            <td>Klik tombol &rarr; Status Work Order resmi berubah: <span class="badge-amber">In Progress</span>.</td>
+        </tr>
+        <tr>
+            <td><strong>4.2</strong></td>
+            <td>Eksekusi Tahap In-House Pabrik</td>
+            <td>Operator Mesin / Supervisor</td>
+            <td>Detail SPK &rarr; Tab <em>Routing Progress</em></td>
+            <td><span class="btn-name">Manage</span> pada operasi terkait</td>
+            <td>Operator selesai memotong/mengelas &rarr; Pada popup Manage: isi angka kuantitas selesai pada kolom <code>Completed</code> &rarr; Klik <span class="btn-name">Save</span> (Progres 100%).</td>
+        </tr>
+        <tr>
+            <td><strong>4.3</strong></td>
+            <td>Kirim Benda Kerja ke Vendor Finishing</td>
+            <td>PPIC / Logistik</td>
+            <td>Detail SPK &rarr; Operasi Finishing</td>
+            <td><span class="btn-name">Assign Vendor</span> &rarr; <span class="btn-name">Release to Vendor</span></td>
+            <td>1. Pilih Vendor finishing & PO Jasa<br>2. Klik Release to Vendor & cetak Surat Jalan kirim benda setengah jadi &rarr; Status: <code>Waiting Receipt</code>.</td>
+        </tr>
+        <tr>
+            <td><strong>4.4</strong></td>
+            <td>Terima & QC Hasil Finishing Vendor</td>
+            <td>QC & Gudang</td>
+            <td><code>Procurement</code> &rarr; <code>Purchase Orders</code> (PO Jasa)</td>
+            <td>Buka PO &rarr; Tab <code>Receipt</code> &rarr; <span class="btn-name">Confirm Receipt</span></td>
+            <td>Inspeksi kualitas cat/coating:<br>• <strong>Lolos QC:</strong> Masukkan Qty lolos &rarr; Klik Confirm Receipt &rarr; Progres operasi finishing di WO otomatis 100% Selesai.<br>• <strong>Cacat/Baret:</strong> Terima parsial & sistem cetak surat jalan retur rework garansi (Rp 0).</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>TABEL 5: QC AKHIR, SELESAI WORK ORDER & PENAGIHAN INVOICE</h2>
+<table>
+    <thead>
+        <tr>
+            <th style="width: 5%;">No</th>
+            <th style="width: 18%;">Aktivitas / Tahap</th>
+            <th style="width: 12%;">Pelaksana</th>
+            <th style="width: 18%;">Menu Sidebar</th>
+            <th style="width: 15%;">Tombol yang Diklik</th>
+            <th style="width: 32%;">Form, Input & Hasil Sistem</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>5.1</strong></td>
+            <td>Inspeksi QC Akhir Produk Jadi</td>
+            <td>Tim QC</td>
+            <td>Detail SPK &rarr; Tab <em>Quality Control</em></td>
+            <td><span class="btn-name">Approve QC</span></td>
+            <td>Periksa mutu produk rakitan akhir &rarr; Masukkan <code>Passed Qty: 10</code>, <code>Rejected Qty: 0</code> &rarr; Klik Approve QC. Status: <span class="badge-green">Quality Control Passed</span>.</td>
+        </tr>
+        <tr>
+            <td><strong>5.2</strong></td>
+            <td>Penutupan Selesai SPK</td>
+            <td>Kepala Pabrik / PPIC</td>
+            <td>Detail Work Order</td>
+            <td><span class="btn-name">Complete Work Order</span></td>
+            <td>Klik tombol.<br><strong>DAMPAK OTOMATIS SISTEM:</strong><br>1. Bahan baku batch terpotong dari gudang.<br>2. Stok produk jadi bertambah di `/products/`.<br>3. Status SO di `/orders/` otomatis menjadi: <span class="badge-green">Ready to Ship</span>.</td>
+        </tr>
+        <tr>
+            <td><strong>5.3</strong></td>
+            <td>Pengiriman Barang ke Pelanggan</td>
+            <td>Logistik / Gudang</td>
+            <td><code>Sales</code> &rarr; <code>Orders</code></td>
+            <td>Buka SO &rarr; Tab <em>Shipment</em> &rarr; <span class="btn-name">Dispatch</span></td>
+            <td>Muat produk ke truk &rarr; Cetak fisik Surat Jalan (<span class="btn-name">Print Delivery Order</span>) &rarr; Upload foto jalan & klik Dispatch (Status: <code>On Shipping</code>).</td>
+        </tr>
+        <tr>
+            <td><strong>5.4</strong></td>
+            <td>Konfirmasi Terima BAST di Customer</td>
+            <td>Driver & Admin Logistik</td>
+            <td>Tab <em>Shipment</em> di Sales Order</td>
+            <td><span class="btn-name">Mark as Delivered</span></td>
+            <td>Customer tanda tangan BAST fisik &rarr; Unggah scan BAST basah &rarr; Klik Mark as Delivered (Status SO: <span class="badge-blue">Delivered</span>).</td>
+        </tr>
+        <tr>
+            <td><strong>5.5</strong></td>
+            <td>Terbitkan Faktur Pelunasan (Invoice)</td>
+            <td>Finance</td>
+            <td><code>Sales</code> &rarr; <code>Invoices</code></td>
+            <td><span class="btn-name">+ Create Invoice</span></td>
+            <td>1. <code>* Invoice Type</code>: Pilih <code>Remaining Payment</code> (Pelunasan)<br>2. <code>* Order No</code>: Pilih nomor SO terkait (sisa tagihan otomatis terhitung)<br>3. Set <code>* Issue Date</code> & <code>Due Date</code> &rarr; Klik <span class="btn-name">Save</span></td>
+        </tr>
+        <tr>
+            <td><strong>5.6</strong></td>
+            <td>Catat Pelunasan Pembayaran & Tutup</td>
+            <td>Finance & Sistem</td>
+            <td>Detail Invoice Pelunasan</td>
+            <td><span class="btn-name">Add Payment</span></td>
+            <td>Verifikasi transfer bank masuk &rarr; Isi <code>Payment Amount</code> & upload bukti &rarr; Klik <span class="btn-name">Save</span>.<br><strong>SISTEM MENUTUP PESANAN:</strong> Status SO resmi menjadi: <span class="badge-green">COMPLETED (Closed)</span>.</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+<p style="text-align: center; color: #64748b; font-size: 8.5pt;">&copy; 2026 Labamu Manufacturing (MRP) — Dokumen Tabel Operasional Lengkap</p>
+
+</body>
+</html>

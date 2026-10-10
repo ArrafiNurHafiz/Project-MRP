@@ -1,0 +1,258 @@
+- generic [ref=f10e1]:
+  - generic [ref=f10e8]:
+    - generic [ref=f10e11]:
+      - generic [ref=f10e12]:
+        - img "Logo" [ref=f10e15]
+        - textbox "Search menu..." [ref=f10e17]
+      - generic [ref=f10e18]:
+        - list [ref=f10e21]:
+          - listitem [ref=f10e22]:
+            - link "Dashboard" [ref=f10e23] [cursor=pointer]:
+              - /url: /
+        - list [ref=f10e28]:
+          - listitem [ref=f10e29]:
+            - button "Resources" [ref=f10e30]
+        - list [ref=f10e39]:
+          - listitem [ref=f10e40]:
+            - button "Manufacturing" [ref=f10e41]
+        - list [ref=f10e49]:
+          - listitem [ref=f10e50]:
+            - button "Product" [ref=f10e51]
+            - list [ref=f10e58]:
+              - listitem [ref=f10e59]:
+                - link "Product Catalog" [ref=f10e60] [cursor=pointer]:
+                  - /url: /products/
+              - listitem [ref=f10e62]:
+                - link "Custom Products Request" [ref=f10e63] [cursor=pointer]:
+                  - /url: /custom-products-request/
+        - list [ref=f10e67]:
+          - listitem [ref=f10e68]:
+            - button "Sales" [ref=f10e69]
+        - list [ref=f10e77]:
+          - listitem [ref=f10e78]:
+            - button "Procurement" [ref=f10e79]
+        - list [ref=f10e90]:
+          - listitem [ref=f10e91]:
+            - button "Analytics" [ref=f10e92]
+        - list [ref=f10e101]:
+          - listitem [ref=f10e102]:
+            - button "Administration" [ref=f10e103]
+        - list [ref=f10e112]:
+          - listitem [ref=f10e113]:
+            - link "User Guide" [ref=f10e114] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f10e121]:
+          - listitem [ref=f10e122]:
+            - link "Order Simulation BETA" [ref=f10e123] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f10e135]: Order Simulation
+              - generic [ref=f10e136]: BETA
+      - button "EN" [ref=f10e138]
+    - main [ref=f10e142]:
+      - generic [ref=f10e143]:
+        - button "Toggle Sidebar" [ref=f10e145]
+        - generic [ref=f10e147]:
+          - button "1" [ref=f10e149] [cursor=pointer]
+          - button [ref=f10e155] [cursor=pointer]:
+            - generic [ref=f10e156]:
+              - paragraph [ref=f10e157]: Bernadus Nurtjahjono
+              - paragraph [ref=f10e158]: Owner
+      - main [ref=f10e160]:
+        - generic [ref=f10e161]:
+          - generic [ref=f10e162]:
+            - heading "Create Product" [level=1] [ref=f10e167] [cursor=pointer]
+            - generic [ref=f10e168]:
+              - generic [ref=f10e169] [cursor=pointer]: Product Catalog
+              - generic [ref=f10e170]: / Create Product
+          - generic [ref=f10e171]:
+            - generic [ref=f10e175]:
+              - paragraph [ref=f10e176]: Basic Information
+              - paragraph
+            - generic [ref=f10e180]:
+              - generic [ref=f10e181] [cursor=pointer]: "* Product Name"
+              - textbox "Product Name" [ref=f10e186]: Meja Kerja Industri Stainless Steel 180x90cm
+              - generic [ref=f10e189] [cursor=pointer]:
+                - generic [ref=f10e190]: SKU
+                - generic [ref=f10e191]: If empty, the system will auto-generate the SKU
+              - textbox "Enter SKU" [ref=f10e195]: PROD-TBL-SS180
+              - generic [ref=f10e198] [cursor=pointer]: "* Category"
+              - combobox [ref=f10e201]:
+                - textbox "Select Category" [ref=f10e203]: talenan ( cutting board 001 )
+                - generic [ref=f10e491] [cursor=pointer]
+              - generic [ref=f10e207] [cursor=pointer]: "* Status"
+              - radiogroup [ref=f10e210]:
+                - generic [ref=f10e211]:
+                  - radio "Active" [checked] [ref=f10e212]
+                  - generic [ref=f10e215] [cursor=pointer]: Active
+                - generic [ref=f10e216]:
+                  - radio "Inactive" [ref=f10e217]
+                  - generic [ref=f10e218] [cursor=pointer]: Inactive
+              - generic [ref=f10e219] [cursor=pointer]: Description
+              - textbox "Description" [ref=f10e222]: Meja kerja pabrik stainless steel 304 heavy duty kapasitas 300kg
+              - generic [ref=f10e223]:
+                - generic [ref=f10e224] [cursor=pointer]:
+                  - generic [ref=f10e225]: Product Images
+                  - generic [ref=f10e226]: Max 5MB per image, maximum 5 images
+                - paragraph [ref=f10e230]: Click an image to set as primary.
+              - generic [ref=f10e231]:
+                - paragraph
+                - button [ref=f10e233] [cursor=pointer]:
+                  - paragraph [ref=f10e237]: Upload
+                - paragraph
+          - generic [ref=f10e238]:
+            - generic [ref=f10e242]:
+              - paragraph [ref=f10e243]: Product Specification
+              - paragraph
+            - generic [ref=f10e247]:
+              - generic [ref=f10e248]:
+                - generic [ref=f10e249]: Primary Material
+                - textbox "Primary Material" [ref=f10e253]:
+                  - /placeholder: Enter Primary Material
+                  - text: Stainless Steel 304
+              - generic [ref=f10e256]:
+                - generic [ref=f10e257]: Finishing
+                - textbox "Finishing" [ref=f10e261]:
+                  - /placeholder: Enter Finishing
+                  - text: Hairline & Satin Finish
+              - generic [ref=f10e264]:
+                - generic [ref=f10e265]: Weight
+                - group [ref=f10e267]:
+                  - textbox "Weight" [ref=f10e269]:
+                    - /placeholder: Enter Weight
+                    - text: "45"
+                  - group [ref=f10e272]:
+                    - generic [ref=f10e273]: kg
+          - generic [ref=f10e274]:
+            - generic [ref=f10e278]:
+              - paragraph [ref=f10e279]: Finished Product Dimensions
+              - paragraph
+            - generic [ref=f10e283]:
+              - generic [ref=f10e284]:
+                - generic [ref=f10e285]: Height
+                - group [ref=f10e287]:
+                  - textbox "Height" [ref=f10e289]:
+                    - /placeholder: Enter Height
+                    - text: "85"
+                  - group [ref=f10e292]:
+                    - generic [ref=f10e293]: cm
+              - generic [ref=f10e294]:
+                - generic [ref=f10e295]: Width
+                - group [ref=f10e297]:
+                  - textbox "Width" [ref=f10e299]:
+                    - /placeholder: Enter Width
+                    - text: "90"
+                  - group [ref=f10e302]:
+                    - generic [ref=f10e303]: cm
+              - generic [ref=f10e304]:
+                - generic [ref=f10e305]: Length
+                - group [ref=f10e307]:
+                  - textbox "Length" [ref=f10e309]:
+                    - /placeholder: Enter Length
+                    - text: "180"
+                  - group [ref=f10e312]:
+                    - generic [ref=f10e313]: cm
+          - generic [ref=f10e314]:
+            - generic [ref=f10e318]:
+              - paragraph [ref=f10e319]: Packed Product Dimensions
+              - paragraph
+            - generic [ref=f10e323]:
+              - generic [ref=f10e324]:
+                - generic [ref=f10e325]: Height
+                - group [ref=f10e327]:
+                  - textbox "Height" [ref=f10e329]:
+                    - /placeholder: Enter Height
+                  - group [ref=f10e332]:
+                    - generic [ref=f10e333]: cm
+              - generic [ref=f10e334]:
+                - generic [ref=f10e335]: Width
+                - group [ref=f10e337]:
+                  - textbox "Width" [ref=f10e339]:
+                    - /placeholder: Enter Width
+                  - group [ref=f10e342]:
+                    - generic [ref=f10e343]: cm
+              - generic [ref=f10e344]:
+                - generic [ref=f10e345]: Length
+                - group [ref=f10e347]:
+                  - textbox "Length" [ref=f10e349]:
+                    - /placeholder: Enter Length
+                  - group [ref=f10e352]:
+                    - generic [ref=f10e353]: cm
+          - generic [ref=f10e354]:
+            - generic [ref=f10e358]:
+              - paragraph [ref=f10e359]: Container Capacity
+              - paragraph
+            - generic [ref=f10e363]:
+              - generic [ref=f10e364]:
+                - generic [ref=f10e365]: 20 ft Container
+                - group [ref=f10e367]:
+                  - textbox "20 ft Container" [ref=f10e369]:
+                    - /placeholder: Enter Capacity
+                  - group [ref=f10e372]:
+                    - generic [ref=f10e373]: units
+              - generic [ref=f10e374]:
+                - generic [ref=f10e375]: 40 ft Container
+                - group [ref=f10e377]:
+                  - textbox "40 ft Container" [ref=f10e379]:
+                    - /placeholder: Enter Capacity
+                  - group [ref=f10e382]:
+                    - generic [ref=f10e383]: units
+              - generic [ref=f10e384]:
+                - generic [ref=f10e385]: 40 ft High Cube Container
+                - group [ref=f10e387]:
+                  - textbox "40 ft High Cube Container" [ref=f10e389]:
+                    - /placeholder: Enter Capacity
+                  - group [ref=f10e392]:
+                    - generic [ref=f10e393]: units
+          - generic [ref=f10e394]:
+            - generic [ref=f10e398]:
+              - paragraph [ref=f10e399]: Pricing & Logistics
+              - paragraph
+            - generic [ref=f10e403]:
+              - generic [ref=f10e404] [cursor=pointer]: Bill of Materials
+              - combobox [ref=f10e407]:
+                - textbox "Select Bill of Materials" [active] [ref=f10e409]: BOM-TBL-SS180-V1
+                - generic [ref=f10e505] [cursor=pointer]
+              - generic [ref=f10e413] [cursor=pointer]: "* Lead Time"
+              - generic [ref=f10e415]:
+                - textbox "Enter Lead Time" [ref=f10e418]: "1"
+                - combobox [ref=f10e421] [cursor=pointer]:
+                  - generic:
+                    - generic "Week(s)"
+              - generic [ref=f10e422] [cursor=pointer]:
+                - generic [ref=f10e423]: Base Price
+                - generic [ref=f10e424]: Base price is auto-filled based on BOM cost of goods sold
+              - generic [ref=f10e426]:
+                - group:
+                  - group:
+                    - generic: IDR
+                  - generic:
+                    - textbox "-" [disabled]: 717,000
+              - generic [ref=f10e427] [cursor=pointer]: "* Selling Price"
+              - group [ref=f10e431]:
+                - group [ref=f10e432]:
+                  - generic [ref=f10e433]: IDR
+                - textbox "Enter selling price" [ref=f10e435]: 6,500,000
+          - generic [ref=f10e438]:
+            - generic [ref=f10e441]:
+              - generic [ref=f10e442]:
+                - paragraph [ref=f10e443]: Sales Price
+                - paragraph
+              - button "Add Price" [ref=f10e446] [cursor=pointer]
+            - table [ref=f10e451]:
+              - rowgroup [ref=f10e452]:
+                - row [ref=f10e453]:
+                  - columnheader "Currency" [ref=f10e454]
+                  - columnheader "Selling Price" [ref=f10e456]
+                  - columnheader "Action" [ref=f10e458]
+              - rowgroup [ref=f10e460]:
+                - row [ref=f10e474]:
+                  - cell "IDR" [ref=f10e462]
+                  - cell [ref=f10e475]:
+                    - generic [ref=f10e464]:
+                      - textbox "-" [disabled]: 6,500,000
+                  - cell [ref=f10e467]
+          - generic [ref=f10e469]:
+            - button "Cancel" [ref=f10e470] [cursor=pointer]
+            - button "Save" [ref=f10e472] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f10e7]

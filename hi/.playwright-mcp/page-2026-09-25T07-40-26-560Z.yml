@@ -1,0 +1,352 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e8]:
+    - generic [ref=f8e11]:
+      - generic [ref=f8e12]:
+        - img "Logo" [ref=f8e15]
+        - textbox "Search menu..." [ref=f8e17]
+      - generic [ref=f8e18]:
+        - list [ref=f8e21]:
+          - listitem [ref=f8e22]:
+            - link "Dashboard" [ref=f8e23] [cursor=pointer]:
+              - /url: /
+        - list [ref=f8e28]:
+          - listitem [ref=f8e29]:
+            - button "Resources" [ref=f8e30]
+            - list [ref=f8e37]:
+              - listitem [ref=f8e38]:
+                - link "Materials" [ref=f8e39] [cursor=pointer]:
+                  - /url: /materials/
+              - listitem [ref=f8e41]:
+                - link "Vendors" [ref=f8e42] [cursor=pointer]:
+                  - /url: /vendors/
+              - listitem [ref=f8e44]:
+                - link "Customers" [ref=f8e45] [cursor=pointer]:
+                  - /url: /customers/
+              - listitem [ref=f8e47]:
+                - link "Material Requests" [ref=f8e48] [cursor=pointer]:
+                  - /url: /material-requests/
+        - list [ref=f8e52]:
+          - listitem [ref=f8e53]:
+            - button "Manufacturing" [ref=f8e54]
+        - list [ref=f8e62]:
+          - listitem [ref=f8e63]:
+            - button "Product" [ref=f8e64]
+        - list [ref=f8e73]:
+          - listitem [ref=f8e74]:
+            - button "Sales" [ref=f8e75]
+        - list [ref=f8e83]:
+          - listitem [ref=f8e84]:
+            - button "Procurement" [ref=f8e85]
+        - list [ref=f8e96]:
+          - listitem [ref=f8e97]:
+            - button "Analytics" [ref=f8e98]
+        - list [ref=f8e107]:
+          - listitem [ref=f8e108]:
+            - button "Administration" [ref=f8e109]
+        - list [ref=f8e118]:
+          - listitem [ref=f8e119]:
+            - link "User Guide" [ref=f8e120] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f8e127]:
+          - listitem [ref=f8e128]:
+            - link "Order Simulation BETA" [ref=f8e129] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f8e141]: Order Simulation
+              - generic [ref=f8e142]: BETA
+      - button "EN" [ref=f8e144]
+    - main [ref=f8e148]:
+      - generic [ref=f8e149]:
+        - button "Toggle Sidebar" [ref=f8e151]
+        - generic [ref=f8e153]:
+          - button "1" [ref=f8e155] [cursor=pointer]
+          - button [ref=f8e161] [cursor=pointer]:
+            - generic [ref=f8e162]:
+              - paragraph [ref=f8e163]: Bernadus Nurtjahjono
+              - paragraph [ref=f8e164]: Owner
+      - main [ref=f8e166]:
+        - generic [ref=f8e471]:
+          - generic [ref=f8e472]:
+            - heading "Materials" [level=1] [ref=f8e473]
+            - generic [ref=f8e474]:
+              - link [ref=f8e475] [cursor=pointer]:
+                - /url: /materials/bulk-upload/
+                - button "Bulk Upload" [ref=f8e476]
+              - link [ref=f8e481] [cursor=pointer]:
+                - /url: /materials/settings/category/
+                - button "Manage" [ref=f8e482]
+              - button "New Material" [ref=f8e487] [cursor=pointer]
+          - generic [ref=f8e491]:
+            - button "A Classification 14" [ref=f8e492] [cursor=pointer]:
+              - generic [ref=f8e493]: A Classification
+              - generic [ref=f8e494]: "14"
+            - button "B Classification 1" [ref=f8e498] [cursor=pointer]:
+              - generic [ref=f8e499]: B Classification
+              - generic [ref=f8e500]: "1"
+            - button "C Classification 0" [ref=f8e504] [cursor=pointer]:
+              - generic [ref=f8e505]: C Classification
+              - generic [ref=f8e506]: "0"
+          - generic [ref=f8e510]:
+            - generic [ref=f8e511]:
+              - generic [ref=f8e512]:
+                - button "Category" [ref=f8e514] [cursor=pointer]
+                - button "Type" [ref=f8e519] [cursor=pointer]
+                - button "Stock Risk Status" [ref=f8e524] [cursor=pointer]
+                - button "Status" [ref=f8e529] [cursor=pointer]
+              - textbox "Search materials by name or SKU..." [ref=f8e539]
+            - table [ref=f8e543]:
+              - rowgroup [ref=f8e544]:
+                - row [ref=f8e545]:
+                  - columnheader "Image" [ref=f8e546]
+                  - columnheader "Name" [ref=f8e548]
+                  - columnheader "Category" [ref=f8e553]
+                  - columnheader "ABC Classification" [ref=f8e555]
+                  - columnheader "Type" [ref=f8e560]
+                  - columnheader "On-Hand Stock" [ref=f8e562]
+                  - columnheader "Average Cost" [ref=f8e567]
+                  - columnheader "Status" [ref=f8e569]
+              - rowgroup [ref=f8e571]:
+                - row [ref=f8e572]:
+                  - cell [ref=f8e573]
+                - row [ref=f8e574] [cursor=pointer]:
+                  - cell [ref=f8e575]:
+                    - img "no image" [ref=f8e577]
+                  - cell "3m AM3M" [ref=f8e578]:
+                    - generic [ref=f8e579]: 3m
+                    - generic [ref=f8e580]: AM3M
+                  - cell "Lakban & Perekat" [ref=f8e581]
+                  - cell "A" [ref=f8e582]
+                  - cell "Finished Material" [ref=f8e585]
+                  - cell [ref=f8e586]:
+                    - generic [ref=f8e587]:
+                      - text: 0 pcs
+                      - img "Out of stock" [ref=f8e588]
+                  - cell "IDR 0" [ref=f8e589]
+                  - cell "Active" [ref=f8e590]
+                - row [ref=f8e592] [cursor=pointer]:
+                  - cell [ref=f8e593]:
+                    - img "no image" [ref=f8e595]
+                  - cell "batu MAT-8AE69E6E-000003" [ref=f8e596]:
+                    - generic [ref=f8e597]: batu
+                    - generic [ref=f8e598]: MAT-8AE69E6E-000003
+                  - cell "Bio Industri" [ref=f8e599]
+                  - cell "A" [ref=f8e600]
+                  - cell "Raw Material" [ref=f8e603]
+                  - cell [ref=f8e604]:
+                    - generic [ref=f8e605]:
+                      - text: 0 Butir
+                      - img "Out of stock" [ref=f8e606]
+                  - cell "IDR 0" [ref=f8e607]
+                  - cell "Inactive" [ref=f8e608]
+                - row [ref=f8e610] [cursor=pointer]:
+                  - cell [ref=f8e611]:
+                    - img "no image" [ref=f8e613]
+                  - cell "baut taping 6666" [ref=f8e614]:
+                    - generic [ref=f8e615]: baut taping
+                    - generic [ref=f8e616]: "6666"
+                  - cell "baut" [ref=f8e617]
+                  - cell "B" [ref=f8e618]
+                  - cell "Raw Material" [ref=f8e621]
+                  - cell [ref=f8e622]:
+                    - generic [ref=f8e623]:
+                      - text: 0 units
+                      - img "Out of stock" [ref=f8e624]
+                  - cell "IDR 0" [ref=f8e625]
+                  - cell "Inactive" [ref=f8e626]
+                - row [ref=f8e628] [cursor=pointer]:
+                  - cell [ref=f8e629]:
+                    - img "no image" [ref=f8e631]
+                  - cell "Bio Warna FBW01" [ref=f8e632]:
+                    - generic [ref=f8e633]: Bio Warna
+                    - generic [ref=f8e634]: FBW01
+                  - cell "Cat & Finishing" [ref=f8e635]
+                  - cell "A" [ref=f8e636]
+                  - cell "Finished Material" [ref=f8e639]
+                  - cell [ref=f8e640]:
+                    - generic [ref=f8e641]:
+                      - text: 0 liter
+                      - img "Out of stock" [ref=f8e642]
+                  - cell "IDR 0" [ref=f8e643]
+                  - cell "Active" [ref=f8e644]
+                - row [ref=f8e646] [cursor=pointer]:
+                  - cell [ref=f8e647]:
+                    - img "no image" [ref=f8e649]
+                  - cell "Double Tape PCDT02" [ref=f8e650]:
+                    - generic [ref=f8e651]: Double Tape
+                    - generic [ref=f8e652]: PCDT02
+                  - cell "Lakban & Perekat" [ref=f8e653]
+                  - cell "A" [ref=f8e654]
+                  - cell "Finished Material" [ref=f8e657]
+                  - cell [ref=f8e658]:
+                    - generic [ref=f8e659]:
+                      - text: 0 roll
+                      - img "Out of stock" [ref=f8e660]
+                  - cell "IDR 0" [ref=f8e661]
+                  - cell "Active" [ref=f8e662]
+                - row [ref=f8e664] [cursor=pointer]:
+                  - cell [ref=f8e665]:
+                    - img "no image" [ref=f8e667]
+                  - cell "Kabel Tise PCKT05" [ref=f8e668]:
+                    - generic [ref=f8e669]: Kabel Tise
+                    - generic [ref=f8e670]: PCKT05
+                  - cell "Packing & Aksesori" [ref=f8e671]
+                  - cell "A" [ref=f8e672]
+                  - cell "Finished Material" [ref=f8e675]
+                  - cell [ref=f8e676]:
+                    - generic [ref=f8e677]:
+                      - text: 0 pack
+                      - img "Out of stock" [ref=f8e678]
+                  - cell "IDR 0" [ref=f8e679]
+                  - cell "Active" [ref=f8e680]
+                - row [ref=f8e682] [cursor=pointer]:
+                  - cell [ref=f8e683]:
+                    - img "no image" [ref=f8e685]
+                  - cell "Kayu Jati KKYU" [ref=f8e686]:
+                    - generic [ref=f8e687]: Kayu Jati
+                    - generic [ref=f8e688]: KKYU
+                  - cell "Kayu" [ref=f8e689]
+                  - cell "A" [ref=f8e690]
+                  - cell "Finished Material" [ref=f8e693]
+                  - cell [ref=f8e694]:
+                    - generic [ref=f8e695]:
+                      - text: 0 m3
+                      - img "Out of stock" [ref=f8e696]
+                  - cell "IDR 0" [ref=f8e697]
+                  - cell "Active" [ref=f8e698]
+                - row [ref=f8e700] [cursor=pointer]:
+                  - cell [ref=f8e701]:
+                    - img "no image" [ref=f8e703]
+                  - cell "Lakban Bening PCLB01" [ref=f8e704]:
+                    - generic [ref=f8e705]: Lakban Bening
+                    - generic [ref=f8e706]: PCLB01
+                  - cell "Lakban & Perekat" [ref=f8e707]
+                  - cell "A" [ref=f8e708]
+                  - cell "Finished Material" [ref=f8e711]
+                  - cell [ref=f8e712]:
+                    - generic [ref=f8e713]:
+                      - text: 0 roll
+                      - img "Out of stock" [ref=f8e714]
+                  - cell "IDR 0" [ref=f8e715]
+                  - cell "Active" [ref=f8e716]
+                - row [ref=f8e718] [cursor=pointer]:
+                  - cell [ref=f8e719]:
+                    - img "no image" [ref=f8e721]
+                  - cell "Lem Presto WLP01" [ref=f8e722]:
+                    - generic [ref=f8e723]: Lem Presto
+                    - generic [ref=f8e724]: WLP01
+                  - cell "Lem" [ref=f8e725]
+                  - cell "A" [ref=f8e726]
+                  - cell "Finished Material" [ref=f8e729]
+                  - cell [ref=f8e730]:
+                    - generic [ref=f8e731]:
+                      - text: 0 kg
+                      - img "Out of stock" [ref=f8e732]
+                  - cell "IDR 0" [ref=f8e733]
+                  - cell "Active" [ref=f8e734]
+                - row [ref=f8e736] [cursor=pointer]:
+                  - cell [ref=f8e737]:
+                    - img "no image" [ref=f8e739]
+                  - cell "Plat Stainless Steel 304 (2.0 mm) MAT-SS304-2MM" [ref=f8e740]:
+                    - generic [ref=f8e741]: Plat Stainless Steel 304 (2.0 mm)
+                    - generic [ref=f8e742]: MAT-SS304-2MM
+                  - cell "Packing & Aksesori" [ref=f8e743]
+                  - cell "A" [ref=f8e744]
+                  - cell "Raw Material" [ref=f8e747]
+                  - cell [ref=f8e748]:
+                    - generic [ref=f8e749]:
+                      - text: 0 pcs
+                      - img "Out of stock" [ref=f8e750]
+                  - cell "IDR 0" [ref=f8e751]
+                  - cell "Active" [ref=f8e752]
+                - row [ref=f8e754] [cursor=pointer]:
+                  - cell [ref=f8e755]:
+                    - img "no image" [ref=f8e757]
+                  - cell "Sanding Sealer FSS01" [ref=f8e758]:
+                    - generic [ref=f8e759]: Sanding Sealer
+                    - generic [ref=f8e760]: FSS01
+                  - cell "Cat & Finishing" [ref=f8e761]
+                  - cell "A" [ref=f8e762]
+                  - cell "Finished Material" [ref=f8e765]
+                  - cell [ref=f8e766]:
+                    - generic [ref=f8e767]:
+                      - text: 0 liter
+                      - img "Out of stock" [ref=f8e768]
+                  - cell "IDR 0" [ref=f8e769]
+                  - cell "Active" [ref=f8e770]
+                - row [ref=f8e772] [cursor=pointer]:
+                  - cell [ref=f8e773]:
+                    - img "no image" [ref=f8e775]
+                  - cell "Sillica Gell PCSG04" [ref=f8e776]:
+                    - generic [ref=f8e777]: Sillica Gell
+                    - generic [ref=f8e778]: PCSG04
+                  - cell "Packing & Aksesori" [ref=f8e779]
+                  - cell "A" [ref=f8e780]
+                  - cell "Finished Material" [ref=f8e783]
+                  - cell [ref=f8e784]:
+                    - generic [ref=f8e785]:
+                      - text: 0 kg
+                      - img "Out of stock" [ref=f8e786]
+                  - cell "IDR 0" [ref=f8e787]
+                  - cell "Active" [ref=f8e788]
+                - row [ref=f8e790] [cursor=pointer]:
+                  - cell [ref=f8e791]:
+                    - img "no image" [ref=f8e793]
+                  - cell "Solasi Kertas PCSK03" [ref=f8e794]:
+                    - generic [ref=f8e795]: Solasi Kertas
+                    - generic [ref=f8e796]: PCSK03
+                  - cell "Lakban & Perekat" [ref=f8e797]
+                  - cell "A" [ref=f8e798]
+                  - cell "Finished Material" [ref=f8e801]
+                  - cell [ref=f8e802]:
+                    - generic [ref=f8e803]:
+                      - text: 0 roll
+                      - img "Out of stock" [ref=f8e804]
+                  - cell "IDR 0" [ref=f8e805]
+                  - cell "Active" [ref=f8e806]
+                - row [ref=f8e808] [cursor=pointer]:
+                  - cell [ref=f8e809]:
+                    - img "no image" [ref=f8e811]
+                  - cell "Top Coat Matte FTC01" [ref=f8e812]:
+                    - generic [ref=f8e813]: Top Coat Matte
+                    - generic [ref=f8e814]: FTC01
+                  - cell "Cat & Finishing" [ref=f8e815]
+                  - cell "A" [ref=f8e816]
+                  - cell "Finished Material" [ref=f8e819]
+                  - cell [ref=f8e820]:
+                    - generic [ref=f8e821]:
+                      - text: 0 liter
+                      - img "Out of stock" [ref=f8e822]
+                  - cell "IDR 0" [ref=f8e823]
+                  - cell "Active" [ref=f8e824]
+                - row [ref=f8e826] [cursor=pointer]:
+                  - cell [ref=f8e827]:
+                    - img "no image" [ref=f8e829]
+                  - cell "Warna Bio 8888" [ref=f8e830]:
+                    - generic [ref=f8e831]: Warna Bio
+                    - generic [ref=f8e832]: "8888"
+                  - cell "Bio Industri" [ref=f8e833]
+                  - cell "A" [ref=f8e834]
+                  - cell "Raw Material" [ref=f8e837]
+                  - cell [ref=f8e838]:
+                    - generic [ref=f8e839]:
+                      - text: 0 liter
+                      - img "Out of stock" [ref=f8e840]
+                  - cell "IDR 0" [ref=f8e841]
+                  - cell "Inactive" [ref=f8e842]
+            - generic [ref=f8e844]:
+              - generic [ref=f8e845]:
+                - combobox [ref=f8e847]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                - generic [ref=f8e848]: from 15 rows
+              - generic [ref=f8e849]:
+                - button "Previous page" [disabled] [ref=f8e850]
+                - button "Page 1" [ref=f8e853]: "1"
+                - button "Next page" [disabled] [ref=f8e854]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f8e857]:
+        - generic [ref=f8e862]:
+          - paragraph [ref=f8e864]: Material created successfully
+          - button "Okay" [ref=f8e865]
+  - alert [ref=f8e7]: Materials

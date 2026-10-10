@@ -1,0 +1,138 @@
+[
+  [
+    "Products | 7 | \u00b7 | Total Products",
+    "/products/"
+  ],
+  [
+    "Sales Funnel Report",
+    "/reports/sales/"
+  ],
+  [
+    "Invoices",
+    "/invoices/"
+  ],
+  [
+    "Procurement & AP Report",
+    "/reports/procurement-ap/"
+  ],
+  [
+    "User Guide",
+    "/help/user-guide/"
+  ],
+  [
+    "Request for Quotes",
+    "/rfq/"
+  ],
+  [
+    "User Management",
+    "/user-management/user-groups/"
+  ],
+  [
+    "",
+    "/invoices/create/"
+  ],
+  [
+    "RFQs | 7 | \u00b7 | Total requests",
+    "/rfq/"
+  ],
+  [
+    "Product Catalog",
+    "/products/"
+  ],
+  [
+    "Material Requests",
+    "/material-requests/"
+  ],
+  [
+    "Purchase Orders",
+    "/purchase-orders/"
+  ],
+  [
+    "FX Management",
+    "/fx-management/"
+  ],
+  [
+    "Vendors",
+    "/vendors/"
+  ],
+  [
+    "Orders",
+    "/orders/"
+  ],
+  [
+    "Inventory Report",
+    "/reports/inventory/"
+  ],
+  [
+    "",
+    "/quotes/create/"
+  ],
+  [
+    "Quotes | 26 | \u00b7 | Total quotes",
+    "/quotes/"
+  ],
+  [
+    "Bill of Materials",
+    "/bill-of-materials/"
+  ],
+  [
+    "",
+    "/rfq/create/"
+  ],
+  [
+    "Orders | 22 | \u00b7 | Total orders",
+    "/orders/"
+  ],
+  [
+    "Company Settings",
+    "/company-settings/"
+  ],
+  [
+    "Routing",
+    "/routing/"
+  ],
+  [
+    "Customers",
+    "/customers/"
+  ],
+  [
+    "Quotes",
+    "/quotes/"
+  ],
+  [
+    "Work Order Monitoring",
+    "/reports/work-order/"
+  ],
+  [
+    "Materials",
+    "/materials/"
+  ],
+  [
+    "Order Simulation | BETA",
+    "/order-simulation/"
+  ],
+  [
+    "Financial Report",
+    "/reports/financial/"
+  ],
+  [
+    "Invoices | 7 | \u00b7 | Total invoices",
+    "/invoices/"
+  ],
+  [
+    "Dashboard",
+    "/"
+  ],
+  [
+    "",
+    "/products/create/"
+  ],
+  [
+    "Custom Products Request",
+    "/custom-products-request/"
+  ],
+  [
+    "Work Order",
+    "/work-orders/"
+  ]
+]

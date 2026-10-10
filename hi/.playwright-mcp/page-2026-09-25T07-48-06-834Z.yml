@@ -1,0 +1,271 @@
+- generic:
+  - generic:
+    - generic [aria-hidden]:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - textbox:
+                - /placeholder: Search menu...
+          - generic:
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - generic: Dashboard
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Resources
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Manufacturing
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /bill-of-materials/
+                          - generic: Bill of Materials
+                      - listitem:
+                        - link:
+                          - /url: /routing/
+                          - generic: Routing
+                      - listitem:
+                        - link:
+                          - /url: /work-orders/
+                          - generic: Work Order
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Product
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Sales
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Procurement
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Analytics
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Administration
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /help/user-guide/
+                      - generic: User Guide
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /order-simulation/
+                      - generic: Order Simulation
+                      - generic: BETA
+          - generic:
+            - button:
+              - generic: EN
+    - main:
+      - generic [aria-hidden]:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+        - generic:
+          - generic:
+            - button:
+              - generic: "1"
+          - generic:
+            - button:
+              - generic:
+                - paragraph: Bernadus Nurtjahjono
+                - paragraph: Owner
+      - generic:
+        - main:
+          - generic:
+            - generic [aria-hidden]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]: Create Bill of Materials
+                - generic:
+                  - generic: Bill of Materials
+                  - generic: / Create Bill of Materials
+              - generic:
+                - button:
+                  - generic: Save
+            - generic [aria-hidden]:
+              - generic:
+                - generic: Bill of Materials Information
+                - separator
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: "*"
+                        - text: BOM Name
+                    - generic:
+                      - generic:
+                        - textbox:
+                          - /placeholder: Enter BOM Name
+                          - text: BOM-TBL-SS180-V1
+                  - generic:
+                    - generic: Description
+                    - textbox:
+                      - /placeholder: Enter BOM Description
+                      - text: Resep formula manufaktur Meja Kerja Industri Stainless Steel 180x90cm
+            - generic [aria-hidden]:
+              - generic:
+                - generic: Material
+                - separator
+                - generic:
+                  - generic:
+                    - table:
+                      - rowgroup:
+                        - row:
+                          - columnheader:
+                            - generic: Material
+                          - columnheader:
+                            - generic: Average Cost
+                          - columnheader:
+                            - generic: Quantity
+                          - columnheader:
+                            - generic: Subtotal
+                          - columnheader:
+                            - generic: Actions
+                      - rowgroup:
+                        - row:
+                          - cell:
+                            - generic:
+                              - paragraph: Plat Stainless Steel 304 (2.0 mm)
+                              - paragraph: MAT-SS304-2MM
+                          - cell: IDR 0
+                          - cell: "1"
+                          - cell: IDR 0
+                          - cell:
+                            - generic:
+                              - button
+                              - button
+                  - separator
+                  - generic:
+                    - button:
+                      - generic: Add Material
+            - generic:
+              - generic:
+                - generic [aria-hidden]: Routing
+                - generic:
+                  - status
+                  - generic [aria-hidden]:
+                    - paragraph: No routings yet
+                  - generic [aria-hidden]:
+                    - button:
+                      - generic: Add Routing
+            - generic [aria-hidden]:
+              - generic:
+                - generic: Forecasted Cost of Goods Sold
+                - generic:
+                  - generic:
+                    - generic: Material Cost
+                    - generic:
+                      - textbox [disabled]:
+                        - /placeholder: "-"
+                        - text: IDR 0
+                    - paragraph: Calculated from the average cost of available stock. If stock is unavailable, the latest batch cost is used.
+                  - generic:
+                    - generic:
+                      - generic: "*"
+                      - text: Labour Cost
+                    - generic:
+                      - textbox:
+                        - /placeholder: Enter labour cost
+                        - text: IDR 450,000
+                  - generic:
+                    - generic:
+                      - generic: "*"
+                      - text: Packing Cost
+                    - generic:
+                      - textbox:
+                        - /placeholder: Enter packing cost
+                        - text: IDR 67,000
+                  - generic:
+                    - generic:
+                      - generic: "*"
+                      - text: Other Cost
+                    - generic:
+                      - textbox:
+                        - /placeholder: Enter other cost
+                        - text: IDR 200,000
+                  - generic:
+                    - generic: Total Cost
+                    - generic:
+                      - textbox [disabled]:
+                        - /placeholder: "-"
+                        - text: IDR 717,000
+  - region "Notifications alt+T"
+  - alert
+  - dialog [ref=f9e480]:
+    - generic [ref=f9e481]:
+      - heading "Add Routing" [level=2] [ref=f9e483]
+      - generic [ref=f9e485]:
+        - generic [ref=f9e486]:
+          - generic [ref=f9e488]:
+            - generic [ref=f9e489]: "*"
+            - text: Routing
+          - combobox [ref=f9e490]:
+            - textbox "Search or select..." [ref=f9e492]: Fabrikasi Meja Stainless Steel
+            - generic [ref=f9e529] [cursor=pointer]
+        - generic [ref=f9e533]:
+          - generic [ref=f9e535]:
+            - generic [ref=f9e536]: "*"
+            - text: Operation
+          - combobox [expanded] [ref=f9e537]:
+            - textbox "Search or select..." [active] [ref=f9e539]
+        - generic [ref=f9e500]:
+          - generic [ref=f9e501]:
+            - generic [ref=f9e502]: Step Number
+            - generic [ref=f9e503]:
+              - textbox "Step Number" [disabled]:
+                - /placeholder: "-"
+                - text: "1"
+          - generic [ref=f9e504]:
+            - generic [ref=f9e505]: Hours
+            - textbox "Hours" [ref=f9e507]:
+              - /placeholder: Enter duration
+              - text: 1 hour
+        - generic [ref=f9e508]:
+          - button "Cancel" [ref=f9e509] [cursor=pointer]
+          - button "Add Routing" [ref=f9e511] [cursor=pointer]
+      - button "Close" [ref=f9e513] [cursor=pointer]
+  - dialog [ref=f9e543]:
+    - listbox [ref=f9e544]:
+      - group [ref=f9e546]:
+        - option "Grinding & Finishing Hairline" [ref=f9e547] [cursor=pointer]
+        - option "Pemotongan Plat & Pipa Laser CNC" [ref=f9e552] [cursor=pointer]
+        - option "Penekukan Plat CNC Press Brake" [ref=f9e557] [cursor=pointer]
+        - option "Pengelasan TIG Argon SS304" [ref=f9e562] [cursor=pointer]
+        - option "Perakitan Roda & Uji Beban QC" [ref=f9e567] [cursor=pointer]
+        - option "Powder Coating Epoxy Black" [ref=f9e572] [cursor=pointer]
+      - group [ref=f9e578]:
+        - option "Add new operation" [ref=f9e579] [cursor=pointer]

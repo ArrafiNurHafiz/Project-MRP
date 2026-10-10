@@ -1,0 +1,235 @@
+- generic:
+  - generic:
+    - generic [aria-hidden]:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - textbox:
+                - /placeholder: Search menu...
+          - generic:
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - generic: Dashboard
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Resources
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Manufacturing
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /bill-of-materials/
+                          - generic: Bill of Materials
+                      - listitem:
+                        - link:
+                          - /url: /routing/
+                          - generic: Routing
+                      - listitem:
+                        - link:
+                          - /url: /work-orders/
+                          - generic: Work Order
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Product
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Sales
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Procurement
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Analytics
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Administration
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /help/user-guide/
+                      - generic: User Guide
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /order-simulation/
+                      - generic: Order Simulation
+                      - generic: BETA
+          - generic:
+            - button:
+              - generic: EN
+    - main:
+      - generic [aria-hidden]:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+        - generic:
+          - generic:
+            - button:
+              - generic: "1"
+          - generic:
+            - button:
+              - generic:
+                - paragraph: Bernadus Nurtjahjono
+                - paragraph: Owner
+      - generic:
+        - main:
+          - generic:
+            - generic [aria-hidden]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]: Create Bill of Materials
+                - generic:
+                  - generic: Bill of Materials
+                  - generic: / Create Bill of Materials
+              - generic:
+                - button:
+                  - generic: Save
+            - generic [aria-hidden]:
+              - generic:
+                - generic: Bill of Materials Information
+                - separator
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: "*"
+                        - text: BOM Name
+                    - generic:
+                      - generic:
+                        - textbox:
+                          - /placeholder: Enter BOM Name
+                          - text: BOM-TBL-SS180-V1
+                  - generic:
+                    - generic: Description
+                    - textbox:
+                      - /placeholder: Enter BOM Description
+                      - text: Resep formula manufaktur Meja Kerja Industri Stainless Steel 180x90cm
+            - generic [aria-hidden]:
+              - generic:
+                - generic: Material
+                - separator
+                - generic:
+                  - generic:
+                    - paragraph: No materials yet
+                  - separator
+                  - generic:
+                    - button:
+                      - generic: Add Material
+            - generic:
+              - generic:
+                - generic [aria-hidden]: Routing
+                - generic:
+                  - status
+                  - generic [aria-hidden]:
+                    - paragraph: No routings yet
+                  - generic [aria-hidden]:
+                    - button:
+                      - generic: Add Routing
+            - generic [aria-hidden]:
+              - generic:
+                - generic: Forecasted Cost of Goods Sold
+                - generic:
+                  - generic:
+                    - generic: Material Cost
+                    - generic:
+                      - textbox [disabled]:
+                        - /placeholder: "-"
+                        - text: IDR 0
+                    - paragraph: Calculated from the average cost of available stock. If stock is unavailable, the latest batch cost is used.
+                  - generic:
+                    - generic:
+                      - generic: "*"
+                      - text: Labour Cost
+                    - generic:
+                      - textbox:
+                        - /placeholder: Enter labour cost
+                        - text: IDR 450,000
+                  - generic:
+                    - generic:
+                      - generic: "*"
+                      - text: Packing Cost
+                    - generic:
+                      - textbox:
+                        - /placeholder: Enter packing cost
+                        - text: IDR 67,000
+                  - generic:
+                    - generic:
+                      - generic: "*"
+                      - text: Other Cost
+                    - generic:
+                      - textbox:
+                        - /placeholder: Enter other cost
+                        - text: IDR 200,000
+                  - generic:
+                    - generic: Total Cost
+                    - generic:
+                      - textbox [disabled]:
+                        - /placeholder: "-"
+                        - text: IDR 717,000
+  - region "Notifications alt+T"
+  - alert
+  - dialog [ref=f9e333]:
+    - generic [ref=f9e334]:
+      - heading "Add Material Usage" [level=2] [ref=f9e336]
+      - generic [ref=f9e338]:
+        - generic [ref=f9e339]:
+          - generic [ref=f9e340]: Material
+          - combobox [ref=f9e342]:
+            - textbox "Search or select..." [active] [ref=f9e344]: Plat Stainless Steel 304 (2.0 mm) - MAT-SS304-2MM
+            - generic [ref=f9e423] [cursor=pointer]
+        - generic [ref=f9e348]:
+          - generic [ref=f9e349]: Quantity
+          - textbox "Quantity" [ref=f9e351]:
+            - /placeholder: Enter quantity
+            - text: 1 pcs
+        - generic [ref=f9e427]:
+          - heading "Material Details" [level=4] [ref=f9e428]
+          - generic [ref=f9e429]:
+            - generic [ref=f9e430]:
+              - paragraph [ref=f9e431]: SKU
+              - paragraph [ref=f9e433]: MAT-SS304-2MM
+            - generic [ref=f9e434]:
+              - paragraph [ref=f9e435]: Category
+              - paragraph [ref=f9e437]: Packing & Aksesori
+            - generic [ref=f9e438]:
+              - paragraph [ref=f9e439]: Type
+              - paragraph [ref=f9e441]: RAW
+            - generic [ref=f9e442]:
+              - paragraph [ref=f9e443]: Average Cost
+              - paragraph [ref=f9e445]: IDR 0
+        - generic [ref=f9e352]:
+          - button "Cancel" [ref=f9e353] [cursor=pointer]
+          - button "Add Material" [ref=f9e355] [cursor=pointer]
+      - button "Close" [ref=f9e357] [cursor=pointer]

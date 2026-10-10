@@ -1,0 +1,116 @@
+- generic [ref=f11e1]:
+  - generic [ref=f11e19]:
+    - generic [ref=f11e22]:
+      - generic [ref=f11e23]:
+        - img "Logo" [ref=f11e26]
+        - textbox "Search menu..." [ref=f11e28]
+      - generic [ref=f11e29]:
+        - list [ref=f11e32]:
+          - listitem [ref=f11e33]:
+            - link "Dashboard" [ref=f11e34] [cursor=pointer]:
+              - /url: /
+        - list [ref=f11e39]:
+          - listitem [ref=f11e40]:
+            - button "Resources" [ref=f11e41]
+        - list [ref=f11e50]:
+          - listitem [ref=f11e51]:
+            - button "Manufacturing" [ref=f11e52]
+        - list [ref=f11e60]:
+          - listitem [ref=f11e61]:
+            - button "Product" [ref=f11e62]
+        - list [ref=f11e71]:
+          - listitem [ref=f11e72]:
+            - button "Sales" [ref=f11e73]
+        - list [ref=f11e81]:
+          - listitem [ref=f11e82]:
+            - button "Procurement" [ref=f11e83]
+        - list [ref=f11e94]:
+          - listitem [ref=f11e95]:
+            - button "Analytics" [ref=f11e96]
+        - list [ref=f11e105]:
+          - listitem [ref=f11e106]:
+            - button "Administration" [ref=f11e107]
+        - list [ref=f11e116]:
+          - listitem [ref=f11e117]:
+            - link "User Guide" [ref=f11e118] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f11e125]:
+          - listitem [ref=f11e126]:
+            - link "Order Simulation BETA" [ref=f11e127] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f11e139]: Order Simulation
+              - generic [ref=f11e140]: BETA
+      - button "EN" [ref=f11e142]
+    - main [ref=f11e146]:
+      - generic [ref=f11e147]:
+        - button "Toggle Sidebar" [ref=f11e149]
+        - generic [ref=f11e151]:
+          - button "1" [ref=f11e153] [cursor=pointer]
+          - button [ref=f11e159] [cursor=pointer]:
+            - generic [ref=f11e160]:
+              - paragraph [ref=f11e161]: Bernadus Nurtjahjono
+              - paragraph [ref=f11e162]: Owner
+      - main [ref=f11e164]:
+        - generic [ref=f11e165]:
+          - generic [ref=f11e166]:
+            - generic [ref=f11e167]:
+              - generic [ref=f11e168]:
+                - heading "Order Simulation" [level=1] [ref=f11e169]
+                - generic [ref=f11e170]: BETA
+              - paragraph [ref=f11e171]: Simulate a potential customer order and see the impact on production, materials, and forecasted profitability.
+            - button "Reset" [ref=f11e173]
+          - generic [ref=f11e174]:
+            - generic [ref=f11e177]:
+              - generic [ref=f11e178]:
+                - paragraph [ref=f11e179]: Order Simulation
+                - paragraph [ref=f11e180]: Add products and quantities to simulate the production, material, and cost impact of a potential Order.
+              - generic [ref=f11e183]:
+                - generic [ref=f11e184]:
+                  - generic [ref=f11e185]: "*"
+                  - text: Order Required Date
+                - generic [ref=f11e186]:
+                  - button "30/09/2026" [ref=f11e326]
+                  - button "Clear date" [ref=f11e327] [cursor=pointer]
+            - generic [ref=f11e189]:
+              - table [ref=f11e192]:
+                - rowgroup [ref=f11e193]:
+                  - row [ref=f11e194]:
+                    - columnheader "Product" [ref=f11e195]
+                    - columnheader "Quantity" [ref=f11e197]
+                    - columnheader "Selling Price / Unit" [ref=f11e199]
+                    - columnheader "Forecasted Revenue" [ref=f11e201]
+                    - columnheader [ref=f11e206]
+                - rowgroup [ref=f11e207]:
+                  - row [ref=f11e363]:
+                    - cell [ref=f11e364]:
+                      - paragraph [ref=f11e365]: Meja Kerja Industri Stainless Steel 180x90cm
+                      - paragraph [ref=f11e366]: PROD-TBL-SS180 · BOM attached
+                    - cell [ref=f11e367]:
+                      - group [ref=f11e370]:
+                        - textbox [active] [ref=f11e372]: "0"
+                        - group [ref=f11e375]:
+                          - generic [ref=f11e376]: pcs
+                    - cell "IDR 6,500,000" [ref=f11e377]
+                    - cell "IDR 0" [ref=f11e378]
+                    - cell [ref=f11e379]:
+                      - button "Remove Meja Kerja Industri Stainless Steel 180x90cm" [ref=f11e380]
+                  - row [ref=f11e381]:
+                    - cell [ref=f11e382]:
+                      - button "+ Add Product" [ref=f11e383]
+                - rowgroup [ref=f11e213]:
+                  - row [ref=f11e214]:
+                    - cell "TOTAL" [ref=f11e215]
+                    - cell "0 pcs" [ref=f11e216]
+                    - cell [ref=f11e217]
+                    - cell "IDR 0" [ref=f11e218]
+                    - cell [ref=f11e219]
+              - button "Run Simulation" [ref=f11e384]
+          - generic [ref=f11e221]:
+            - navigation [ref=f11e222]:
+              - tab "Overview" [selected] [ref=f11e223] [cursor=pointer]
+              - tab "Production Planning" [ref=f11e224] [cursor=pointer]
+              - tab "Material Forecast" [ref=f11e225] [cursor=pointer]
+              - tab "Forecasted COGS" [ref=f11e226] [cursor=pointer]
+            - paragraph [ref=f11e230]: Run the simulation to see the result.
+  - region "Notifications alt+T"
+  - alert [ref=f11e231]

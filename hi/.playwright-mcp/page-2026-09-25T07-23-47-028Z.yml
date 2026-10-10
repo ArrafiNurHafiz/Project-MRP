@@ -1,0 +1,16 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e9]:
+    - generic [ref=f2e10]:
+      - generic [ref=f2e12]:
+        - img "Labamu Logo" [ref=f2e16]
+        - generic [ref=f2e17]:
+          - heading "Welcome Back" [level=1] [ref=f2e18]
+          - paragraph [ref=f2e19]: Sign in to continue
+      - generic [ref=f2e20]: Access your manufacturing dashboard and manage your operations
+    - button "Labamu Icon Continue with Labamu" [ref=f2e23]:
+      - generic [ref=f2e25]:
+        - img "Labamu Icon" [ref=f2e27]
+        - generic [ref=f2e28]: Continue with Labamu
+  - region "Notifications alt+T"
+  - region "Notifications alt+T"
+  - alert [ref=f2e31]

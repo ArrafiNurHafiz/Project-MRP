@@ -1,0 +1,715 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>Dokumentasi Lengkap Labamu Manufacturing (MRP)</title>
+<style>
+body {
+    font-family: 'Segoe UI', 'Calibri', Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #1e293b;
+    margin: 40px;
+}
+h1 {
+    color: #0f172a;
+    font-size: 22pt;
+    font-weight: 800;
+    border-bottom: 3px solid #1476FF;
+    padding-bottom: 8px;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+h2 {
+    color: #1476FF;
+    font-size: 16pt;
+    font-weight: 700;
+    border-bottom: 1.5px solid #e2e8f0;
+    padding-bottom: 6px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+h3 {
+    color: #334155;
+    font-size: 13pt;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+h4 {
+    color: #475569;
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+p, li {
+    font-size: 11pt;
+    color: #334155;
+}
+ul, ol {
+    margin-top: 6px;
+    margin-bottom: 12px;
+    padding-left: 24px;
+}
+li {
+    margin-bottom: 4px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 16px 0;
+    font-size: 10pt;
+}
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 8px 12px;
+    text-align: left;
+    vertical-align: top;
+}
+th {
+    background-color: #1476FF;
+    color: #ffffff;
+    font-weight: 600;
+}
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+.callout {
+    background-color: #eff6ff;
+    border-left: 4px solid #1476FF;
+    padding: 12px 16px;
+    margin: 14px 0;
+    border-radius: 0 6px 6px 0;
+}
+.callout-title {
+    font-weight: bold;
+    color: #1e40af;
+    margin-bottom: 4px;
+}
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 9pt;
+}
+.badge-blue { background-color: #dbeafe; color: #1e40af; }
+.badge-green { background-color: #dcfce7; color: #15803d; }
+.badge-amber { background-color: #fef3c7; color: #b45309; }
+.badge-gray { background-color: #f1f5f9; color: #475569; }
+.badge-red { background-color: #fee2e2; color: #b91c1c; }
+.btn-ui {
+    display: inline-block;
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-weight: 600;
+    color: #0f172a;
+    font-size: 9.5pt;
+}
+.btn-primary-ui {
+    display: inline-block;
+    background-color: #1476FF;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-weight: 600;
+    font-size: 9.5pt;
+}
+.step-number {
+    display: inline-block;
+    background-color: #1476FF;
+    color: #ffffff;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 8px;
+}
+code {
+    font-family: 'Consolas', 'Courier New', monospace;
+    background-color: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 10pt;
+    color: #0f172a;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #e2e8f0;
+    margin: 24px 0;
+}
+</style>
+</head>
+<body>
+
+<h1>BUKU PANDUAN LENGKAP PENGOPERASIAN LABAMU MANUFACTURING (MRP)</h1>
+<p><strong>Sistem Aplikasi:</strong> <code>mrp.labamu.co.id</code> &nbsp;|&nbsp; <strong>Akses SSO:</strong> <code>sso.cashenable.com</code> &nbsp;|&nbsp; <strong>Versi:</strong> Produksi</p>
+
+<div class="callout">
+<div class="callout-title">📌 Pengantar & Prinsip Penggunaan</div>
+Panduan ini disusun secara rinci berdasarkan antarmuka resmi, tombol, label, dan alur sistem nyata pada <strong>Labamu Manufacturing (MRP)</strong>. Semua istilah tombol, field, kolom tabel, dan status disesuaikan 100% dengan teks yang tampil di layar web agar pengguna tidak mengalami kebingungan saat mengoperasikan sistem.
+</div>
+
+<hr>
+
+<h2>DAFTAR ISI</h2>
+<ol>
+    <li><a href="#login-sso">Akses & Alur Login Single Sign-On (SSO)</a></li>
+    <li><a href="#struktur-menu">Struktur Navigasi Menu Sidebar</a></li>
+    <li><a href="#alur-produksi-utama">Alur Utama Operasional Manufaktur (End-to-End Workflow)</a></li>
+    <li><a href="#step-1-materials">Langkah 1: Pengelolaan Bahan Baku (Materials)</a></li>
+    <li><a href="#step-2-vendors">Langkah 2: Pengelolaan Pemasok (Vendors)</a></li>
+    <li><a href="#step-3-customers">Langkah 3: Pengelolaan Pelanggan (Customers)</a></li>
+    <li><a href="#step-4-routing">Langkah 4: Pembuatan Jalur Operasi (Routing)</a></li>
+    <li><a href="#step-5-bom">Langkah 5: Penyusunan Resep Produksi (Bill of Materials / BOM)</a></li>
+    <li><a href="#step-6-products">Langkah 6: Pendaftaran Katalog Produk Jadi (Products)</a></li>
+    <li><a href="#step-7-rfq">Langkah 7: Permintaan Penawaran Pelanggan (Request for Quotes / RFQ)</a></li>
+    <li><a href="#step-8-cpr">Langkah 8: Permintaan Produk Kustom (Custom Products Request / CPR)</a></li>
+    <li><a href="#step-9-quotes">Langkah 9: Pembuatan Surat Penawaran Resmi (Quotes)</a></li>
+    <li><a href="#step-10-orders">Langkah 10: Konfirmasi Pesanan Penjualan (Orders)</a></li>
+    <li><a href="#step-11-work-orders">Langkah 11: Eksekusi Produksi (Work Order) & Alokasi Bahan (Material Requests)</a></li>
+    <li><a href="#step-12-purchase-orders">Langkah 12: Pengadaan Kekurangan Bahan (Purchase Orders / PO)</a></li>
+    <li><a href="#step-13-invoices">Langkah 13: Penerbitan Faktur Tagihan (Invoices)</a></li>
+    <li><a href="#order-simulation">Fitur Unggulan: Simulasi Pesanan (Order Simulation BETA)</a></li>
+    <li><a href="#analytics-reports">Laporan & Analisis Data (Analytics & Reports)</a></li>
+    <li><a href="#admin-settings">Pengaturan Sistem & Hak Akses (Administration)</a></li>
+</ol>
+
+<hr>
+
+<h2 id="login-sso">1. AKSES & ALUR LOGIN SINGLE SIGN-ON (SSO)</h2>
+<p>Labamu MRP menggunakan gerbang login terpusat melalui SSO Labamu.</p>
+
+<ol>
+    <li>Buka alamat web: <code>https://mrp.labamu.co.id/login</code></li>
+    <li>Klik tombol <span class="btn-primary-ui">Continue with Labamu</span>. Sistem akan mengalihkan halaman ke <code>https://sso.cashenable.com/</code>.</li>
+    <li>Centang kotak persetujuan <em>Syarat & Ketentuan</em>.</li>
+    <li>Masukkan nomor telepon terdaftar pada input berlabel bendera <strong>🇮🇩 +62</strong> (contoh: <code>85156197989</code>).</li>
+    <li>Klik tombol <span class="btn-primary-ui">Login</span>.</li>
+    <li>Pada halaman <strong>Input OTP Code</strong>, masukkan 6 digit kode OTP yang diterima via WhatsApp/SMS (contoh testing: <code>123456</code>).</li>
+    <li>Setelah verifikasi berhasil, sistem otomatis masuk ke dashboard utama <strong>Labamu Manufacturing</strong>.</li>
+</ol>
+
+<hr>
+
+<h2 id="struktur-menu">2. STRUKTUR NAVIGASI MENU SIDEBAR</h2>
+<p>Menu pada bilah navigasi kiri (Sidebar) dikelompokkan ke dalam kategori berikut:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th style="width: 25%;">Kategori Menu</th>
+            <th style="width: 35%;">Submenu</th>
+            <th style="width: 40%;">Fungsi Utama</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Dashboard</strong></td>
+            <td><code>/</code></td>
+            <td>Ringkasan statistik (Products, RFQs, Quotes, Orders, Invoices) & daftar tugas <strong>Need To Do</strong>.</td>
+        </tr>
+        <tr>
+            <td><strong>Resources</strong></td>
+            <td>
+                • Materials (<code>/materials/</code>)<br>
+                • Vendors (<code>/vendors/</code>)<br>
+                • Customers (<code>/customers/</code>)<br>
+                • Material Requests (<code>/material-requests/</code>)
+            </td>
+            <td>Pengelolaan master data sumber daya bahan baku, mitra bisnis (pemasok & pembeli), serta serah terima material pabrik.</td>
+        </tr>
+        <tr>
+            <td><strong>Manufacturing</strong></td>
+            <td>
+                • Bill of Materials (<code>/bill-of-materials/</code>)<br>
+                • Routing (<code>/routing/</code>)<br>
+                • Work Order (<code>/work-orders/</code>)
+            </td>
+            <td>Perencanaan resep produk (BOM), urutan stasiun kerja (Routing), dan Surat Perintah Kerja (SPK) produksi.</td>
+        </tr>
+        <tr>
+            <td><strong>Product</strong></td>
+            <td>
+                • Product Catalog (<code>/products/</code>)<br>
+                • Custom Products Request (<code>/custom-products-request/</code>)
+            </td>
+            <td>Katalog produk jadi siap jual dan pengelolaan permintaan spesifikasi produk kustom (CPR).</td>
+        </tr>
+        <tr>
+            <td><strong>Sales</strong></td>
+            <td>
+                • Request for Quotes (<code>/rfq/</code>)<br>
+                • Quotes (<code>/quotes/</code>)<br>
+                • Orders (<code>/orders/</code>)<br>
+                • Invoices (<code>/invoices/</code>)
+            </td>
+            <td>Siklus lengkap penjualan dari inquiry RFQ, penawaran harga, pesanan resmi, hingga tagihan faktur.</td>
+        </tr>
+        <tr>
+            <td><strong>Procurement</strong></td>
+            <td>• Purchase Orders (<code>/purchase-orders/</code>)</td>
+            <td>Penerbitan surat pesanan pembelian bahan baku ke vendor atau jasa pengerjaan luar.</td>
+        </tr>
+        <tr>
+            <td><strong>Analytics</strong></td>
+            <td>
+                • Financial Report (<code>/reports/financial/</code>)<br>
+                • Inventory Report (<code>/reports/inventory/</code>)<br>
+                • Sales Funnel Report (<code>/reports/sales/</code>)<br>
+                • Work Order Monitoring (<code>/reports/work-order/</code>)<br>
+                • Procurement & AP Report (<code>/reports/procurement-ap/</code>)
+            </td>
+            <td>Laporan keuangan, valuasi stok gudang, konversi penjualan, dan pemantauan efisiensi produksi.</td>
+        </tr>
+        <tr>
+            <td><strong>Administration</strong></td>
+            <td>
+                • User Management (<code>/user-management/user-groups/</code>)<br>
+                • FX Management (<code>/fx-management/</code>)<br>
+                • Company Settings (<code>/company-settings/</code>)
+            </td>
+            <td>Pengaturan hak akses grup pengguna, kurs mata uang asing, rekening bank tenant, dan profil usaha.</td>
+        </tr>
+        <tr>
+            <td><strong>Fitur Khusus</strong></td>
+            <td>
+                • Order Simulation <span class="badge badge-amber">BETA</span> (<code>/order-simulation/</code>)<br>
+                • User Guide (<code>/help/user-guide/</code>)
+            </td>
+            <td>Simulasi kecukupan stok material sebelum menerima pesanan besar, serta panduan bantuan internal.</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h2 id="alur-produksi-utama">3. ALUR UTAMA OPERASIONAL MANUFAKTUR</h2>
+<p>Urutan baku menjalankan proses manufaktur secara runut dari nol hingga selesai adalah sebagai berikut:</p>
+
+<div class="callout">
+<strong>Urutan Eksekusi Sistem:</strong><br>
+<strong>Tahap 1: Master Data</strong> &rarr; Input Materials &rarr; Input Vendors &rarr; Input Customers &rarr; Buat Routing &rarr; Buat Bill of Materials (BOM) &rarr; Buat Product Catalog.<br>
+<strong>Tahap 2: Siklus Penjualan</strong> &rarr; Buat RFQ &rarr; (Jika produk kustom: Approve CPR) &rarr; Buat Quote &rarr; Konfirmasi Quote menjadi Order.<br>
+<strong>Tahap 3: Produksi & Pengadaan</strong> &rarr; Order otomatis membuat <em>Work Order</em> &rarr; Cek Material Requests &rarr; (Jika stok kurang: Buat Purchase Order ke Vendor) &rarr; Eksekusi Work Order (Ready to Process &rarr; In Progress &rarr; Completed) &rarr; Buat Invoice & Catat Pembayaran.
+</div>
+
+<hr>
+
+<h2 id="step-1-materials">4. LANGKAH 1: PENGELOLAAN BAHAN BAKU (MATERIALS)</h2>
+<p>Bahan baku adalah seluruh material mentah, komponen pembantu, atau kemasan yang digunakan di pabrik.</p>
+
+<h3>Cara Menambah Material Baru:</h3>
+<ol>
+    <li>Buka menu <strong>Resources &rarr; Materials</strong>.</li>
+    <li>Klik tombol <span class="btn-primary-ui">New Material</span> (atau buka <code>/materials/create</code>).</li>
+    <li>Isi formulir pendaftaran bahan:
+        <ul>
+            <li><strong>SKU:</strong> Kode unik bahan. <em>Jika dikosongkan, sistem otomatis membuatkan kode SKU.</em></li>
+            <li><strong>* Material Name:</strong> Masukkan nama material secara jelas (contoh: <code>Kayu Mahoni Grade A</code>, <code>Plat Besi 2mm</code>).</li>
+            <li><strong>* Category:</strong> Pilih kategori bahan dari dropdown (contoh: <code>Semi Finishing</code>, <code>Raw Material</code>).</li>
+            <li><strong>* ABC Classification:</strong> Pilih klasifikasi material:
+                <ul>
+                    <li><span class="badge badge-blue">A - High Value</span> : Nilai tinggi, pengawasan stok ketat.</li>
+                    <li><span class="badge badge-green">B - Medium Value</span> : Nilai menengah.</li>
+                    <li><span class="badge badge-gray">C - Low Value</span> : Nilai ekonomis/consumable (contoh: amplas, paku, lem).</li>
+                </ul>
+            </li>
+            <li><strong>* Material Type:</strong> Pilih tipe bahan (<code>Raw Material</code>, <code>Packaging</code>, atau <code>Consumable</code>).</li>
+            <li><strong>* Unit of Measure:</strong> Pilih satuan ukur (contoh: <code>PCS</code>, <code>KG</code>, <code>METER</code>, <code>LITER</code>).</li>
+            <li><strong>Stock Risk:</strong> Catatan risiko penyimpanan (contoh: <em>Rentan lembab, mudah berkarat</em>).</li>
+            <li><strong>Description:</strong> Keterangan spesifikasi teknis material.</li>
+            <li><strong>Select Images:</strong> Upload foto fisik material (opsional).</li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-primary-ui">Save</span>.</li>
+</ol>
+
+<hr>
+
+<h2 id="step-2-vendors">5. LANGKAH 2: PENGELOLAAN PEMASOK (VENDORS)</h2>
+<p>Vendor adalah pihak ketiga pemasok material mentah atau penyedia jasa pengerjaan luar (maklon).</p>
+
+<h3>Cara Menambah Vendor:</h3>
+<ol>
+    <li>Buka menu <strong>Resources &rarr; Vendors</strong>.</li>
+    <li>Klik tombol <span class="btn-primary-ui">+ Add Vendor</span> (atau buka <code>/vendors/create</code>).</li>
+    <li>Lengkapi data pemasok:
+        <ul>
+            <li><strong>* Vendor Name:</strong> Nama resmi perusahaan vendor (contoh: <code>PT Sumber Kayu Abadi</code>).</li>
+            <li><strong>Alias:</strong> Nama panggilan vendor (opsional).</li>
+            <li><strong>Status:</strong> Aktifkan toggle <code>ACTIVE</code>.</li>
+            <li><strong>PIC Name, PIC Email, PIC Phone:</strong> Kontak person penanggung jawab vendor.</li>
+            <li><strong>Business Address:</strong> Alamat lengkap kantor/gudang vendor.</li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-primary-ui">Save</span>.</li>
+</ol>
+
+<hr>
+
+<h2 id="step-3-customers">6. LANGKAH 3: PENGELOLAAN PELANGGAN (CUSTOMERS)</h2>
+<p>Customer adalah pembeli produk hasil produksi pabrik Anda.</p>
+
+<h3>Cara Menambah Customer:</h3>
+<ol>
+    <li>Buka menu <strong>Resources &rarr; Customers</strong>.</li>
+    <li>Klik tombol <span class="btn-primary-ui">+ Add Customer</span> (atau buka <code>/customers/create</code>).</li>
+    <li>Isi informasi pelanggan:
+        <ul>
+            <li><strong>* Customer Name:</strong> Nama perusahaan atau perorangan pembeli.</li>
+            <li><strong>Customer Email & Customer Phone:</strong> Kontak resmi.</li>
+            <li><strong>* Customer Address:</strong> Alamat pengiriman atau penagihan.</li>
+            <li><strong>Customer Tag:</strong> Tag klasifikasi (contoh: <code>Corporate</code>, <code>VIP</code>).</li>
+            <li><strong>PIC Table:</strong> Klik tombol <span class="btn-ui">Add PIC</span> untuk mendaftarkan kontak perwakilan customer (Name, Email, Role: Approver/Finance, Phone).</li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-primary-ui">Save</span>.</li>
+</ol>
+
+<hr>
+
+<h2 id="step-4-routing">7. LANGKAH 4: PEMBUATAN JALUR OPERASI (ROUTING)</h2>
+<p>Routing adalah daftar tahapan kerja (operasi pabrik) berurutan yang harus dilalui saat memproduksi barang.</p>
+
+<h3>Cara Membuat Routing:</h3>
+<ol>
+    <li>Buka menu <strong>Manufacturing &rarr; Routing</strong>.</li>
+    <li>Klik tombol <span class="btn-primary-ui">Add Routing</span> (atau buka <code>/routing/create/</code>).</li>
+    <li>Isi data jalur kerja:
+        <ul>
+            <li><strong>* Routing Name:</strong> Nama alur produksi (contoh: <code>Proses Pembuatan Meja Kayu</code>).</li>
+            <li><strong>Description:</strong> Penjelasan garis besar alur pengerjaan.</li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-ui">+ Add Operation</span> untuk menambah langkah-langkah kerja berurutan:
+        <ul>
+            <li><strong>Operation 1:</strong> Masukkan nama tahap pertama (contoh: <code>Pemotongan Kayu</code>).</li>
+            <li><strong>Operation 2:</strong> Klik <span class="btn-ui">+ Add Operation</span> lagi, masukkan nama tahap kedua (contoh: <code>Penyerutan & Perakitan</code>).</li>
+            <li><strong>Operation 3:</strong> Tambah tahap finishing (contoh: <code>Pengecatan & Vernis</code>).</li>
+            <li><strong>Operation 4:</strong> Tambah tahap akhir (contoh: <code>Quality Control & Packing</code>).</li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-primary-ui">Save Routing</span>.</li>
+</ol>
+
+<hr>
+
+<h2 id="step-5-bom">8. LANGKAH 5: PENYUSUNAN RESEP PRODUKSI (BILL OF MATERIALS / BOM)</h2>
+<p>Bill of Materials (BOM) menggabungkan bahan-bahan baku, alur routing, dan rincian biaya yang dibutuhkan untuk menghasilkan 1 unit produk jadi.</p>
+
+<div class="callout">
+<strong>Syarat Sistem:</strong> Sebelum menyimpan BOM baru, Anda <strong>wajib menambahkan minimal 1 baris bahan baku (Material)</strong> dan <strong>minimal 1 tahapan routing</strong>.
+</div>
+
+<h3>Cara Membuat BOM:</h3>
+<ol>
+    <li>Buka menu <strong>Manufacturing &rarr; Bill of Materials</strong>.</li>
+    <li>Klik tombol <span class="btn-primary-ui">+ Create BOM</span> (atau buka <code>/bill-of-materials/create</code>).</li>
+    <li>Isi informasi resep:
+        <ul>
+            <li><strong>* BOM Name:</strong> Nama formula (contoh: <code>BOM Meja Belajar Minimalis</code>).</li>
+            <li><strong>Description:</strong> Catatan instruksi formula pengerjaan.</li>
+        </ul>
+    </li>
+    <li><strong>Memasukkan Bahan Baku:</strong>
+        <ul>
+            <li>Klik tombol <span class="btn-ui">+ Add Material</span>.</li>
+            <li>Pilih material dari daftar yang sudah dibuat di Langkah 1.</li>
+            <li>Masukkan <strong>Quantity</strong> (jumlah pemakaian) dan <strong>Waste %</strong> (persentase toleransi sisa/limbah).</li>
+            <li><em>Material Cost</em> akan otomatis dihitung oleh sistem.</li>
+        </ul>
+    </li>
+    <li><strong>Memasukkan Alur Routing:</strong>
+        <ul>
+            <li>Klik tombol <span class="btn-ui">+ Add Routing</span> dan pilih routing yang dibuat di Langkah 4.</li>
+        </ul>
+    </li>
+    <li><strong>Rincian Ongkos Produksi:</strong>
+        <ul>
+            <li><strong>* Labour Cost:</strong> Masukkan estimasi biaya tenaga kerja langsung per unit.</li>
+            <li><strong>* Packing Cost:</strong> Masukkan biaya pengemasan per unit.</li>
+            <li><strong>* Other Cost:</strong> Masukkan biaya listrik/overhead pabrik per unit.</li>
+            <li><strong>Total Cost:</strong> <em>Terhitung otomatis (Material Cost + Labour + Packing + Other).</em></li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-primary-ui">Save</span>.</li>
+</ol>
+
+<hr>
+
+<h2 id="step-6-products">9. LANGKAH 6: PENDAFTARAN KATALOG PRODUK JADI (PRODUCTS)</h2>
+<p>Produk jadi adalah hasil akhir produksi yang siap dijual ke customer dan memiliki tautan langsung ke BOM.</p>
+
+<h3>Cara Mendaftarkan Produk:</h3>
+<ol>
+    <li>Buka menu <strong>Product &rarr; Product Catalog</strong>.</li>
+    <li>Klik tombol <span class="btn-primary-ui">+ Create Product</span> (atau buka <code>/products/create</code>).</li>
+    <li>Lengkapi data produk:
+        <ul>
+            <li><strong>* Product Name:</strong> Nama produk jadi (contoh: <code>Meja Belajar Minimalis Seri A</code>).</li>
+            <li><strong>SKU:</strong> Kode SKU barang jadi (auto-generate jika kosong).</li>
+            <li><strong>* Category:</strong> Pilih kategori produk (contoh: <code>Produksi Internal</code>).</li>
+            <li><strong>* Status:</strong> Pilih <code>Active</code>.</li>
+            <li><strong>Bill of Materials:</strong> <strong>Pilih BOM yang telah dibuat di Langkah 5.</strong></li>
+            <li><strong>Base Price:</strong> <em>Terisi otomatis dari Total Cost BOM sebagai harga pokok dasar (COGS).</em></li>
+            <li><strong>* Lead Time:</strong> Masukkan estimasi lama produksi (contoh: <code>2</code>) dan pilih satuan <code>Week(s)</code> atau <code>Day(s)</code>.</li>
+            <li><strong>* Selling Price:</strong> Klik <span class="btn-ui">Add Price</span>, pilih Currency (<code>IDR</code>) dan masukkan harga jual ke konsumen (contoh: <code>Rp 750.000</code>).</li>
+            <li><strong>Spesifikasi Dimensi & Kontainer (Opsional):</strong> Masukkan berat, dimensi produk (P x L x T), dimensi kemasan, serta kapasitas muat kontainer (20ft / 40ft / 40ft HC).</li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-primary-ui">Save</span>.</li>
+</ol>
+
+<hr>
+
+<h2 id="step-7-rfq">10. LANGKAH 7: PERMINTAAN PENAWARAN (REQUEST FOR QUOTES / RFQ)</h2>
+<p>RFQ mencatat permohonan harga yang masuk dari calon pelanggan sebelum diterbitkan penawaran resmi.</p>
+
+<h3>Cara Membuat RFQ:</h3>
+<ol>
+    <li>Buka menu <strong>Sales &rarr; Request for Quotes</strong>.</li>
+    <li>Klik tombol <span class="btn-primary-ui">+ Create RFQ</span> (atau buka <code>/rfq/create</code>).</li>
+    <li>Pilih <strong>* Customer Name</strong> (data customer otomatis terisi jika sudah ada, atau ketik nama baru).</li>
+    <li>Pilih PIC penanggung jawab pada tabel PIC.</li>
+    <li>Pada bagian produk, klik tombol <span class="btn-ui">+ Add Product</span>:
+        <ul>
+            <li>Pilih <strong>Product</strong> dari katalog yang sudah dibuat.</li>
+            <li>Masukkan <strong>Quantity</strong> yang diminta pelanggan.</li>
+            <li>Jika produk belum pernah ada dan merupakan pesanan kustom, pilih tipe <em>Custom</em> (ini akan memicu pembuatan CPR di Langkah 8).</li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-primary-ui">Submit RFQ</span>.</li>
+</ol>
+
+<hr>
+
+<h2 id="step-8-cpr">11. LANGKAH 8: PERMINTAAN PRODUK KUSTOM (CUSTOM PRODUCTS REQUEST / CPR)</h2>
+<p>Jika pada RFQ pelanggan meminta produk non-standar (kustom), sistem otomatis membuatkan dokumen CPR.</p>
+
+<ol>
+    <li>Buka menu <strong>Product &rarr; Custom Products Request</strong> (<code>/custom-products-request/</code>).</li>
+    <li>Buka dokumen CPR yang berstatus <code>Pending</code>.</li>
+    <li>Tim teknis/R&D mengisi spesifikasi detail bahan baku dan taksiran biaya pembuatan.</li>
+    <li>Klik tombol persetujuan <strong>Approve</strong>. Setelah CPR disetujui, sales baru dapat melanjutkan pembuatan surat penawaran (Quote).</li>
+</ol>
+
+<hr>
+
+<h2 id="step-9-quotes">12. LANGKAH 9: PEMBUATAN SURAT PENAWARAN RESMI (QUOTES)</h2>
+<p>Quotes adalah surat penawaran harga resmi yang mengikat ketentuan pembayaran dan masa berlaku penawaran.</p>
+
+<h3>Cara Membuat Quotes:</h3>
+<ol>
+    <li>Buka menu <strong>Sales &rarr; Quotes</strong>.</li>
+    <li>Klik tombol <span class="btn-primary-ui">+ Create Quote</span> (atau buka <code>/quotes/create</code>).</li>
+    <li>Isi parameter penawaran:
+        <ul>
+            <li><strong>* Currency:</strong> Pilih mata uang transaksi (contoh: <code>IDR - Indonesian Rupiah</code>).</li>
+            <li><strong>Down Payment Percentage:</strong> Masukkan persentase uang muka (contoh: <code>50%</code>).</li>
+            <li><strong>* Valid Until:</strong> Pilih tanggal batas akhir berlakunya penawaran.</li>
+            <li><strong>* Customer Name:</strong> Pilih pelanggan (atau pilih dari nomor RFQ jika dibuat dari RFQ).</li>
+        </ul>
+    </li>
+    <li><strong>Rincian Item & Kalkulasi Harga:</strong>
+        <ul>
+            <li>Pilih produk yang ditawarkan, masukkan kuantitas, dan harga satuan.</li>
+            <li>Sistem otomatis menghitung <strong>Subtotal</strong>.</li>
+            <li>Masukkan <strong>Tax Rate</strong> (contoh: <code>11%</code> untuk PPN).</li>
+            <li>Masukkan <strong>Shipping Fee</strong> (ongkos kirim) dan <strong>Other Fee</strong> jika ada.</li>
+            <li><strong>Total:</strong> Terhitung otomatis sebagai Grand Total.</li>
+        </ul>
+    </li>
+    <li><strong>Ketentuan Pembayaran & Legal:</strong>
+        <ul>
+            <li><strong>* Bank Account:</strong> Pilih rekening bank tujuan pembayaran perusahaan.</li>
+            <li><strong>* Payment Terms:</strong> Pilih termin pembayaran (contoh: <em>50% DP, 50% Before Delivery</em>).</li>
+            <li><strong>Incoterms:</strong> Pilih ketentuan perdagangan (FOB, CIF, EXW, dll.).</li>
+            <li><strong>Klausul Hukum:</strong> Centang klausul yang berlaku (<em>Include Force Majeure Clause</em>, <em>Include Late Payment Penalties</em>).</li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-primary-ui">Submit</span>.</li>
+</ol>
+
+<hr>
+
+<h2 id="step-10-orders">13. LANGKAH 10: KONFIRMASI PESANAN PENJUALAN (ORDERS)</h2>
+<p>Saat customer menyetujui penawaran harga (Quote), penawaran tersebut dikonfirmasi menjadi <strong>Sales Order (SO)</strong>.</p>
+
+<h3>Alur & Efek Konfirmasi Order:</h3>
+<ol>
+    <li>Buka menu <strong>Sales &rarr; Orders</strong>.</li>
+    <li>Jika membuat order langsung, klik <span class="btn-primary-ui">+ Create Order</span> (<code>/orders/create</code>). Masukkan Order Type, Priority, Planned Start Date, dan Planned End Date.</li>
+    <li>Jika berasal dari Quote yang di-Accept, buka daftar Orders:
+        <ul>
+            <li>Status awal: <span class="badge badge-amber">Waiting for Approval</span>.</li>
+            <li>Lakukan approval pada pesanan tersebut hingga berstatus <span class="badge badge-green">Confirmed</span>.</li>
+        </ul>
+    </li>
+    <li><div class="callout"><strong>Otomasi Sistem:</strong> Begitu Sales Order berstatus <span class="badge badge-green">Confirmed</span>, sistem Labamu MRP secara otomatis membuatkan <strong>Work Order (SPK)</strong> di modul Manufacturing dan menyiapkan reservasi kebutuhan material.</div></li>
+</ol>
+
+<hr>
+
+<h2 id="step-11-work-orders">14. LANGKAH 11: EKSEKUSI PRODUKSI (WORK ORDER) & MATERIAL REQUESTS</h2>
+<p>Work Order (SPK) adalah perintah kerja untuk menjalankan proses produksi di lantai pabrik.</p>
+
+<h3>1. Pengecekan Alokasi Bahan (Material Requests):</h3>
+<ol>
+    <li>Buka menu <strong>Resources &rarr; Material Requests</strong> (<code>/material-requests/</code>).</li>
+    <li>Lihat permintaan material yang terhubung dengan nomor Work Order terkait (status: <span class="badge badge-blue">New Request</span> atau <span class="badge badge-amber">Preparing</span>).</li>
+    <li>Petugas gudang memeriksa ketersediaan stok fisik:
+        <ul>
+            <li><strong>Jika Stok Cukup:</strong> Lakukan alokasi dan serah terima bahan hingga status menjadi <span class="badge badge-green">Completed</span>.</li>
+            <li><strong>Jika Stok Kurang:</strong> Catat kekurangan material untuk dilakukan pembelian via Purchase Order (Langkah 12).</li>
+        </ul>
+    </li>
+</ol>
+
+<h3>2. Menjalankan Work Order (Lantai Produksi):</h3>
+<ol>
+    <li>Buka menu <strong>Manufacturing &rarr; Work Order</strong> (<code>/work-orders/</code>).</li>
+    <li>Cari nomor SPK (contoh: <code>WO-20260926-000010</code>).</li>
+    <li>Filter status alur kerja Work Order:
+        <ul>
+            <li><span class="badge badge-gray">Not Started</span> : SPK baru terbit, bahan belum dialokasikan lengkap.</li>
+            <li><span class="badge badge-blue">Ready to Process</span> : Seluruh bahan baku di gudang sudah siap dan dialokasikan penuh.</li>
+            <li><span class="badge badge-amber">In Progress</span> : Operator pabrik sedang mengerjakan tahapan produksi sesuai routing.</li>
+            <li><span class="badge badge-green">Completed</span> : Produk telah selesai diproduksi, lolos QC, dan stok produk jadi di gudang bertambah otomatis.</li>
+        </ul>
+    </li>
+    <li>Buka detail SPK, klik tombol <strong>Start Production</strong> untuk mengubah status menjadi <code>In Progress</code>, lalu klik <strong>Complete Work Order</strong> setelah pengerjaan selesai.</li>
+</ol>
+
+<hr>
+
+<h2 id="step-12-purchase-orders">15. LANGKAH 12: PENGADAAN KEKURANGAN BAHAN (PURCHASE ORDERS / PO)</h2>
+<p>Digunakan saat bahan baku di gudang tidak mencukupi untuk memenuhi kebutuhan Work Order aktif atau simulasi pesanan.</p>
+
+<h3>Cara Membuat Purchase Order:</h3>
+<ol>
+    <li>Buka menu <strong>Procurement &rarr; Purchase Orders</strong>.</li>
+    <li>Klik tombol <span class="btn-primary-ui">New PO</span> (atau buka <code>/purchase-orders/create</code>).</li>
+    <li>Pilih <strong>* Vendor Name</strong> dari daftar pemasok yang terdaftar. Data telepon, email, dan alamat vendor otomatis terisi.</li>
+    <li>Tentukan <strong>* Purchase Order Date</strong> dan <strong>Expected Delivery Date</strong> (estimasi tiba di gudang).</li>
+    <li>Pada bagian <strong>PO Line</strong>, klik tombol <span class="btn-ui">+ Add PO Line</span>:
+        <ul>
+            <li>Pilih nama <strong>Material</strong> yang kurang.</li>
+            <li>Masukkan <strong>Quantity</strong> yang dipesan dan <strong>Unit Cost</strong> (harga beli satuan).</li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-primary-ui">Submit PO</span>.</li>
+    <li>Setelah barang tiba dari vendor, lakukan penerimaan barang sehingga stok pada menu <strong>Resources &rarr; Materials</strong> bertambah secara riil.</li>
+</ol>
+
+<hr>
+
+<h2 id="step-13-invoices">16. LANGKAH 13: PENERBITAN FAKTUR TAGIHAN (INVOICES)</h2>
+<p>Faktur tagihan dapat diterbitkan bertahap (Down Payment, Progress Billing, atau Pelunasan Akhir).</p>
+
+<h3>Cara Menerbitkan Invoice:</h3>
+<ol>
+    <li>Buka menu <strong>Sales &rarr; Invoices</strong>.</li>
+    <li>Klik tombol <span class="btn-primary-ui">+ Create Invoice</span> (atau buka <code>/invoices/create</code>).</li>
+    <li>Pilih <strong>* Invoice Type</strong>:
+        <ul>
+            <li><code>Down Payment</code> : Tagihan uang muka di awal sebelum pengerjaan.</li>
+            <li><code>Remaining Payment</code> : Tagihan pelunasan sisa pembayaran.</li>
+            <li><code>Full Payment</code> : Tagihan pembayaran penuh sekaligus.</li>
+        </ul>
+    </li>
+    <li>Pilih <strong>* Order No</strong> yang akan ditagihkan (data customer dan nominal otomatis ditarik dari Sales Order).</li>
+    <li>Tentukan <strong>* Issue Date</strong> dan <strong>Due Date</strong> (tanggal jatuh tempo pembayaran).</li>
+    <li>Upload lampiran dokumen penagihan bila diperlukan, lalu klik <span class="btn-primary-ui">Save</span>.</li>
+    <li>Status pembayaran akan tercatat: <span class="badge badge-amber">Unpaid</span> &rarr; <span class="badge badge-blue">Partial</span> &rarr; <span class="badge badge-green">Paid</span>.</li>
+</ol>
+
+<hr>
+
+<h2 id="order-simulation">17. FITUR UNGGULAN: SIMULASI PESANAN (ORDER SIMULATION BETA)</h2>
+<p>Fitur ini digunakan sebelum menyetujui pesanan dalam jumlah besar untuk memprediksi apakah kapasitas bahan baku gudang mencukupi serta mengetahui estimasi pendapatan dan kekurangan bahan tanpa merusak data inventori aktual.</p>
+
+<h3>Cara Menggunakan Order Simulation:</h3>
+<ol>
+    <li>Buka menu <strong>Order Simulation</strong> (<code>/order-simulation/</code>).</li>
+    <li>Jika muncul notifikasi panduan, klik <span class="btn-primary-ui">I Understand, Continue</span>.</li>
+    <li>Pilih <strong>* Order Required Date</strong> (target tanggal selesai yang diinginkan pelanggan).</li>
+    <li>Klik tombol <span class="btn-ui">+ Add Product</span>:
+        <ul>
+            <li>Pilih produk dari katalog yang <strong>telah memiliki BOM</strong>.</li>
+            <li>Masukkan rencana jumlah pesanan (<strong>Quantity</strong>).</li>
+            <li>Masukkan estimasi harga jual (<strong>Selling Price / Unit</strong>).</li>
+            <li>Sistem otomatis menampilkan <strong>Forecasted Revenue</strong> (proyeksi omset kotor).</li>
+        </ul>
+    </li>
+    <li>Klik tombol <span class="btn-primary-ui">Run Simulation</span>.</li>
+    <li><strong>Hasil Analisis Sistem:</strong>
+        <ul>
+            <li>Sistem mengecek seluruh komposisi BOM terhadap stok gudang saat ini.</li>
+            <li>Jika ada bahan yang kurang, sistem akan merinci nama material, jumlah kekurangan (shortage), serta estimasi lead time pengadaan yang dibutuhkan.</li>
+            <li><em>Solusi dari Web:</em> Jika simulasi menunjukkan stok kurang, segera buat <strong>Purchase Order (PO)</strong> ke vendor sebelum mengonfirmasi pesanan pelanggan.</li>
+        </ul>
+    </li>
+</ol>
+
+<hr>
+
+<h2 id="analytics-reports">18. LAPORAN & ANALISIS DATA (ANALYTICS & REPORTS)</h2>
+<p>Labamu MRP menyediakan 5 modul pelaporan analitik real-time:</p>
+
+<ol>
+    <li><strong>Sales Funnel Report (<code>/reports/sales/</code>):</strong>
+        Menampilkan metrik rasio konversi tahapan penjualan dari <code>RFQs &rarr; Quotes &rarr; Orders &rarr; Work Orders</code> lengkap dengan persentase keberhasilan (contoh: <code>88.89%</code>).
+    </li>
+    <li><strong>Financial Report (<code>/reports/financial/</code>):</strong>
+        Laporan keuangan multi-dimensi dengan tab navigasi:
+        <ul>
+            <li><strong>Order:</strong> Omset penjualan dan margin laba kotor per pesanan.</li>
+            <li><strong>Work Order:</strong> Realisasi ongkos produksi aktual vs standar BOM.</li>
+            <li><strong>Product:</strong> Profitabilitas margin kontribusi per SKU produk.</li>
+            <li><strong>Invoice:</strong> Status arus kas penagihan dan piutang pelanggan.</li>
+        </ul>
+    </li>
+    <li><strong>Inventory Report (<code>/reports/inventory/</code>):</strong>
+        Terdiri dari 2 tabel utama:
+        <ul>
+            <li><em>Tabel Alokasi:</em> Menampilkan <code>On-Hand Qty</code>, <code>Classification (A/B/C)</code>, dan <code>Avg. Daily Allocated (Last 30d)</code>.</li>
+            <li><em>Tabel Valuasi Stok:</em> Menampilkan <code>On-Hand Stock</code>, <code>Average Cost (IDR)</code>, dan total <code>Inventory Value (IDR)</code>.</li>
+        </ul>
+    </li>
+    <li><strong>Procurement & AP Report (<code>/reports/procurement-ap/</code>):</strong>
+        Menyajikan analisis belanja pengadaan ke vendor, <code>Vendor Liability</code>, dan penuaan hutang usaha (<code>Accounts Payable Aging</code>).</li>
+    <li><strong>Work Order Monitoring (<code>/reports/work-order/</code>):</strong>
+        Pemantauan efisiensi waktu kerja per Work Center dan pelacakan SPK yang sedang berjalan di lantai pabrik.
+    </li>
+</ol>
+
+<hr>
+
+<h2 id="admin-settings">19. PENGATURAN SISTEM & HAK AKSES (ADMINISTRATION)</h2>
+
+<h3>1. User Management (<code>/user-management/user-groups/</code>)</h3>
+<p>Mengatur grup pengguna dan pembatasan hak akses karyawan per modul. Setiap modul dapat diatur izinnya secara spesifik:</p>
+<ul>
+    <li><code>can_read</code> : Hanya dapat melihat data/laporan.</li>
+    <li><code>can_create</code> : Dapat membuat data baru.</li>
+    <li><code>can_update</code> : Dapat mengubah data yang ada.</li>
+    <li><code>can_delete</code> : Dapat menghapus data.</li>
+    <li><code>can_approve</code> : Memiliki wewenang menyetujui transaksi (Approval RFQ, Quote, PO, Work Order).</li>
+</ul>
+
+<h3>2. FX Management (<code>/fx-management/</code>)</h3>
+<p>Pengelolaan mata uang asing (IDR, USD, SGD) dan nilai tukar kurs harian terhadap mata uang dasar (Base Currency).</p>
+
+<h3>3. Company Settings (<code>/company-settings/</code>)</h3>
+<p>Mengatur profil badan usaha, alamat resmi kantor, serta pendaftaran nomor rekening bank perusahaan (Bank Name, Account Holder Name, Account Number, Swift Code, Branch) yang akan tampil secara otomatis pada dokumen Quotes dan Invoices.</p>
+
+<hr>
+<p style="text-align: center; color: #64748b; font-size: 9pt;">&copy; 2026 Labamu Manufacturing (MRP) — Dokumentasi Panduan Operasional Sistem Resmi</p>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+clear ; source /tmp/agentsroom-init-zhszx59u.sh ; rm -f /tmp/agentsroom-init-zhszx59u.sh
++q696e646e+q71756572792d6f732d6e616d65
+                              arrafi  󰇅 anonimus
+      ...........           ──────────────────────────────────────
+     /,,,,...../           󰣇 OS         󰄾 CachyOS x86_64
+    /,,,..,,../   ()       󰌽 Kernel     󰄾 Linux 7.2.2-1-cachyos
+   /,,,,../                󰌢 Machine    󰄾 ThinkPad T14s Gen 2i
+  /,,,.../     /'\         󱂬 Compositor 󰄾 Hyprland 0.56.2 (Wayland)
+ /,...../      \,/         󰞷 Terminal   󰄾 python3
+ \,,,,,,\\             _   󰅐 Uptime     󰄾 1 hour
+  \,,....\\           / \  󰏖 Packages   󰄾 1465 (pacman)
+   \...,..\\          \_/  󰻠 CPU        󰄾 11th Gen Intel(R) Core(TM) i5-1135G7 @ 4.20 GHz
+    \..,,,,,,,,,,,,/       󰢮 GPU        󰄾 Iris Xe Graphics
+     \,,........,,/        󰍛 Memory     󰄾 5.57 GiB / 15.34 GiB (36%)
+                           󰁹 Battery    󰄾 56% [Discharging]
+
+                             󱓻󱓻󱓻  󱓻󱓻󱓻  󱓻󱓻󱓻  󱓻󱓻󱓻  󱓻󱓻󱓻  󱓻󱓻󱓻
+     …/work/hi    main ?   v1.27.1-X:nodwarf5 
+ 11:33
+ ▐▛███▛█ClaudeCodev2.1.283
+▝▜██████▀Sonnet4.6·APIUsageBilling
+ ▝▝▝▝~/work/hi
+❯ Try"howdoes<filepath>work?"
+⏵⏵bypasspermissionson (shift+tabtocycle)·←foragents●high·/effort

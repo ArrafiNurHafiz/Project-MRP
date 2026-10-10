@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "agentsroom-team": {
+      "command": "node",
+      "args": [
+        "/home/arrafi/.local/opt/agentsroom/resources/team-mcp-server.cjs"
+      ]
+    }
+  }
+}

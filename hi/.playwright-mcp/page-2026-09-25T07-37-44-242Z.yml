@@ -1,0 +1,141 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e10]:
+      - generic [ref=f7e11]:
+        - img "Logo" [ref=f7e14]
+        - textbox "Search menu..." [ref=f7e16]
+      - generic [ref=f7e17]:
+        - list [ref=f7e20]:
+          - listitem [ref=f7e21]:
+            - link "Dashboard" [ref=f7e22] [cursor=pointer]:
+              - /url: /
+        - list [ref=f7e27]:
+          - listitem [ref=f7e28]:
+            - button "Resources" [ref=f7e29]
+            - list [ref=f7e36]:
+              - listitem [ref=f7e37]:
+                - link "Materials" [ref=f7e38] [cursor=pointer]:
+                  - /url: /materials/
+              - listitem [ref=f7e40]:
+                - link "Vendors" [ref=f7e41] [cursor=pointer]:
+                  - /url: /vendors/
+              - listitem [ref=f7e43]:
+                - link "Customers" [ref=f7e44] [cursor=pointer]:
+                  - /url: /customers/
+              - listitem [ref=f7e46]:
+                - link "Material Requests" [ref=f7e47] [cursor=pointer]:
+                  - /url: /material-requests/
+        - list [ref=f7e51]:
+          - listitem [ref=f7e52]:
+            - button "Manufacturing" [ref=f7e53]
+        - list [ref=f7e61]:
+          - listitem [ref=f7e62]:
+            - button "Product" [ref=f7e63]
+        - list [ref=f7e72]:
+          - listitem [ref=f7e73]:
+            - button "Sales" [ref=f7e74]
+        - list [ref=f7e82]:
+          - listitem [ref=f7e83]:
+            - button "Procurement" [ref=f7e84]
+        - list [ref=f7e95]:
+          - listitem [ref=f7e96]:
+            - button "Analytics" [ref=f7e97]
+        - list [ref=f7e106]:
+          - listitem [ref=f7e107]:
+            - button "Administration" [ref=f7e108]
+        - list [ref=f7e117]:
+          - listitem [ref=f7e118]:
+            - link "User Guide" [ref=f7e119] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f7e126]:
+          - listitem [ref=f7e127]:
+            - link "Order Simulation BETA" [ref=f7e128] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f7e140]: Order Simulation
+              - generic [ref=f7e141]: BETA
+      - button "EN" [ref=f7e143]
+    - main [ref=f7e147]:
+      - generic [ref=f7e148]:
+        - button "Toggle Sidebar" [ref=f7e150]
+        - generic [ref=f7e152]:
+          - button "1" [ref=f7e154] [cursor=pointer]
+          - button [ref=f7e160] [cursor=pointer]:
+            - generic [ref=f7e161]:
+              - paragraph [ref=f7e162]: Bernadus Nurtjahjono
+              - paragraph [ref=f7e163]: Owner
+      - main [ref=f7e165]:
+        - generic [ref=f7e244]:
+          - generic [ref=f7e245]:
+            - heading "Vendors" [level=1] [ref=f7e246]
+            - link [ref=f7e247] [cursor=pointer]:
+              - /url: /vendors/create/
+              - button "New Vendor" [ref=f7e248]
+          - generic [ref=f7e251]:
+            - generic [ref=f7e252]:
+              - button "Status" [ref=f7e255] [cursor=pointer]
+              - textbox "Search Vendor by name..." [ref=f7e265]
+            - table [ref=f7e269]:
+              - rowgroup [ref=f7e270]:
+                - row [ref=f7e271]:
+                  - columnheader "Name" [ref=f7e272]
+                  - columnheader "Alias" [ref=f7e277]
+                  - columnheader "PIC Name" [ref=f7e279]
+                  - columnheader "Phone" [ref=f7e281]
+                  - columnheader "Status" [ref=f7e283]
+              - rowgroup [ref=f7e285]:
+                - row [ref=f7e286]:
+                  - cell [ref=f7e287]
+                - row [ref=f7e288] [cursor=pointer]:
+                  - cell "CV Warna Prima Coating" [ref=f7e289]
+                  - cell "Warna Prima" [ref=f7e290]
+                  - cell "Hendra Wijaya" [ref=f7e291]
+                  - cell "+6281122334455" [ref=f7e292]
+                  - cell "Active" [ref=f7e293]
+                - row [ref=f7e295] [cursor=pointer]:
+                  - cell "PT Cipta Fastener Mandiri" [ref=f7e296]
+                  - cell "Cipta Fastener" [ref=f7e297]
+                  - cell "Linda Herlina" [ref=f7e298]
+                  - cell "+6281377889900" [ref=f7e299]
+                  - cell "Active" [ref=f7e300]
+                - row [ref=f7e302] [cursor=pointer]:
+                  - cell "PT Mega Baja Nusantara" [ref=f7e303]
+                  - cell "Mega Baja" [ref=f7e304]
+                  - cell "Budi Santoso" [ref=f7e305]
+                  - cell "+6281288991122" [ref=f7e306]
+                  - cell "Active" [ref=f7e307]
+                - row [ref=f7e309] [cursor=pointer]:
+                  - cell "Pak Joko" [ref=f7e310]
+                  - cell "Silika Gel" [ref=f7e311]
+                  - cell "-" [ref=f7e312]
+                  - cell "-" [ref=f7e313]
+                  - cell "Active" [ref=f7e314]
+                - row [ref=f7e316] [cursor=pointer]:
+                  - cell "Sejahtera Abadi jaya" [ref=f7e317]
+                  - cell "-" [ref=f7e318]
+                  - cell "-" [ref=f7e319]
+                  - cell "+62082138911008" [ref=f7e320]
+                  - cell "Active" [ref=f7e321]
+                - row [ref=f7e323] [cursor=pointer]:
+                  - cell "Bio Industri" [ref=f7e324]
+                  - cell "-" [ref=f7e325]
+                  - cell "-" [ref=f7e326]
+                  - cell "+62081226427589" [ref=f7e327]
+                  - cell "Active" [ref=f7e328]
+            - generic [ref=f7e330]:
+              - generic [ref=f7e331]:
+                - combobox [ref=f7e333]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                - generic [ref=f7e334]: from 6 rows
+              - generic [ref=f7e335]:
+                - button "Previous page" [disabled] [ref=f7e336]
+                - button "Page 1" [ref=f7e339]: "1"
+                - button "Next page" [disabled] [ref=f7e340]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f7e343]:
+        - generic [ref=f7e348]:
+          - paragraph [ref=f7e350]: Vendor created successfully
+          - button "Okay" [ref=f7e351]
+  - alert [ref=f7e243]: Vendors

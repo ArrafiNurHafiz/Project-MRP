@@ -1,0 +1,312 @@
+- generic:
+  - generic [aria-hidden]:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - textbox:
+                - /placeholder: Search menu...
+          - generic:
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /
+                      - generic: Dashboard
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Resources
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /materials/
+                          - generic: Materials
+                      - listitem:
+                        - link:
+                          - /url: /vendors/
+                          - generic: Vendors
+                      - listitem:
+                        - link:
+                          - /url: /customers/
+                          - generic: Customers
+                      - listitem:
+                        - link:
+                          - /url: /material-requests/
+                          - generic: Material Requests
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Manufacturing
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Product
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Sales
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Procurement
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Analytics
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - button:
+                      - generic: Administration
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /help/user-guide/
+                      - generic: User Guide
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /order-simulation/
+                      - generic: Order Simulation
+                      - generic: BETA
+          - generic:
+            - button:
+              - generic: EN
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+        - generic:
+          - generic:
+            - button:
+              - generic: "1"
+          - generic:
+            - button:
+              - generic:
+                - paragraph: Bernadus Nurtjahjono
+                - paragraph: Owner
+      - generic:
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]: Material Detail
+                - generic:
+                  - generic: Materials
+                  - generic: / Material Detail
+              - button:
+                - generic: Edit Material
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph: No image
+                  - generic:
+                    - generic:
+                      - paragraph: Plat Stainless Steel 304 (2.0 mm)
+                      - generic: Active
+                    - generic:
+                      - generic:
+                        - paragraph: SKU
+                        - generic:
+                          - paragraph: MAT-SS304-2MM
+                      - generic:
+                        - paragraph: Category
+                        - generic:
+                          - paragraph: Packing & Aksesori
+                      - generic:
+                        - paragraph: Type
+                        - generic:
+                          - paragraph: Raw Material
+                      - generic:
+                        - paragraph: ABC Classification
+                        - generic: A
+                      - generic:
+                        - paragraph: Unit of Measure
+                        - generic:
+                          - paragraph: pcs
+                      - generic:
+                        - paragraph: On-Hand Stock
+                        - generic:
+                          - paragraph: 0 pcs
+                      - generic:
+                        - paragraph: Stock Risk
+                        - generic:
+                          - paragraph: "10"
+                      - generic:
+                        - paragraph: Average Cost
+                        - generic:
+                          - paragraph: IDR 0
+                      - generic:
+                        - paragraph: Description
+                        - generic:
+                          - paragraph: Plat SS 304 finish 2B 4x8 feet (1220x2440 mm)
+            - tablist:
+              - tab [selected]:
+                - generic: Stock Batches
+              - tab:
+                - generic: Stock Transactions
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button:
+                        - generic: Batch status
+                    - generic:
+                      - button:
+                        - generic: Vendor
+                    - generic:
+                      - button:
+                        - generic: Expiration status
+                  - generic:
+                    - generic:
+                      - checkbox [checked]
+                      - text: Show Empty Batches
+                - generic:
+                  - generic:
+                    - generic:
+                      - textbox:
+                        - /placeholder: Search by keyword or location...
+                  - button:
+                    - generic: Add Batch
+              - generic:
+                - table:
+                  - rowgroup:
+                    - row:
+                      - columnheader:
+                        - generic: Batch No
+                      - columnheader:
+                        - generic: Initial Qty
+                      - columnheader:
+                        - generic: Current Qty
+                      - columnheader:
+                        - generic: Reserved Qty
+                      - columnheader:
+                        - generic: Cost/Unit
+                      - columnheader:
+                        - generic: Purchase Date
+                      - columnheader:
+                        - generic: Expiry Date
+                      - columnheader:
+                        - generic: Expected Date
+                      - columnheader:
+                        - generic: Received Date
+                      - columnheader:
+                        - generic: Storage Location
+                      - columnheader:
+                        - generic: Vendor
+                      - columnheader:
+                        - generic: PO Ref
+                      - columnheader:
+                        - generic: Attachments
+                      - columnheader:
+                        - generic: Status
+                      - columnheader:
+                        - generic: Actions
+                  - rowgroup:
+                    - row:
+                      - cell
+                    - row:
+                      - cell:
+                        - generic:
+                          - paragraph: No batches found
+                          - paragraph: Get started by creating first stock batch
+              - generic:
+                - generic:
+                  - generic:
+                    - combobox
+                  - generic: from 0 rows
+                - generic:
+                  - button [disabled]
+                  - button
+  - region "Notifications alt+T"
+  - alert: Labamu Manufacturing
+  - dialog [ref=f8e1044]:
+    - generic [ref=f8e1045]:
+      - heading "Add Batch" [level=2] [ref=f8e1047]
+      - generic [ref=f8e1048]:
+        - generic [ref=f8e1049]:
+          - generic [ref=f8e1050]:
+            - generic [ref=f8e1051]: "*"
+            - text: Initial Quantity
+          - group [ref=f8e1053]:
+            - textbox "* Initial Quantity" [ref=f8e1055]: "35"
+            - group [ref=f8e1058]:
+              - generic [ref=f8e1059]: pcs
+        - generic [ref=f8e1060]:
+          - generic [ref=f8e1061]: Cost/pcs
+          - group [ref=f8e1063]:
+            - group [ref=f8e1064]:
+              - generic [ref=f8e1065]: IDR
+            - textbox "Cost/pcs" [ref=f8e1067]: 1,450,000
+        - generic [ref=f8e1070]:
+          - generic [ref=f8e1071]:
+            - generic [ref=f8e1072]: "*"
+            - text: Purchase Date
+          - generic [ref=f8e1073]:
+            - button "01/09/2026" [active] [ref=f8e1224]
+            - button "Clear date" [ref=f8e1225] [cursor=pointer]
+        - generic [ref=f8e1076]:
+          - generic [ref=f8e1077]:
+            - generic [ref=f8e1078]: Expiry Date
+            - button "Pick a date" [ref=f8e1080]
+          - generic [ref=f8e1082]:
+            - generic [ref=f8e1083]: Expected Date
+            - button "Pick a date" [ref=f8e1085]
+        - generic [ref=f8e1087]:
+          - generic [ref=f8e1088]:
+            - generic [ref=f8e1089]: "*"
+            - text: Status
+          - combobox "* Status" [ref=f8e1091] [cursor=pointer]:
+            - generic: Select
+        - generic [ref=f8e1092]:
+          - generic [ref=f8e1093]: Received Date
+          - generic [ref=f8e1094]:
+            - button "-"
+        - generic [ref=f8e1095]:
+          - generic [ref=f8e1096]: Storage Location
+          - textbox "Storage Location" [ref=f8e1100]:
+            - /placeholder: Location...
+            - text: Gudang A - Rak Besi 01
+        - generic [ref=f8e1103]:
+          - generic [ref=f8e1104]: Vendor
+          - combobox [ref=f8e1106]:
+            - textbox "Search or select..." [ref=f8e1108]
+        - button [ref=f8e1113] [cursor=pointer]:
+          - generic [ref=f8e1118]:
+            - generic [ref=f8e1119]:
+              - paragraph [ref=f8e1120]: Max 3 files, 30MB each
+              - paragraph
+            - paragraph [ref=f8e1121]: Drag file or browse file
+      - generic [ref=f8e1122]:
+        - button "Cancel" [ref=f8e1123] [cursor=pointer]
+        - button "Add Batch" [ref=f8e1125] [cursor=pointer]
+      - generic [ref=f8e1127]:
+        - button [ref=f8e1128]
+        - generic [ref=f8e1129]: Close

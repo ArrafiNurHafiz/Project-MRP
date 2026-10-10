@@ -1,0 +1,4 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]: Checking authentication...
+  - region "Notifications alt+T"
+  - alert [ref=f4e7]

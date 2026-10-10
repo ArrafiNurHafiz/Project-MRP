@@ -1,0 +1,24 @@
+- generic [active] [ref=f1e1]:
+  - alert [ref=f1e2]
+  - generic [ref=f1e8]:
+    - img "logo" [ref=f1e10]
+    - generic [ref=f1e11]:
+      - generic [ref=f1e12]: Input WhatsApp Number
+      - generic [ref=f1e13]: The OTP code will be sent to your WhatsApp number
+    - generic [ref=f1e14]:
+      - button "+62" [ref=f1e15] [cursor=pointer]
+      - textbox "8123-4567-8901" [ref=f1e21]
+    - generic [ref=f1e22]:
+      - checkbox [ref=f1e23]
+      - generic [ref=f1e24]:
+        - text: I agree to Labamu's
+        - link "Terms & Conditions" [ref=f1e25] [cursor=pointer]:
+          - /url: https://labamu.co.id/terms
+        - text: and
+        - link "Privacy Policy" [ref=f1e26] [cursor=pointer]:
+          - /url: https://labamu.co.id/privacy
+    - button "Login" [disabled] [ref=f1e27]
+    - generic [ref=f1e28]: Or
+    - button [ref=f1e32] [cursor=pointer]:
+      - img "email" [ref=f1e33]
+      - text: Login with Email

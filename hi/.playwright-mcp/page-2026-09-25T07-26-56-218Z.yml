@@ -1,0 +1,17 @@
+- generic [active] [ref=f1e1]:
+  - alert [ref=f1e2]
+  - generic [ref=f1e48]:
+    - img "logo" [ref=f1e51]
+    - generic [ref=f1e52]:
+      - generic [ref=f1e53]: Input OTP Code
+      - generic [ref=f1e54]: OTP code has been sent via Email to bernadus.n@gmail.com
+      - generic [ref=f1e55]: Check your spam folder if you don't see the email.
+      - generic [ref=f1e56]:
+        - textbox "Please enter OTP character 1" [ref=f1e57]
+        - textbox "Please enter OTP character 2" [ref=f1e58]
+        - textbox "Please enter OTP character 3" [ref=f1e59]
+        - textbox "Please enter OTP character 4" [ref=f1e60]
+        - textbox "Please enter OTP character 5" [ref=f1e61]
+        - textbox "Please enter OTP character 6" [ref=f1e62]
+      - generic [ref=f1e63]: Can't get the OTP code? Resend in 05:00
+    - generic [ref=f1e64]: Labamu help your business to continue growing!

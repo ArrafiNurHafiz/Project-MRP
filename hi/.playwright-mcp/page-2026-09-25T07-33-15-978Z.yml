@@ -1,0 +1,111 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e8]:
+    - generic [ref=f3e11]:
+      - generic [ref=f3e12]:
+        - img "Logo" [ref=f3e15]
+        - textbox "Search menu..." [ref=f3e17]
+      - generic [ref=f3e18]:
+        - list [ref=f3e21]:
+          - listitem [ref=f3e22]:
+            - link "Dashboard" [ref=f3e23] [cursor=pointer]:
+              - /url: /
+        - list [ref=f3e28]:
+          - listitem [ref=f3e29]:
+            - button "Resources" [ref=f3e30]
+        - list [ref=f3e39]:
+          - listitem [ref=f3e40]:
+            - button "Manufacturing" [ref=f3e41]
+            - list [ref=f3e47]:
+              - listitem [ref=f3e48]:
+                - link "Bill of Materials" [ref=f3e49] [cursor=pointer]:
+                  - /url: /bill-of-materials/
+              - listitem [ref=f3e51]:
+                - link "Routing" [ref=f3e52] [cursor=pointer]:
+                  - /url: /routing/
+              - listitem [ref=f3e54]:
+                - link "Work Order" [ref=f3e55] [cursor=pointer]:
+                  - /url: /work-orders/
+        - list [ref=f3e59]:
+          - listitem [ref=f3e60]:
+            - button "Product" [ref=f3e61]
+        - list [ref=f3e70]:
+          - listitem [ref=f3e71]:
+            - button "Sales" [ref=f3e72]
+        - list [ref=f3e80]:
+          - listitem [ref=f3e81]:
+            - button "Procurement" [ref=f3e82]
+        - list [ref=f3e93]:
+          - listitem [ref=f3e94]:
+            - button "Analytics" [ref=f3e95]
+        - list [ref=f3e104]:
+          - listitem [ref=f3e105]:
+            - button "Administration" [ref=f3e106]
+        - list [ref=f3e115]:
+          - listitem [ref=f3e116]:
+            - link "User Guide" [ref=f3e117] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f3e124]:
+          - listitem [ref=f3e125]:
+            - link "Order Simulation BETA" [ref=f3e126] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f3e138]: Order Simulation
+              - generic [ref=f3e139]: BETA
+      - button "EN" [ref=f3e141]
+    - main [ref=f3e145]:
+      - generic [ref=f3e146]:
+        - button "Toggle Sidebar" [ref=f3e148]
+        - generic [ref=f3e150]:
+          - button "1" [ref=f3e152] [cursor=pointer]
+          - button [ref=f3e158] [cursor=pointer]:
+            - generic [ref=f3e159]:
+              - paragraph [ref=f3e160]: Bernadus Nurtjahjono
+              - paragraph [ref=f3e161]: Owner
+      - main [ref=f3e163]:
+        - generic [ref=f3e325]:
+          - generic [ref=f3e326]:
+            - heading "Routing" [level=1] [ref=f3e327]
+            - link [ref=f3e328] [cursor=pointer]:
+              - /url: /routing/create/
+              - button "Add Routing" [ref=f3e329]
+          - generic [ref=f3e330]:
+            - generic [ref=f3e331]:
+              - button "Status" [ref=f3e334] [cursor=pointer]
+              - textbox "Search routing by name..." [ref=f3e344]
+            - table [ref=f3e348]:
+              - rowgroup [ref=f3e349]:
+                - row [ref=f3e350]:
+                  - columnheader "Routing Name" [ref=f3e351]
+                  - columnheader "Description" [ref=f3e356]
+                  - columnheader "Status" [ref=f3e358]
+                  - columnheader "Created At" [ref=f3e360]
+              - rowgroup [ref=f3e362]:
+                - row [ref=f3e363]:
+                  - cell [ref=f3e364]
+                - row [ref=f3e365] [cursor=pointer]:
+                  - cell "Fabrikasi Meja Stainless Steel" [ref=f3e366]
+                  - cell "Alur kerja manufaktur fabrikasi meja kerja industri stainless steel 304" [ref=f3e367]
+                  - cell "Active" [ref=f3e368]
+                  - cell "2026-09-25 14:33" [ref=f3e370]
+                - row [ref=f3e371] [cursor=pointer]:
+                  - cell "Bio Industri" [ref=f3e372]
+                  - cell "finishing" [ref=f3e373]
+                  - cell "Active" [ref=f3e374]
+                  - cell "2026-09-25 13:16" [ref=f3e376]
+            - generic [ref=f3e377]:
+              - generic [ref=f3e378]:
+                - combobox [ref=f3e380]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                - generic [ref=f3e381]: from 2 rows
+              - generic [ref=f3e382]:
+                - button "Previous page" [disabled] [ref=f3e383]
+                - button "Page 1" [ref=f3e386]: "1"
+                - button "Next page" [disabled] [ref=f3e387]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f3e390]:
+        - generic [ref=f3e395]:
+          - paragraph [ref=f3e397]: Routing created successfully
+          - button "Okay" [ref=f3e398]
+  - alert [ref=f3e7]: Routing

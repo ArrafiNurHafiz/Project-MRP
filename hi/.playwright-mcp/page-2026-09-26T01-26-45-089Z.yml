@@ -1,0 +1,140 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - generic [ref=f4e5]:
+      - generic [ref=f4e6]:
+        - img "Logo" [ref=f4e9]
+        - textbox "Search menu..." [ref=f4e11]
+      - generic [ref=f4e12]:
+        - list [ref=f4e15]:
+          - listitem [ref=f4e16]:
+            - link "Dashboard" [ref=f4e17] [cursor=pointer]:
+              - /url: /
+        - list [ref=f4e22]:
+          - listitem [ref=f4e23]:
+            - button "Resources" [ref=f4e24]
+        - list [ref=f4e33]:
+          - listitem [ref=f4e34]:
+            - button "Manufacturing" [ref=f4e35]
+        - list [ref=f4e43]:
+          - listitem [ref=f4e44]:
+            - button "Product" [ref=f4e45]
+        - list [ref=f4e54]:
+          - listitem [ref=f4e55]:
+            - button "Sales" [ref=f4e56]
+            - list [ref=f4e62]:
+              - listitem [ref=f4e63]:
+                - link "Request for Quotes" [ref=f4e64] [cursor=pointer]:
+                  - /url: /rfq/
+              - listitem [ref=f4e66]:
+                - link "Quotes" [ref=f4e67] [cursor=pointer]:
+                  - /url: /quotes/
+              - listitem [ref=f4e69]:
+                - link "Orders" [ref=f4e70] [cursor=pointer]:
+                  - /url: /orders/
+              - listitem [ref=f4e72]:
+                - link "Invoices" [ref=f4e73] [cursor=pointer]:
+                  - /url: /invoices/
+        - list [ref=f4e77]:
+          - listitem [ref=f4e78]:
+            - button "Procurement" [ref=f4e79]
+        - list [ref=f4e90]:
+          - listitem [ref=f4e91]:
+            - button "Analytics" [ref=f4e92]
+        - list [ref=f4e101]:
+          - listitem [ref=f4e102]:
+            - button "Administration" [ref=f4e103]
+        - list [ref=f4e112]:
+          - listitem [ref=f4e113]:
+            - link "User Guide" [ref=f4e114] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f4e121]:
+          - listitem [ref=f4e122]:
+            - link "Order Simulation BETA" [ref=f4e123] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f4e135]: Order Simulation
+              - generic [ref=f4e136]: BETA
+      - button "EN" [ref=f4e138]
+    - main [ref=f4e142]:
+      - generic [ref=f4e143]:
+        - button "Toggle Sidebar" [ref=f4e145]
+        - generic [ref=f4e147]:
+          - button [ref=f4e149] [cursor=pointer]
+          - button [ref=f4e154] [cursor=pointer]:
+            - generic [ref=f4e155]:
+              - paragraph [ref=f4e156]: Bernadus Nurtjahjono
+              - paragraph [ref=f4e157]: Owner
+      - main [ref=f4e159]:
+        - generic [ref=f4e160]:
+          - generic [ref=f4e161]:
+            - heading "Quotes" [level=1] [ref=f4e162]
+            - generic [ref=f4e163]:
+              - link [ref=f4e164] [cursor=pointer]:
+                - /url: /quotes/setting/
+                - button "Settings" [ref=f4e165]
+              - link [ref=f4e170] [cursor=pointer]:
+                - /url: /quotes/create/
+                - button "New Quote" [ref=f4e171]
+          - generic [ref=f4e174]:
+            - button "Draft 2" [ref=f4e175] [cursor=pointer]:
+              - generic [ref=f4e176]: Draft
+              - generic [ref=f4e177]: "2"
+            - button "Submitted 0" [ref=f4e181] [cursor=pointer]:
+              - generic [ref=f4e182]: Submitted
+              - generic [ref=f4e183]: "0"
+            - button "Issued 0" [ref=f4e187] [cursor=pointer]:
+              - generic [ref=f4e188]: Issued
+              - generic [ref=f4e189]: "0"
+            - button "Approved 0" [ref=f4e193] [cursor=pointer]:
+              - generic [ref=f4e194]: Approved
+              - generic [ref=f4e195]: "0"
+            - button "Rejected 0" [ref=f4e199] [cursor=pointer]:
+              - generic [ref=f4e200]: Rejected
+              - generic [ref=f4e201]: "0"
+            - button "Need Revision 0" [ref=f4e205] [cursor=pointer]:
+              - generic [ref=f4e206]: Need Revision
+              - generic [ref=f4e207]: "0"
+          - generic [ref=f4e211]:
+            - generic [ref=f4e212]:
+              - generic [ref=f4e213]:
+                - button "Customer" [ref=f4e215] [cursor=pointer]
+                - button "Status" [ref=f4e220] [cursor=pointer]
+              - textbox "Search quote number, RFQ number, or customer" [ref=f4e230]
+            - table [ref=f4e234]:
+              - rowgroup [ref=f4e235]:
+                - row [ref=f4e236]:
+                  - columnheader "Quote No" [ref=f4e237]
+                  - columnheader "RFQ No" [ref=f4e239]
+                  - columnheader "Customer Name" [ref=f4e241]
+                  - columnheader "Created By" [ref=f4e243]
+                  - columnheader "Created At" [ref=f4e245]
+                  - columnheader "Status" [ref=f4e247]
+              - rowgroup [ref=f4e249]:
+                - row [ref=f4e250]:
+                  - cell [ref=f4e251]
+                - row [ref=f4e252] [cursor=pointer]:
+                  - cell "QUO-20260925-000002" [ref=f4e253]
+                  - cell "RFQ-20260925-000002" [ref=f4e254]
+                  - cell "PT Maju Makmur Mandiri" [ref=f4e255]
+                  - cell "Bernadus Nurtjahjono" [ref=f4e256]
+                  - cell "2026-09-25" [ref=f4e257]
+                  - cell "Draft" [ref=f4e258]
+                - row [ref=f4e260] [cursor=pointer]:
+                  - cell "QUO-20260925-000001" [ref=f4e261]
+                  - cell "RFQ-20260925-000001" [ref=f4e262]
+                  - cell "Mr DIY" [ref=f4e263]
+                  - cell "Bernadus Nurtjahjono" [ref=f4e264]
+                  - cell "2026-09-25" [ref=f4e265]
+                  - cell "Draft" [ref=f4e266]
+            - generic [ref=f4e268]:
+              - generic [ref=f4e269]:
+                - combobox [ref=f4e271]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                - generic [ref=f4e272]: from 2 rows
+              - generic [ref=f4e273]:
+                - button "Previous page" [disabled] [ref=f4e274]
+                - button "Page 1" [ref=f4e277]: "1"
+                - button "Next page" [disabled] [ref=f4e278]
+  - region "Notifications alt+T"
+  - alert [ref=f4e281]

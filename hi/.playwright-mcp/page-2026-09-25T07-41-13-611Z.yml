@@ -1,0 +1,166 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e8]:
+    - generic [ref=f8e11]:
+      - generic [ref=f8e12]:
+        - img "Logo" [ref=f8e15]
+        - textbox "Search menu..." [ref=f8e17]
+      - generic [ref=f8e18]:
+        - list [ref=f8e21]:
+          - listitem [ref=f8e22]:
+            - link "Dashboard" [ref=f8e23] [cursor=pointer]:
+              - /url: /
+        - list [ref=f8e28]:
+          - listitem [ref=f8e29]:
+            - button "Resources" [ref=f8e30]
+            - list [ref=f8e37]:
+              - listitem [ref=f8e38]:
+                - link "Materials" [ref=f8e39] [cursor=pointer]:
+                  - /url: /materials/
+              - listitem [ref=f8e41]:
+                - link "Vendors" [ref=f8e42] [cursor=pointer]:
+                  - /url: /vendors/
+              - listitem [ref=f8e44]:
+                - link "Customers" [ref=f8e45] [cursor=pointer]:
+                  - /url: /customers/
+              - listitem [ref=f8e47]:
+                - link "Material Requests" [ref=f8e48] [cursor=pointer]:
+                  - /url: /material-requests/
+        - list [ref=f8e52]:
+          - listitem [ref=f8e53]:
+            - button "Manufacturing" [ref=f8e54]
+        - list [ref=f8e62]:
+          - listitem [ref=f8e63]:
+            - button "Product" [ref=f8e64]
+        - list [ref=f8e73]:
+          - listitem [ref=f8e74]:
+            - button "Sales" [ref=f8e75]
+        - list [ref=f8e83]:
+          - listitem [ref=f8e84]:
+            - button "Procurement" [ref=f8e85]
+        - list [ref=f8e96]:
+          - listitem [ref=f8e97]:
+            - button "Analytics" [ref=f8e98]
+        - list [ref=f8e107]:
+          - listitem [ref=f8e108]:
+            - button "Administration" [ref=f8e109]
+        - list [ref=f8e118]:
+          - listitem [ref=f8e119]:
+            - link "User Guide" [ref=f8e120] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f8e127]:
+          - listitem [ref=f8e128]:
+            - link "Order Simulation BETA" [ref=f8e129] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f8e141]: Order Simulation
+              - generic [ref=f8e142]: BETA
+      - button "EN" [ref=f8e144]
+    - main [ref=f8e148]:
+      - generic [ref=f8e149]:
+        - button "Toggle Sidebar" [ref=f8e151]
+        - generic [ref=f8e153]:
+          - button "1" [ref=f8e155] [cursor=pointer]
+          - button [ref=f8e161] [cursor=pointer]:
+            - generic [ref=f8e162]:
+              - paragraph [ref=f8e163]: Bernadus Nurtjahjono
+              - paragraph [ref=f8e164]: Owner
+      - main [ref=f8e166]:
+        - generic [ref=f8e884]:
+          - generic [ref=f8e885]:
+            - generic [ref=f8e886]:
+              - heading "Material Detail" [level=1] [ref=f8e891] [cursor=pointer]
+              - generic [ref=f8e892]:
+                - generic [ref=f8e893] [cursor=pointer]: Materials
+                - generic [ref=f8e894]: / Material Detail
+            - button "Edit Material" [ref=f8e895] [cursor=pointer]
+          - generic [ref=f8e901]:
+            - generic [ref=f8e904]:
+              - img "Material Image" [ref=f8e905]
+              - paragraph [ref=f8e906]: No image
+            - generic [ref=f8e907]:
+              - generic [ref=f8e908]:
+                - paragraph [ref=f8e909]: Plat Stainless Steel 304 (2.0 mm)
+                - generic [ref=f8e910]: Active
+              - generic [ref=f8e911]:
+                - generic [ref=f8e912]:
+                  - paragraph [ref=f8e913]: SKU
+                  - paragraph [ref=f8e915]: MAT-SS304-2MM
+                - generic [ref=f8e916]:
+                  - paragraph [ref=f8e917]: Category
+                  - paragraph [ref=f8e919]: Packing & Aksesori
+                - generic [ref=f8e920]:
+                  - paragraph [ref=f8e921]: Type
+                  - paragraph [ref=f8e923]: Raw Material
+                - generic [ref=f8e924]:
+                  - paragraph [ref=f8e925]: ABC Classification
+                  - generic [ref=f8e926]: A
+                - generic [ref=f8e928]:
+                  - paragraph [ref=f8e929]: Unit of Measure
+                  - paragraph [ref=f8e931]: pcs
+                - generic [ref=f8e932]:
+                  - paragraph [ref=f8e933]: On-Hand Stock
+                  - generic [ref=f8e934]:
+                    - paragraph [ref=f8e935]: 0 pcs
+                    - img "Out of stock" [ref=f8e936]
+                - generic [ref=f8e937]:
+                  - paragraph [ref=f8e938]: Stock Risk
+                  - paragraph [ref=f8e940]: "10"
+                - generic [ref=f8e941]:
+                  - paragraph [ref=f8e942]: Average Cost
+                  - paragraph [ref=f8e944]: IDR 0
+                - generic [ref=f8e945]:
+                  - paragraph [ref=f8e946]: Description
+                  - paragraph [ref=f8e948]: Plat SS 304 finish 2B 4x8 feet (1220x2440 mm)
+          - tablist [ref=f8e949]:
+            - tab "Stock Batches" [selected] [ref=f8e950]
+            - tab "Stock Transactions" [ref=f8e952] [cursor=pointer]
+          - generic [ref=f8e954]:
+            - generic [ref=f8e955]:
+              - generic [ref=f8e956]:
+                - generic [ref=f8e957]:
+                  - button "Batch status" [ref=f8e959] [cursor=pointer]
+                  - button "Vendor" [ref=f8e964] [cursor=pointer]
+                  - button "Expiration status" [ref=f8e969] [cursor=pointer]
+                - generic [ref=f8e974] [cursor=pointer]:
+                  - checkbox "Show Empty Batches" [checked] [ref=f8e975]
+                  - text: Show Empty Batches
+              - generic [ref=f8e976]:
+                - textbox "Search by keyword or location..." [ref=f8e983]
+                - button "Add Batch" [ref=f8e986] [cursor=pointer]
+            - table [ref=f8e990]:
+              - rowgroup [ref=f8e991]:
+                - row [ref=f8e992]:
+                  - columnheader "Batch No" [ref=f8e993]
+                  - columnheader "Initial Qty" [ref=f8e995]
+                  - columnheader "Current Qty" [ref=f8e997]
+                  - columnheader "Reserved Qty" [ref=f8e999]
+                  - columnheader "Cost/Unit" [ref=f8e1001]
+                  - columnheader "Purchase Date" [ref=f8e1003]
+                  - columnheader "Expiry Date" [ref=f8e1005]
+                  - columnheader "Expected Date" [ref=f8e1007]
+                  - columnheader "Received Date" [ref=f8e1009]
+                  - columnheader "Storage Location" [ref=f8e1011]
+                  - columnheader "Vendor" [ref=f8e1013]
+                  - columnheader "PO Ref" [ref=f8e1015]
+                  - columnheader "Attachments" [ref=f8e1017]
+                  - columnheader "Status" [ref=f8e1019]
+                  - columnheader "Actions" [ref=f8e1021]
+              - rowgroup [ref=f8e1023]:
+                - row [ref=f8e1024]:
+                  - cell [ref=f8e1025]
+                - row [ref=f8e1026]:
+                  - cell [ref=f8e1027]:
+                    - generic [ref=f8e1028]:
+                      - paragraph [ref=f8e1029]: No batches found
+                      - paragraph [ref=f8e1030]: Get started by creating first stock batch
+            - generic [ref=f8e1031]:
+              - generic [ref=f8e1032]:
+                - combobox [ref=f8e1034]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                - generic [ref=f8e1035]: from 0 rows
+              - generic [ref=f8e1036]:
+                - button "Previous page" [disabled] [ref=f8e1037]
+                - button "Next page" [ref=f8e1040]
+  - region "Notifications alt+T"
+  - alert [ref=f8e7]: Labamu Manufacturing

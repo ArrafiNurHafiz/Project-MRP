@@ -1,0 +1,6 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e10]:
+    - heading "Logging out..." [level=2] [ref=e11]
+    - paragraph [ref=e12]: Please wait while we log you out
+  - region "Notifications alt+T"
+  - region "Notifications alt+T"

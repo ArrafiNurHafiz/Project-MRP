@@ -1,0 +1,124 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e8]:
+    - generic [ref=f5e11]:
+      - generic [ref=f5e12]:
+        - img "Logo" [ref=f5e15]
+        - textbox "Search menu..." [ref=f5e17]
+      - generic [ref=f5e18]:
+        - list [ref=f5e21]:
+          - listitem [ref=f5e22]:
+            - link "Dashboard" [ref=f5e23] [cursor=pointer]:
+              - /url: /
+        - list [ref=f5e28]:
+          - listitem [ref=f5e29]:
+            - button "Resources" [ref=f5e30]
+            - list [ref=f5e37]:
+              - listitem [ref=f5e38]:
+                - link "Materials" [ref=f5e39] [cursor=pointer]:
+                  - /url: /materials/
+              - listitem [ref=f5e41]:
+                - link "Vendors" [ref=f5e42] [cursor=pointer]:
+                  - /url: /vendors/
+              - listitem [ref=f5e44]:
+                - link "Customers" [ref=f5e45] [cursor=pointer]:
+                  - /url: /customers/
+              - listitem [ref=f5e47]:
+                - link "Material Requests" [ref=f5e48] [cursor=pointer]:
+                  - /url: /material-requests/
+        - list [ref=f5e52]:
+          - listitem [ref=f5e53]:
+            - button "Manufacturing" [ref=f5e54]
+        - list [ref=f5e62]:
+          - listitem [ref=f5e63]:
+            - button "Product" [ref=f5e64]
+        - list [ref=f5e73]:
+          - listitem [ref=f5e74]:
+            - button "Sales" [ref=f5e75]
+        - list [ref=f5e83]:
+          - listitem [ref=f5e84]:
+            - button "Procurement" [ref=f5e85]
+        - list [ref=f5e96]:
+          - listitem [ref=f5e97]:
+            - button "Analytics" [ref=f5e98]
+        - list [ref=f5e107]:
+          - listitem [ref=f5e108]:
+            - button "Administration" [ref=f5e109]
+        - list [ref=f5e118]:
+          - listitem [ref=f5e119]:
+            - link "User Guide" [ref=f5e120] [cursor=pointer]:
+              - /url: /help/user-guide/
+        - list [ref=f5e127]:
+          - listitem [ref=f5e128]:
+            - link "Order Simulation BETA" [ref=f5e129] [cursor=pointer]:
+              - /url: /order-simulation/
+              - generic [ref=f5e141]: Order Simulation
+              - generic [ref=f5e142]: BETA
+      - button "EN" [ref=f5e144]
+    - main [ref=f5e148]:
+      - generic [ref=f5e149]:
+        - button "Toggle Sidebar" [ref=f5e151]
+        - generic [ref=f5e153]:
+          - button "1" [ref=f5e155] [cursor=pointer]
+          - button [ref=f5e161] [cursor=pointer]:
+            - generic [ref=f5e162]:
+              - paragraph [ref=f5e163]: Bernadus Nurtjahjono
+              - paragraph [ref=f5e164]: Owner
+      - main [ref=f5e166]:
+        - generic [ref=f5e322]:
+          - generic [ref=f5e323]:
+            - heading "Vendors" [level=1] [ref=f5e324]
+            - link [ref=f5e325] [cursor=pointer]:
+              - /url: /vendors/create/
+              - button "New Vendor" [ref=f5e326]
+          - generic [ref=f5e329]:
+            - generic [ref=f5e330]:
+              - button "Status" [ref=f5e333] [cursor=pointer]
+              - textbox "Search Vendor by name..." [ref=f5e343]
+            - table [ref=f5e347]:
+              - rowgroup [ref=f5e348]:
+                - row [ref=f5e349]:
+                  - columnheader "Name" [ref=f5e350]
+                  - columnheader "Alias" [ref=f5e355]
+                  - columnheader "PIC Name" [ref=f5e357]
+                  - columnheader "Phone" [ref=f5e359]
+                  - columnheader "Status" [ref=f5e361]
+              - rowgroup [ref=f5e363]:
+                - row [ref=f5e364]:
+                  - cell [ref=f5e365]
+                - row [ref=f5e366] [cursor=pointer]:
+                  - cell "PT Mega Baja Nusantara" [ref=f5e367]
+                  - cell "Mega Baja" [ref=f5e368]
+                  - cell "Budi Santoso" [ref=f5e369]
+                  - cell "+6281288991122" [ref=f5e370]
+                  - cell "Active" [ref=f5e371]
+                - row [ref=f5e373] [cursor=pointer]:
+                  - cell "Pak Joko" [ref=f5e374]
+                  - cell "Silika Gel" [ref=f5e375]
+                  - cell "-" [ref=f5e376]
+                  - cell "-" [ref=f5e377]
+                  - cell "Active" [ref=f5e378]
+                - row [ref=f5e380] [cursor=pointer]:
+                  - cell "Sejahtera Abadi jaya" [ref=f5e381]
+                  - cell "-" [ref=f5e382]
+                  - cell "-" [ref=f5e383]
+                  - cell "+62082138911008" [ref=f5e384]
+                  - cell "Active" [ref=f5e385]
+                - row [ref=f5e387] [cursor=pointer]:
+                  - cell "Bio Industri" [ref=f5e388]
+                  - cell "-" [ref=f5e389]
+                  - cell "-" [ref=f5e390]
+                  - cell "+62081226427589" [ref=f5e391]
+                  - cell "Active" [ref=f5e392]
+            - generic [ref=f5e394]:
+              - generic [ref=f5e395]:
+                - combobox [ref=f5e397]:
+                  - option "25" [selected]
+                  - option "50"
+                  - option "100"
+                - generic [ref=f5e398]: from 4 rows
+              - generic [ref=f5e399]:
+                - button "Previous page" [disabled] [ref=f5e400]
+                - button "Page 1" [ref=f5e403]: "1"
+                - button "Next page" [disabled] [ref=f5e404]
+  - region "Notifications alt+T"
+  - alert [ref=f5e7]: Vendors
